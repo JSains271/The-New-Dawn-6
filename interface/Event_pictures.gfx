@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	# 9/11 #
+	spriteType = {
+		name = "GFX_911_bombing"
+		texturefile = "gfx/interface/911Bombing.dds"
+	}
+	
+
+}

@@ -9,11 +9,7 @@ news_event = {
 	id = MajorWorldNews.911_Bombing
 	title = "A world Tragedy!"
 	desc = MajorWorldNews.911_Bombing.1.d
-	picture = 
+	picture = GFX_911_bombing
 	
 	major = yes
-	
-	mean_time_to_happen = {
-		days = 619
-		
 }
