@@ -136,33 +136,8 @@ if = {
 			has_dlc = "Man the Guns"
 		}
 	}
-	set_autonomy = {
-		target = MAL
-	}
-	set_autonomy = {
-		target = RAJ
-		freedom_level = 1
-	}
-	set_autonomy = {
-		target = CAN
-		freedom_level = 1
-	}
-	set_autonomy = {
-		target = SAF
-		freedom_level = 1
-	}
-	set_autonomy = {
-		target = AST
-		freedom_level = 1
-	}
-	set_autonomy = {
-		target = NZL
-		freedom_level = 1
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-	}
+
+	
 }
 
 
