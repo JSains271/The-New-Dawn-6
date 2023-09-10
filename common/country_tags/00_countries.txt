@@ -260,5 +260,6 @@ TAW = "countries/Tiawan.txt"
 HOK = "countries/Hong Kong.txt"
 ESW = "countries/Eswatini.txt"
 LES = "countries/Lesotho.txt"
+SIN = "countries/Singapore.txt"
 
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
