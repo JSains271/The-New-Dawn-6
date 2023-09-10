@@ -131,8 +131,6 @@ if = {
 	}
 }
 
-set_cosmetic_tag = INS_HOL # Netherlands East Indies
-
 1939.1.1 = {
 	add_political_power = 1198
 

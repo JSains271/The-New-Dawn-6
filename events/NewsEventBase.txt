@@ -1,0 +1,66 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = MajorWorldNews
+
+# 9/11
+news_event = {
+	id = MajorWorldNews.1
+	title = "An American Tragedy"
+	desc = 9/11_attack
+	picture = GFX_ParliamentFire
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	
+	option = {
+		name = news.1.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = CHI }
+	}
+}
+
+# Marco Polo Bridge II
+news_event = {
+	id = news.2
+	title = news.1.t
+	desc = news.2.d
+	picture = GFX_news_event_018
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.2.c
+		trigger = { TAG = CHI }
+	}
+}

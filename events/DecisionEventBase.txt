@@ -1,0 +1,26 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = uk.Liz_takeover
+
+# Japanese Stage Border Incident
+country_event = {
+	id = uk.Liz_takeover.1
+	title = "Elizabeth II wants control!"
+	desc = uk.Liz_takeover.1.d
+	picture = GFX_Liz_Takeover_event_image
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "We must give in to her wishes."
+		ai_chance = { factor = 90 }
+		add_stability = 50
+	}
+	option = { 
+		name = "Her guard are no match for the British Army!"
+		ai_chance = { factor = 10 }
+		add_political_power = 100
+	}
+}
