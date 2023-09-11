@@ -1,4 +1,4 @@
-﻿capital = 826 #Sukhumi
+﻿capital = 910 #Sukhumi
 
 #oob = "ABK_1936"
 
@@ -92,10 +92,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 60
-	fascism = 30
+	democratic = 56
+	fascism = 10
 	communism = 10
-	neutrality = 0
+	neutrality = 24
 }
 
 

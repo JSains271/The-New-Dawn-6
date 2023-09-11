@@ -3238,3 +3238,12 @@
  LES_facism:0 "Lesotho State"
  LES_facism.ADJ:0 "Lesotho"
  
+ SIN_democratic:0 "Singapore"
+ SIN_democratic_DEF:0 "The Republic of Singapore"
+ SIN_democratic.ADJ:0 "Singapore"
+ SIN_communism:0 "Singapore Socialist Republic"
+ SIN_communism.DEF:0 "People's Republic of Singapore"
+ SIN_communism.ADJ:0 "Singapore"
+ SIN_facism:0 "Singapore State"
+ SIN_facism:0 "Singapore State"
+ SIN_facism.ADJ:0 "Singapore"
