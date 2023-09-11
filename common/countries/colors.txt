@@ -899,7 +899,23 @@ SEY = {
 	color = rgb { 255 212 92 }
 	color_ui = rgb { 255 212 92 }
 }
-COR = {
+COM = {
 	color = rgb { 149 224 18 }
 	color_ui = rgb { 149 224 18 }
+}
+SOL = {
+	color = rgb { 18 224 193 }
+	color_ui = rgb { 18 224 193 }
+}
+MAU = {
+	color = rgb { 240 41 94 }
+	color_ui = rgb { 240 41 94 }
+}
+CAP = {
+	color = rgb { 41 91 240 }
+	color_ui = rgb { 41 91 240 }
+}
+SIN = {
+	color = rgb { 129 2 219 }
+	color_ui = rgb { 129 2 219 }
 }
