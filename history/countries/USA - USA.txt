@@ -99,6 +99,11 @@ if = {
 give_guarantee = TAW
 give_guarantee = KOR
 
+set_autonomy = {
+	target = PUE
+	 autonomous_state =  autonomy_supervised_state
+    }
+
 1939.1.1 = {
 
 	add_political_power = 1199
