@@ -1,9 +1,9 @@
 bookmarks = {
 	bookmark = {
-		name = "New Dawn Bookmark Test"
-		desc = "NEW_DAWN_BOOKMARK_LOC"
+		name = "The New Dawn"
+		desc = "GATHERING_STORM_DESC"
 		date = 2000.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_2000Bookmark_Picture"
 		default_country = "GER"
 		default = yes
 		

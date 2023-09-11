@@ -119,13 +119,109 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
-		#Liverpool
+	#Bristol
 	division= {	# "6th Infantry Division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 6384
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	#Birmingham
+	division= {	# "7th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9297
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "2nd Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9297
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+
+	#Glasgow
+	division= {	# "8th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "2nd Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3273
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = { # "9th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = { # "10th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 200
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = { # "11th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4135
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = { # "12th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 12960
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "3rd Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 311
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	division = { # "13th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 311
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}

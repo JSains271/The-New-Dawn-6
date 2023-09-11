@@ -1,6 +1,11 @@
 spriteTypes = {
 
-	# 9/11 #
+	# Bookmark Image #
+	spriteType = {
+		name = "GFX_2000Bookmark_Picture"
+		texturefile = "gfx/interface/2000DateBookmark.dds"
+	}
+		# 9/11 #
 	spriteType = {
 		name = "GFX_911_bombing"
 		texturefile = "gfx/interface/911Bombing.dds"

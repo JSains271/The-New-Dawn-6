@@ -319,7 +319,7 @@
 	### Africa ###			
 	fleet = {
 		name = "Atlantic Command"
-		naval_base = 2038 # Sierra Leone
+		naval_base = 13013 # Acension Island
 		task_force = {				
 			name = "North Atlantic Fleet"
 			location = 13013 # Acension Island
@@ -412,8 +412,8 @@
 	}
 }
 instant_effect = {
-	### Ongoing Ship Production Jan 1 1936 ###
-	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
+	### Ongoing Ship Production Jan 1 2000 ###
+	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 2000, "HMS Apollo", Comm. 13-Jan 2000, "HMS Penelope", Comm. 12-Nov 2000)
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_cruiser_2
