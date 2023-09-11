@@ -1,6 +1,7 @@
 ﻿l_english:
- STATE_163:1 "Zadar"
+ STATE_163_ITA:0 "Zara"
  STATE_164:1 "Dodecaneso"
+ STATE_164_ITA:0 "Dodecaneso"
  STATE_1:0 "Corsica"
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
@@ -163,6 +164,7 @@
  STATE_160:0 "Veneto"
  STATE_161:0 "Emilia Romagna"
  STATE_162:1 "Toscana"
+ STATE_163:1 "Zadar"
  STATE_165:1 "Cataluña"
  STATE_166:1 "Western Aragón"
  STATE_167:0 "Valencia"
@@ -909,3 +911,6 @@
  STATE_908:0 "Afar"
  STATE_909:0 "Palestine"
  STATE_910:0 "Singapore"
+ STATE_911:0 "Andorra"
+ STATE_912:0 "Eswatini"
+ STATE_913:0 "Lesotho"

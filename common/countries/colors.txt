@@ -919,3 +919,15 @@ SIN = {
 	color = rgb { 129 2 219 }
 	color_ui = rgb { 129 2 219 }
 }
+AND = {
+	color = rgb { 3 0 194 }
+	color_ui = rgb { 3 0 194 }
+}
+ESW = {
+	color = rgb { 79 4 217 }
+	color_ui = rgb { 79 4 217 }
+}
+LES = {
+	color = rgb { 61 40 250 }
+	color_ui = rgb { 61 40 250 }
+}

@@ -1,0 +1,22 @@
+state={
+	id=913
+	name="STATE_913"
+	history={
+		owner = LES
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			4556 3 
+		}
+		add_core_of = LES
+
+	}
+        provinces={
+		4556 
+	}
+	manpower=2281000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
