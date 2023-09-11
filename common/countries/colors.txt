@@ -891,3 +891,15 @@ GRN = {
 	color = rgb { 217 217 217 }
 	color_ui = rgb { 217 217 217 }
 }
+TIM = {
+	color = rgb { 252 186 3 }
+	color_ui = rgb { 252 186 3 }
+}
+SEY = {
+	color = rgb { 255 212 92 }
+	color_ui = rgb { 255 212 92 }
+}
+COR = {
+	color = rgb { 149 224 18 }
+	color_ui = rgb { 149 224 18 }
+}
