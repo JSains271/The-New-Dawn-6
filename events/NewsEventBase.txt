@@ -12,4 +12,12 @@ news_event = {
 	picture = GFX_911_bombing
 	
 	major = yes
+	fire_only_once = yes
+
+	trigger = {
+	2001.9.11
+	}
+
+	option = "How devestating!"
+
 }
