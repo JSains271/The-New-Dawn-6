@@ -5,7 +5,6 @@ state={
 	manpower = 3654732
 	
 	state_category = wasteland
-	impassable = yes
 
 	history={
 		owner = ALG
