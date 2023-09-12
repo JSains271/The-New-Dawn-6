@@ -1,0 +1,290 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+	division_names_group = ENG_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+        infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Brigade"
+	division_names_group = ENG_ARM_02
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Home Garrison"
+	division_names_group = ENG_COL_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	#South England Divisions
+	
+	#portsmouth
+	division= {	# "1st Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	#Dover
+	division= {	# "2nd Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3501
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	#sussex_airbase
+	division= {	# "1st Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13070
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+		#London_Tank
+	division= {	# "1st Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6103
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	#London
+	division= {	# "3nd Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6103
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	#London
+	division= {	# "4th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6103
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	#southend-on-sea
+	division= {	# "5th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11374
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	#Bristol
+	division= {	# "6th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	#Birmingham
+	division= {	# "7th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9297
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "2nd Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9297
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+
+	#Glasgow
+	division= {	# "8th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "2nd Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3273
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = { # "9th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = { # "10th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 200
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = { # "11th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4135
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = { # "12th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 12960
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "3rd Tank Brigade"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 311
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	division = { # "13th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = { # "14th Infantry Division"
+	division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 3379
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+}
+
+###airwings in their own file
+
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+}
+	#####################
