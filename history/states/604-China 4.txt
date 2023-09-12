@@ -4,8 +4,6 @@ state={
 
 	history={
 		owner = PRC
-		add_core_of = XSM
-		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
 			7940 10 
@@ -15,23 +13,6 @@ state={
 			industrial_complex = 2
 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
-
 	}
 
 	provinces={

@@ -4,22 +4,10 @@ state={
 
 	history={
 		owner = PRC
-		add_core_of = SHX
-		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
-		}
-		1939.1.1 = {
-			remove_building = {
-				type = industrial_complex
-				level = 1
-
-			}
-			owner = PRC
-			controller = MEN
 
 		}
 
