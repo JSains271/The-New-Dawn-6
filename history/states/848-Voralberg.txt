@@ -6,16 +6,10 @@ state={
 	state_category = pastoral
 	history={
 		owner = AUS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-		}
-		add_core_of = AUS
-		add_claim_by = SWI
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
 		}
 	}
 	provinces={
