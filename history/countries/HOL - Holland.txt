@@ -65,23 +65,6 @@ if = {
 		mtg_transport = 1
 	}
 }
-
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = INS
-	}
-	else = {
-		puppet = INS
-	}
-}
-
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 
 add_ideas = {
