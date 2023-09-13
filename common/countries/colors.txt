@@ -943,3 +943,15 @@ NAU = {
 	color = rgb { 235 134 56 }
 	color_ui = rgb { 235 134 56 }
 }
+VAN = {
+	color = rgb { 255 99 226 }
+	color_ui = rgb { 255 99 226 }
+}
+PAU = {
+	color = rgb { 255 92 92 }
+	color_ui = rgb { 255 92 92 }
+}
+MAR = {
+	color = rgb { 0 173 98 }
+	color_ui = rgb { 0 173 98 }
+}

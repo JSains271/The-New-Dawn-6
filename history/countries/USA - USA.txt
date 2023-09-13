@@ -98,9 +98,21 @@ if = {
 
 give_guarantee = TAW
 give_guarantee = KOR
+give_guarantee = ISR
+give_guarantee = JAP
+give_guarantee = PHI
 
 set_autonomy = {
 	target = PUE
+	 autonomous_state =  autonomy_supervised_state
+    }
+
+set_autonomy = {
+	target = GUM
+	 autonomous_state =  autonomy_supervised_state
+    }
+set_autonomy = {
+	target = PAU
 	 autonomous_state =  autonomy_supervised_state
     }
 

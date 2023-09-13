@@ -6,8 +6,8 @@ state=
 	manpower = 12100
 	history=
 	{
-		owner = FSM
-		add_core_of = FSM
+		owner = PAU
+		add_core_of = PAU
 		buildings = {
 			infrastructure = 2
 			air_base = 1
