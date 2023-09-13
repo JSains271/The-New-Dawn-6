@@ -1,25 +1,24 @@
+
 state={
-	id=725
-	name="STATE_725"
-	manpower=5785
+	id=642
+	name="STATE_642"
+	manpower=24
+	
 	state_category = tiny_island
 
 	history={
-		owner = NAU
-		add_core_of = NAU
+		owner = KIR
+		add_core_of = KIR
 		buildings = {
 			infrastructure = 2
-			13038 = {
+			13050 = {
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			13038 1 
-		}
 	}
-	
+
 	provinces={
-		13038 
+		13050 
 	}
 
 	local_supplies=0.0 

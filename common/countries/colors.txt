@@ -931,3 +931,15 @@ LES = {
 	color = rgb { 61 40 250 }
 	color_ui = rgb { 61 40 250 }
 }
+TUV = {
+	color = rgb { 105 255 175 }
+	color_ui = rgb { 105 255 175 }
+}
+KIR = {
+	color = rgb { 250 255 105 }
+	color_ui = rgb { 250 255 105 }
+}
+NAU = {
+	color = rgb { 235 134 56 }
+	color_ui = rgb { 235 134 56 }
+}

@@ -1,36 +1,28 @@
-
 state={
-	id=639
-	name="STATE_639"
-	manpower=1035
+	id=727
+	name="STATE_727"
+	manpower=5367
 	state_category = small_island
 
 	history={
 		owner = KIR
 		add_core_of = KIR
 		buildings = {
-			infrastructure = 2
-			13021 = {
+			infrastructure = 1
+			13048 = {
 				naval_base = 1
 			}
-			4387 = {
+			13049 = {
 				naval_base = 1
 			}
-			7393 = {
-				naval_base = 1
-			}
-			13020 = {
+			13053 = {
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			13021 1 
-		}
-
 	}
-
+	
 	provinces={
-		4387 7393 13020 13021 13022 
+		13048 13049 13053 
 	}
 
 	local_supplies=0.0 
