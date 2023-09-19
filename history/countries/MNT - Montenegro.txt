@@ -1,6 +1,6 @@
 ﻿capital = 105 # Montenegro
 
-oob = "MON_1936"
+oob = "MNT_1936"
 
 set_research_slots = 3
 
@@ -10,11 +10,41 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
 }
 
 if = {
@@ -49,43 +79,16 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_popularities = {	democratic = 55
-	fascism = 10
-	communism = 10
-	neutrality = 25
+set_popularities = {
+	democratic = 33
+	neutrality = 33
+	communism = 34
 }
 
-create_country_leader = {
-	name = "Sekula Drljević"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
+recruit_character = MNT_kristo_popovic
+recruit_character = MNT_blazo_jovanovic
+recruit_character = MNT_blazo_dukanovic
 
-create_country_leader = {
-	name = "Novica Radović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = oligarchism
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Blažo Jovanović"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
 
 

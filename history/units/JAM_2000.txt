@@ -1,8 +1,8 @@
 ﻿start_equipment_factor = 0
 division_template = {
-	name = "Infantry Division"		# Bhutanese Army never expanded past battalion size (in 1943)
+	name = "Infantry Division"
 
-	division_names_group = BHU_INF_01
+	division_names_group = JAM_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -16,7 +16,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 8010
+		location = 12304
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
@@ -29,7 +29,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "BHU"
+			creator = "USA"
 		}
 		requested_factories = 1
 		progress = 0.88
