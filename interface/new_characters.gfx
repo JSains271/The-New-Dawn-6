@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_cuba_fidel_castro_large"
+		texturefile = "gfx/leaders/portrait_cuba_fidel_castro_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_cuba_fidel_castro_small"
+		texturefile = "gfx/characters/CUB/portrait_small_fidel_castro.dds"
+	}

@@ -258,16 +258,16 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.7.1"
+	ruling_party = neutrality 
+	last_election = "1999.12.31"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 26
-	fascism = 10
-	communism = 10
-	neutrality = 54
+	fascism = 20
+	communism = 20
+	neutrality = 34
 }
 
 add_ideas = {
@@ -276,11 +276,11 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Joseph Stalin"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	name = "Vladimir Putin"
+	desc = SOV_vladimir_putin_desc
+	picture = "gfx/leaders/SOV/portrait_sov_vladimir_putin.dds"
+	expire = "2030.1.1"
+	ideology = putinism
 	traits = {
 		
 	}
@@ -298,10 +298,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
+	name = "Vladimir Putin"
 	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
 	picture = "Portrait_Soviet_Generic_1.dds"
-	expire = "1953.3.1"
+	expire = "2030.1.1"
 	ideology = socialism
 	traits = {
 		
