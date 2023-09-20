@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
 		name = "The New Dawn"
-		desc = "GATHERING_STORM_DESC"
+		desc = "The world is on the brink of chaos, In the Middle East, Saddam Hussein has defied the international community and his weapons of mass destruction pose a grave threat. Osama bin Laden’s Al-Qaeda network is plotting a devastating attack on the US soil. In Asia, North Korea is developing nuclear capabilities and China is emerging as a rival superpower. Almost ten years have passed since the end of the Cold War, and the world has yet again been divided into hostile camps. A single mistake may be all it takes."
 		date = 2000.1.1.12
 		picture = "GFX_2000Bookmark_Picture"
-		default_country = "GER"
+		default_country = "USA"
 		default = yes
 				
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "The United States emerged as the sole superpower after the end of the Cold War, but faced new challenges and threats in the post-Cold War era. The US economy enjoyed a long period of growth and prosperity, fueled by technological innovations and globalization. President Bill Clinton, who presided over the economic boom, was impeached by the House of Representatives in 1998 for lying about his affair with Monica Lewinsky, but was acquitted by the Senate in 1999. The US also intervened militarily in several conflicts around the world, such as the Gulf War, the Kosovo War, and the Somalia War."
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -23,7 +23,7 @@ bookmarks = {
 		}
 
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "The United Kingdom entered the new millennium with optimism and confidence, as it celebrated its cultural diversity and economic success. The Labour Party, led by Prime Minister Tony Blair, won a landslide victory in the 1997 general election, ending 18 years of Conservative rule. Blair pursued a centrist agenda of modernization and reform, introducing devolution for Scotland, Wales, and Northern Ireland, and launching the New Deal program to reduce unemployment. The UK also played a leading role in the European Union and NATO, supporting the enlargement of both organizations and participating in military interventions in Kosovo and Sierra Leone. However, the UK also faced some challenges and controversies, such as the death of Princess Diana in a car crash in 1997, the outbreak of mad cow disease and foot-and-mouth disease among livestock, and the debate over whether to adopt the euro as its currency."
 			ideology = democratic
 			ideas = {
 				stiff_upper_lip
@@ -38,7 +38,7 @@ bookmarks = {
 		}
 
 		"SOV"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "Russia entered the new century with a sense of uncertainty and insecurity. Russia had gone through a dramatic transition after the dissolution of the Soviet Union in 1991, facing economic hardship, political instability, social disorder, ethnic violence, and military intervention. Russia had also struggled to cope with Chechnya, a breakaway republic that fought a war of independence from 1994 to 1996 and resumed hostilities in 1999. In 1999, Boris Yeltsin resigned as president of Russia and appointed Vladimir Putin as his successor. Putin promised to restore order and stability in Russia, but his methods and motives were unclear. Russia’s relations with the West were also tense and complex, as Russia sought to protect its interests and influence in the post-Cold War world."
 			ideology = fascism
 			ideas = {
 				sour_loser
@@ -53,7 +53,7 @@ bookmarks = {
 		}
 
 		"PRC"={
-			history = "ITA_GATHERING_STORM_DESC"
+			history = "China entered the new century with rapid economic growth and social transformation, but also with political repression and environmental degradation. China’s market-oriented reforms since 1978 had lifted hundreds of millions of people out of poverty and turned China into one of the world’s largest economies. China’s economic development also came at a high cost to its environment and public health, as air pollution, water scarcity, soil erosion, and food safety became major problems. China’s political system remained authoritarian and repressive, as the Communist Party maintained its monopoly on power and suppressed any dissent or challenge to its rule. China also faced tensions with some of its neighbors and rivals, such as Taiwan, Japan, India, and the US."
 			ideology = fascism
 			ideas = {
 				vittorio_emanuele
@@ -68,7 +68,7 @@ bookmarks = {
 		}
 		
 		"ISR"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "Israel entered the 21st century with hopes for peace and security, but also with fears of violence and instability. The Israeli-Palestinian peace process, which began with the Oslo Accords in 1993, reached a critical point in 2000, when Prime Minister Ehud Barak and Palestinian leader Yasser Arafat met at Camp David for a summit hosted by US President Bill Clinton. However, the summit failed to produce a final agreement on the core issues of Jerusalem, refugees, borders, and settlements. Shortly after, a visit by opposition leader Ariel Sharon to the Temple Mount/Haram al-Sharif sparked a wave of protests and clashes that escalated into the Second Intifada, a violent uprising that lasted until 2005. Israel also faced threats from its neighboring countries, such as Lebanon, where the militant group Hezbollah launched cross-border attacks and kidnapped Israeli soldiers, and Syria, which supported Hezbollah and other anti-Israeli groups."
 			ideology = fascism
 			ideas = {
 				state_shintoism
@@ -83,7 +83,7 @@ bookmarks = {
 		}
 
 		"GER"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "Germany entered the new millennium as a reunited and prosperous country, but also as a country facing some challenges and changes. Germany had overcome its division after the fall of the Berlin Wall in 1989 and had become a key member of the European Union and NATO. Germany’s economy was one of the strongest in Europe, despite some difficulties caused by reunification costs and global competition. Germany’s society was becoming more diverse and multicultural, as it welcomed immigrants and refugees from various countries and regions. However, Germany also faced some problems and controversies, such as rising unemployment, aging population, social welfare reforms, right-wing extremism, nuclear energy phase-out, and military involvement in international missions."
 			ideology = communism
 			ideas = {
 				trotskyite_plot_nsb
@@ -98,7 +98,7 @@ bookmarks = {
 		}
 
 		"IRQ"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "Iraq entered the new century under the dictatorship of Saddam Hussein, who had ruled the country since 1979 with an iron fist. Iraq had suffered from wars, sanctions, isolation, and oppression for decades. Iraq had fought a bloody war with Iran from 1980 to 1988 that had killed hundreds of thousands of people on both sides. Iraq had also invaded Kuwait in 1990, triggering a US-led coalition that drove Iraqi forces out of Kuwait in 1991. Iraq had been under economic sanctions imposed by the UN since then for failing to comply with its obligations to disarm its weapons of mass destruction programs. Iraq had also been subjected to periodic bombings by US and British planes enforcing no-fly zones over northern and southern Iraq to protect Kurdish and Shiite populations from Saddam’s repression. Iraq had also faced internal unrest and resistance from various groups, such as the Kurds, the Shiites, and the opposition parties."
 			ideology = fascism
 			ideas = {
 				state_shintoism

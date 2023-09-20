@@ -12,12 +12,26 @@ state={
 	history={
 		owner = NRK
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 3
+			air_base = 5
+
+			4052 = {
+				naval_base = 10
+
+			}
+			6922 = {
+				naval_base = 5
+
+			}
+			
+
 		}
 		
 		victory_points = {
-			4052 1
+			4052 40
+			6922 10
 		}	
 
 		add_core_of = NRK
