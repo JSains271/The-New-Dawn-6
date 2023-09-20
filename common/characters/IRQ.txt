@@ -1,0 +1,16 @@
+characters={
+	IRQ_saddam_hussein={
+		name="Saddam Hussein"
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_saddam_hussein_large"
+                                small="GFX_portrait_irq_saddam_hussein_small"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="2006.12.30"
+			id=-1
+		}
+	}
+}

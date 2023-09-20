@@ -1,0 +1,17 @@
+characters = {
+	GRN_jonathan_motzfeldt = {
+		name = "Jonathan Motzfeldt" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_jonathan_motzfeldt_large
+                                small = GFX_portrait_jonathan_motzfeldt_small
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

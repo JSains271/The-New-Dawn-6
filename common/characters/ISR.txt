@@ -1,0 +1,17 @@
+characters = {
+	ISR_ehud_barak = {
+		name = "Ehud Barak" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ISR_ehud_barak_large
+                                small = GFX_portrait_ISR_ehud_barak_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "2030.1.1"
+			id = -1
+		}
+	}
+}
+	

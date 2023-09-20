@@ -46,19 +46,117 @@ characters={
 		}
 	}
 
-	ENG_stanley_baldwin={
-		name=ENG_stanley_baldwin
+		ENG_tony_blair={
+		name=ENG_tony_blair
 		portraits={
 			civilian={
-				large=GFX_portrait_ENG_stanley_baldwin
+				large=GFX_portrait_ENG_tony_blair_large
+                                small=GFX_portrait_ENG_tony_blair_small
 			}
 		}
 		country_leader={
 			ideology=liberalism
-			traits={ conservative_grandee }
-			expire="1938.1.1.1"
+			expire="2030.1.1.1"
 			id=-1
 		}
+		
+	}
+
+		ENG_gordon_brown={
+		name=ENG_gordon_brown
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_gordon_brown_large
+                                small=GFX_portrait_ENG_gordon_brown_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2030.1.1.1"
+			id=-1
+		}
+		
+	}
+
+
+		ENG_david_cameron={
+		name=ENG_david_cameron
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_david_cameron_large
+                                small=GFX_portrait_ENG_david_cameron_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+		
+	}
+
+		ENG_theresa_may={
+		name=ENG_theresa_may
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_theresa_may_large
+                                small=GFX_portrait_ENG_theresa_may_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+		
+	}
+
+		ENG_boris_johnson={
+		name=ENG_boris_johnson
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_boris_johnson_large
+                                small=GFX_portrait_ENG_boris_johnson_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+		
+	}
+
+		ENG_liz_truss={
+		name=ENG_liz_truss
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_liz_truss_large
+                                small=GFX_portrait_ENG_liz_truss_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+		
+	}
+
+		ENG_rishi_sunak={
+		name=ENG_rishi_sunak
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_rishi_sunak_large
+                                small=GFX_portrait_ENG_rishi_sunak_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+		
 	}
 
 	ENG_oswald_mosley={
@@ -151,21 +249,7 @@ characters={
 		}
 	}
 
-	ENG_tony_blair={
-		name=ENG_tony_blair
-		portraits={
-			civilian={
-				large=GFX_portrait_ENG_tony_blair_large
-                                small=GFX_portrait_ENG_tony_blair_small
-			}
-		}
-		country_leader={
-			ideology=liberalism
-			expire="2030.1.1.1"
-			id=-1
-		}
-		
-	}
+
 
 	ENG_horatio_dundas={
 		name=ENG_horatio_dundas
