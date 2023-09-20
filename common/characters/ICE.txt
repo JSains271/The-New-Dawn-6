@@ -1,0 +1,17 @@
+characters = {
+	ICE_olafur_ragnar_grimsson = {
+		name = "Olafur Ragnar Grimsson" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_olafur_ragnar_grimsson_large
+                                small = GFX_portrait_olafur_ragnar_grimsson_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

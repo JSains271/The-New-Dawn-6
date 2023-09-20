@@ -29,6 +29,51 @@ characters={
 		}
 	}
 
+	USA_barack_obama={
+		name=USA_charaters_barack_obama
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_barack_obama_large
+                                small=GFX_portrait_USA_barack_obama_small
+			}
+		}
+		country_leader={
+			ideology= liberalism
+			expire= "2030.1.1"
+			id=-1
+		}
+	}
+
+	USA_donald_trump={
+		name=USA_charaters_donald_trump
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_donald_trump_large
+                                small=GFX_portrait_USA_donald_trump_small
+			}
+		}
+		country_leader={
+			ideology= conservatism
+			expire= "2030.1.1"
+			id=-1
+		}
+	}
+
+	USA_joe_biden={
+		name=USA_charaters_joe_biden
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_joe_biden_large
+                                small=GFX_portrait_USA_joe_biden_small
+			}
+		}
+		country_leader={
+			ideology= liberalism
+			expire= "2030.1.1"
+			id=-1
+		}
+	}
+
 	USA_carnot_wheeler={
 		name=USA_carnot_wheeler
 		portraits={

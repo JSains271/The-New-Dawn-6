@@ -176,27 +176,18 @@ set_stability = 0.5
 		limit = {
 			NOT = { has_dlc = "La Resistance" }
 		}
-		#generic focuses
-		complete_national_focus = army_effort
-		complete_national_focus = equipment_effort
-		complete_national_focus = motorization_effort
-		complete_national_focus = aviation_effort
-		complete_national_focus = naval_effort
-		complete_national_focus = large_navy
-		complete_national_focus = industrial_effort
-		complete_national_focus = construction_effort
-		complete_national_focus = production_effort
 
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = democratic
 			last_election = "1934.3.26"
 			election_frequency = 60
-			elections_allowed = no
+			elections_allowed = yes
 		}
 		set_popularities = {
-			democratic = 22
-			fascism = 76
-			communism = 2
+		democratic = 91
+		fascism = 4
+		communism = 4
+		neutrality = 1
 		}
 	}
 
@@ -210,30 +201,6 @@ set_stability = 0.5
 			SPR_political_violence
 			SPR_national_strikes_3
 		}
-		set_country_flag = SPR_nationalist_spain_flag
-		set_cosmetic_tag = SPR_nationalist_spain
-		unlock_national_focus = SPA_a_great_spain
-		unlock_national_focus = SPA_hand_over_the_ceda_campaign_chest
-		unlock_national_focus = SPA_negotiate_carlist_support
-		unlock_national_focus = SPA_the_army_of_africa
-		unlock_national_focus = SPA_secure_the_northern_garrisons
-		complete_national_focus = SPA_con_paquito
-		unlock_national_focus = SPA_unify_the_nationalist_front
-		unlock_national_focus = SPA_save_the_alcazar
-		unlock_national_focus = SPA_martyrdom_for_primo_de_rivera
-		complete_national_focus = SPA_caudillo_of_spain
-		unlock_national_focus = SPA_consolidate_the_north
-		complete_national_focus = SPA_foment_a_carlist_split
-		unlock_national_focus = SPA_a_methodical_approach
-		unlock_national_focus = SPA_tackle_the_vulnerable_fronts
-		unlock_national_focus = SPA_portuguese_aid
-		complete_national_focus = SPA_extol_the_martyrs_of_the_war
-		complete_national_focus = SPA_banish_the_party_leaders
-		complete_national_focus = SPA_expand_conscription
-		complete_national_focus = SPA_safeguard_the_freedom_of_worship
-		complete_national_focus = SPA_fuse_the_parties
-		complete_national_focus = SPA_integrate_the_requetes
-		complete_national_focus = SPA_utilize_the_intellectuals
 		every_unit_leader = {
 			limit = {
 				NOT = { has_trait = trait_SPA_nationalist_sympathies }
@@ -247,15 +214,16 @@ set_stability = 0.5
 			remove_unit_leader_trait = trait_SPA_nationalist_sympathies
 		}
 		set_politics = {
-			ruling_party = neutrality
+			ruling_party = democratic
 			last_election = "1934.3.26"
 			election_frequency = 60
-			elections_allowed = no
+			elections_allowed = yes
 		}
 		set_popularities = {
-			democratic = 17
-			neutrality = 38
-			fascism = 45
+		democratic = 91
+		fascism = 4
+		communism = 4
+		neutrality = 1
 		}
 	}
 	
@@ -335,14 +303,11 @@ if = {
 	}
 
 	create_country_leader = {
-		name = "Niceto Alcalá-Zamora"
-		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
-		picture = "GFX_portrait_SPR_niceto_alcala_zamora"
-		expire = "1965.1.1"
+		name = "Jose Maria Aznar"
+		desc = SPR_jose_maria_aznar_desc
+		picture = gfx/leaders/SPR/portrait_spr_jose_maria_aznar.dds
+		expire = "2030.1.1"
 		ideology = conservatism
-		traits = {
-
-		}
 	}
 	
 	create_country_leader = {
@@ -381,17 +346,6 @@ if = {
 if = {
 	limit = {
 		has_dlc = "La Resistance"
-	}
-
-	create_country_leader = {
-		name = "Niceto Alcalá-Zamora"
-		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
-		picture = "GFX_portrait_SPR_niceto_alcala_zamora"
-		expire = "1965.1.1"
-		ideology = conservatism
-		traits = {
-			indecisive
-		}
 	}
 	
 	create_country_leader = {

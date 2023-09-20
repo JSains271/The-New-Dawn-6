@@ -207,11 +207,16 @@ if = {
 	add_political_power = 1198
 
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.2.8"
-		election_frequency = 60
-		elections_allowed = yes
-	}
+	ruling_party = democratic 
+	last_election = "1935.2.8"
+	elections_allowed = yes
+        } 
+        set_popularities = {
+	democratic = 29
+	fascism = 10
+	communism = 10
+	neutrality = 51
+        }
 
 	if = {
 		limit = { has_dlc = "Battle for the Bosporus" }

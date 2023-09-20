@@ -15,17 +15,7 @@ set_convoys = 10
 1939.1.1 = {
 
 	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+
 	
 	oob = "IRE_1939"
 	set_technology = {
@@ -82,9 +72,9 @@ set_popularities = {
 	}
 }
 create_country_leader = {
-	name = "Éamon de Valera"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
+	name = "Mary McAleese"
+	desc = IRE_Mary_McAleese_desc
+	picture = gfx/leaders/IRE/portrait_ire_mary_mcaleese.dds
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {

@@ -54,17 +54,6 @@ add_ideas = {
 1939.1.1 = {
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
 	oob = "FIN_1939"
 	set_technology = {
 		early_fighter = 1
@@ -126,11 +115,17 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1939.7.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+	ruling_party = democratic
+	last_election = "1933.7.1"
+	election_frequency = 36+
+	elections_allowed = yes
+        }
+        set_popularities = {
+	democratic = 94
+	fascism = 2
+	communism = 1
+	neutrality = 3
+        }
 }
 create_country_leader = {
 	name = "Risto Heikki Ryti"

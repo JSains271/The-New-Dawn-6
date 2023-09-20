@@ -53,30 +53,10 @@ set_convoys = 20
 		limit = {
 			has_dlc = "Together for Victory"
 		}
-		complete_national_focus = RAJ_lessons_of_the_great_war
-		complete_national_focus = RAJ_vickers_berthier_gun
-		complete_national_focus = RAJ_army_motorization
-		complete_national_focus = RAJ_british_pilot_training
-		complete_national_focus = RAJ_great_indian_peninsula_railway
-		complete_national_focus = RAJ_east_india_railways
-		complete_national_focus = RAJ_found_scindia_shipyard
-		complete_national_focus = RAJ_industrial_expansion
-		complete_national_focus = RAJ_ishapore_arsenal
 	}
 
 	add_political_power = 1198
 	oob = "RAJ_1939"
-
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
 
 	add_ideas = {
 		#laws
@@ -131,7 +111,7 @@ set_politics = {
 	ruling_party = democratic 
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 56
@@ -141,11 +121,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Lord Linlithgow"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "K. R. Narayanan"
+	desc = RAJ_K_R_Narayanan_desc
+	picture = gfx/leaders/RAJ/portrait_raj_k_r_narayanan.dds
+	expire = "2005.11.9"
+	ideology = conservatism
 	traits = {
 		
 	}
@@ -174,16 +154,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "B. P. Sitaramayya"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		
-	}
-}
 
 create_corps_commander = {
 	name = "Noel Beresford-Peirse"

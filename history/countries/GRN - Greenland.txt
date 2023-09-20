@@ -54,17 +54,6 @@ if = {
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
 	oob = "DEN_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
@@ -161,10 +150,10 @@ create_country_leader = {
 set_convoys = 40
 
 create_country_leader = {
-	name = "Thorvald Stauning"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
-	expire = "1965.1.1"
+	name = "Jonathan Motzfeldt"
+	desc = GRN_jonathan_motzfeldt_desc
+	picture = gfx/leaders/GRN/portrait_grn_jonathan_motzfeldt.dds
+	expire = "2030.1.1"
 	ideology = socialism
 	traits = {
 		#

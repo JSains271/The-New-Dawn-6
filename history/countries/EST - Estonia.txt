@@ -39,17 +39,6 @@ set_convoys = 5
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
 	oob = "EST_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
@@ -115,7 +104,7 @@ set_politics = {
 	ruling_party = democratic 
 	last_election = "1932.5.21"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 90
@@ -126,11 +115,17 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "1938.2.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
+	ruling_party = democratic 
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = yes
+        }
+        set_popularities = {
+	democratic = 90
+	fascism = 1
+	communism = 7
+	neutrality = 2
+        }
 }
 
 create_country_leader = {

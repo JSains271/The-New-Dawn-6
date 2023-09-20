@@ -26,17 +26,6 @@ set_technology = {
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
 	oob = "BEL_1939"
 	set_technology = {
 		fighter1 = 1
@@ -108,11 +97,11 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Hubert Pierlot"
-	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "Guy Verhofstadt"
+	desc = BEL_guy_verhofstadt_desc
+	picture = gfx/leaders/BEL/portrait_bel_guy_verhofstadt.dds
+	expire = "2030.1.1"
+	ideology = liberalism
 	traits = {
 		#
 	}

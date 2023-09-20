@@ -121,18 +121,6 @@ if = {
 		partial_economic_mobilisation
 	}
 
-	complete_national_focus = FRA_begin_rearmament
-	complete_national_focus = FRA_form_the_popular_front
-	complete_national_focus = FRA_reform_the_labour_laws
-	complete_national_focus = FRA_the_blum_viollette_proposal
-	complete_national_focus = FRA_review_foreign_policy
-	complete_national_focus = FRA_intervention_in_spain
-	complete_national_focus = FRA_buy_time
-	complete_national_focus = FRA_defensive_focus
-	complete_national_focus = FRA_firepower_kills
-	complete_national_focus = FRA_go_with_britain
-	complete_national_focus = FRA_devalue_the_franc
-	complete_national_focus = FRA_invest_in_the_metropole
 
 	give_guarantee = POL
 	ENG = { add_to_faction = FRA }
@@ -251,31 +239,12 @@ add_ideas = {
 	FRA_inefficient_economy_2
 }
 
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
-
-#Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		stout_defender
-	}
-}
-
-create_country_leader = {
-	name = "Pierre Laval"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = GFX_portrait_fra_pierre_laval
-	expire = "1965.1.1"
+	name = "Jacques Chirac"
+	desc = FRA_jacques_chirac_desc
+	picture = gfx/leaders/FRA/portrait_fra_jacques_chirac.dds
+	expire = "2019.9.29"
 	ideology = liberalism
-	traits = {
-		stout_defender
-	}
 }
 
 create_country_leader = {

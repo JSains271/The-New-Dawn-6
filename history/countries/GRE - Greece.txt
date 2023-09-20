@@ -139,17 +139,7 @@ set_convoys = 10
 
 	if = {
 		limit = { has_dlc = "Battle for the Bosporus" }
-		complete_national_focus = GRE_the_kings_government
-		complete_national_focus = GRE_metaxism_focus
-		complete_national_focus = GRE_four_year_plan
-		complete_national_focus = GRE_open_up_the_country
-		complete_national_focus = GRE_the_hellenic_spirit
-		complete_national_focus = GRE_the_national_youth_organisation
-		complete_national_focus = GRE_crack_down_on_the_republicans
-		complete_national_focus = GRE_use_the_military
-		complete_national_focus = GRE_reevaluating_the_drachma
-		complete_national_focus = GRE_utilize_our_strengths
-		complete_national_focus = GRE_hellenic_armed_forces
+
 		remove_ideas = {
 			civilian_economy
 			GRE_political_instability
@@ -175,12 +165,19 @@ set_convoys = 10
 			idea = GRE_four_year_plan_spirit
 			days = 730
 		}
-		set_popularities = {
-			democratic = 10
-			fascism = 22
-			communism = 26
-			neutrality = 42
-		}
+
+		set_politics = {
+	ruling_party = democratic 
+	last_election = "1935.6.9"
+	election_frequency = 7
+	elections_allowed = yes # none after offset 1
+        }
+        set_popularities = {
+	democratic = 83
+	fascism = 10
+	communism = 4
+	neutrality = 3
+        }
 		
 		create_country_leader = {
 			name = "Themistoklis Sofoulis"
