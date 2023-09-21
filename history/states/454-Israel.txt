@@ -16,10 +16,10 @@ state={
 
 		}
 		victory_points = {
-			4206 1 
+			4206 10
 		}
 		victory_points = {
-			1065 1 
+			1065 5
 		}
 		add_core_of = PAL
 		add_core_of = ISR
