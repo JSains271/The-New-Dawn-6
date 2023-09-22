@@ -12,6 +12,9 @@ ideologies = {
 
 			socialism = {
 			}
+
+                        indepedent = {
+			}
 		}
 
 		dynamic_faction_names = {

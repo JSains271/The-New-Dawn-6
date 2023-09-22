@@ -69,17 +69,6 @@ if = {
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
 	oob = "SWE_1939"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
@@ -176,10 +165,10 @@ set_stability = 0.9
 
 
 create_country_leader = {
-	name = "Per Albin Hansson"
-	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
-	expire = "1965.1.1"
+	name = "Goran Persson"
+	desc = SWE_goran_persson_desc
+	picture = gfx/leaders/SWE/portrait_swe_goran_persson.dds
+	expire = "2030.1.1"
 	ideology = socialism
 	traits = {
 		#

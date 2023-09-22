@@ -20,15 +20,7 @@ set_technology = {
 
 	add_political_power = 1198
 	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+
 	
 	oob = "SWI_1939"
 	set_technology = {
@@ -96,10 +88,10 @@ add_ideas = {
 set_stability = 0.85
 
 create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
+	name = "Adolf Ogi"
+	desc = SWI_adolf_ogi_desc
+	picture = gfx/leaders/SWI/portrait_swi_adolf_ogi.dds
+	expire = "2030.1.1"
 	ideology = conservatism
 	traits = {
 		#

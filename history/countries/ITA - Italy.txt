@@ -145,17 +145,6 @@ if = {
 		extensive_conscription
 	}
 
-	complete_national_focus = ITA_ethiopian_war_logistics
-	complete_national_focus = ITA_industrial_effort
-	complete_national_focus = ITA_industrial_effort_2
-	complete_national_focus = ITA_victoryinETH
-	complete_national_focus = ITA_yugoslavia_friend
-	unlock_national_focus = ITA_albania_war_goal
-	complete_national_focus = ITA_light_ship_effort
-	complete_national_focus = ITA_escort_effort
-	complete_national_focus = ITA_submarine_effort
-	complete_national_focus = ITA_bulgaria_friend
-	complete_national_focus = ITA_pact_of_steel
 	oob = "ITA_1939"
 	set_technology = {
 		fighter1 = 1
@@ -260,11 +249,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_italy_ferruccio_parri"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Carloz Azeglio Ciampi"
+	desc = ITA_carloz_azeglio_ciampi
+	picture = gfx/leaders/ITA/portrait_ita_carloz_azeglio_ciampi.dds
+	expire = "2016.9.16"
+	ideology = indepedent
 	traits = {
 		
 	}
