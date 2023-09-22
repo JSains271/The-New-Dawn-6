@@ -3428,6 +3428,19 @@
  HOK_DEF:0 "Hong Kong"
  HOK_ADJ:0 "Hongkongers"
  
+ MAR_democratic:0 "Marshall Islands"
+ MAR_democratic_DEF:0 "the Marshall Islands"
+ MAR_democratic.ADJ:0 "Hongkongers"
+ MAR_communism:0 "Communist Marshall Islands"
+ MAR_communism_DEF:0 "People's Republic of the Marshall Islands"
+ MAR_communism.ADJ:0 "Hongkongers"
+ MAR_facism:0 "Marshall Islands Facist State"
+ MAR_facism_DEF:0 "Marshall Reich"
+ MAR_facism.ADJ:0 "Hongkongers"
+ MAR:0 "Marshall Islands"
+ MAR_DEF:0 "the Marshall Islands"
+ MAR_ADJ:0 "Hongkongers"
+ 
  
 
  
