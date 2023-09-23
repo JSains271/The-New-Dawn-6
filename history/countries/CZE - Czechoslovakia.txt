@@ -36,11 +36,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Edvard Beneš"
-	desc = "POLITICS_EDVARD_BENES_DESC"
-	picture = "Portrait_Czech_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
+	name = "Vaclav Havel"
+	desc = CZE_vaclav_havel_desc
+	picture = gfx/leaders/CZE/portrait_cze_vaclav_havel.dds
+	expire = "2011.12.18"
+	ideology = indepedent
 	traits = {
 		#
 	}
