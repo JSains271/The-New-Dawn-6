@@ -1,11 +1,46 @@
 #Attract workers
+# mutually_exclusive = { focus = TAG_other_focus }
+
+# Cost // Cost = 1 = 7 days so 10 = 70 days 
 shared_focus = {
-	id = BALTIC_attract_workers_to_capital
+	id = Welcome_to_PACIFIC
 	icon = GFX_goal_generic_construct_civilian
-	prerequisite = { focus = BALTIC_rejoin_the_railways }
-	x = 0
+	
+	x = 10
+	y = 0
+
+	cost = 1
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+	
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	completion_reward = {
+		add_political_power = 200
+	}
+}
+
+shared_focus = {
+	id = PACIFIC_align_China
+	icon = GFX_goal_generic_construct_civilian
+	prerequisite = { focus = Welcome_to_PACIFIC}
+	mutually_exclusive = { focus = PACIFIC_align_USA focus = PACIFIC_align_Saudis focus = PACIFIC_align_Iraq}
+	x = -1
 	y = 1
-	relative_position_id = BALTIC_rejoin_the_railways
+	relative_position_id = Welcome_to_PACIFIC
 
 	cost = 10
 
@@ -26,13 +61,139 @@ shared_focus = {
 
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 	completion_reward = {
-		capital_scope = {
-			add_extra_state_shared_building_slots = 2
-			add_building_construction = {
-				type = industrial_complex
-				level = 2
-				instant_build = yes
+			add_timed_idea = {
+				idea = internationalism
+				days = 720
+			}
+	diplomatic_relation = {
+			country = PRC
+			relation = guarantee
+			active = yes
+		}
+			
+	}
+}
+
+shared_focus = {
+	id = PACIFIC_align_USA
+	icon = GFX_goal_generic_construct_civilian
+	prerequisite = { focus = Welcome_to_PACIFIC}
+	mutually_exclusive = { focus = PACIFIC_align_China focus = PACIFIC_align_Iraq focus = PACIFIC_align_Saudis}
+	x = 1
+	y = 1
+	relative_position_id = Welcome_to_PACIFIC
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	completion_reward = {
+			add_popularity = {
+			modifier = {
+				democratic_drift = -0.02
 			}
 		}
+	diplomatic_relation = {
+    country = USA
+    relation = guarantee
+    active = yes
+		}
+			
+	}
+}
+
+shared_focus = {
+	id = PACIFIC_align_Iraq
+	icon = GFX_goal_generic_construct_civilian
+	prerequisite = { focus = Welcome_to_PACIFIC}
+	mutually_exclusive = { focus = PACIFIC_align_China focus = PACIFIC_align_USA focus = PACIFIC_align_Saudis}
+	x = -3
+	y = 1
+	relative_position_id = Welcome_to_PACIFIC
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	completion_reward = {
+			add_popularity = {
+			ideology = facism
+			popularity = 1
+		}
+	diplomatic_relation = {
+    country = IRQ
+    relation = guarantee
+    active = yes
+		}
+			
+	}
+}
+
+shared_focus = {
+	id = PACIFIC_align_Saudis
+	icon = GFX_goal_generic_construct_civilian
+	prerequisite = { focus = Welcome_to_PACIFIC}
+	mutually_exclusive = { focus = PACIFIC_align_China focus = PACIFIC_align_Iraq focus = PACIFIC_align_USA}
+	x = 3
+	y = 1
+	relative_position_id = Welcome_to_PACIFIC
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	search_filters = { FOCUS_FILTER_INDUSTRY }
+	completion_reward = {
+			add_popularity = {
+			ideology = neutrality
+			popularity = 1
+		}
+	diplomatic_relation = {
+    country = SAU
+    relation = guarantee
+    active = yes
+		}
+			
 	}
 }
