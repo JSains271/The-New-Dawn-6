@@ -13,16 +13,17 @@ characters={
 			id=-1
 		}
 	}
-	IRE_eoin_oduffy={
-		name="Eoin O'Duffy"
+	IRE_Michael_D_Higgins={
+		name="Michael D. Higgins"
 		portraits={
 			civilian={
-				large=GFX_portrait_Eoin_ODuffy
+				large=GFX_portrait_IRE_Michael_D_Higgins_large
+                                small=GFX_portrait_IRE_Michael_D_Higgins_small
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
+			ideology=socialism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}

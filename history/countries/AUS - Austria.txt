@@ -42,11 +42,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karl Renner"
-	desc = "POLITICS_KARL_RENNER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Thomas Klestil"
+	desc = AUS_thomas_klestil
+	picture = "gfx/leaders/AUS/portrait_aus_thomas_klestil.dds"
+	expire = "2004.7.6"
+	ideology = conservatism
 	traits = {
 		#
 	}
