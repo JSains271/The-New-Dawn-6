@@ -17,10 +17,9 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = DEN
 		add_core_of = ICE
 	}
 	provinces=
 	{
-4861 12674 12689 	}
+4861 12674 12689 13271 13268 13266 13267	}
 }
