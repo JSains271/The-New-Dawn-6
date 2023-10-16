@@ -18,6 +18,9 @@ state={
 		victory_points = {
 			11332 1 #Cockermouth
 		}
+		victory_points = {
+			3311 1 #Douglas
+		}
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
@@ -31,10 +34,16 @@ state={
 			}
 		}
 		add_core_of = ENG
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+				industrial_complex = 2
+			}
+		}
 	}
 
 	provinces={
-		351 11270 11299
+		219 351 3311 6399 9285 11270 11299 11332 
 	}
 
 	local_supplies=14.0 
