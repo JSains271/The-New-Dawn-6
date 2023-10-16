@@ -1,0 +1,11 @@
+characters={
+	HUN_viktor_orban={
+		name=HUN_viktor_orban
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_viktor_orban_large
+                                small=GFX_portrait_HUN_viktor_orban_small
+			}
+		}
+        }
+}

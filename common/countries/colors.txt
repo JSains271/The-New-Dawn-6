@@ -888,8 +888,8 @@ HOK = {
 	color_ui = rgb { 153 28 28 }
 }
 GRN = {
-	color = rgb { 217 217 217 }
-	color_ui = rgb { 217 217 217 }
+	color = rgb { 255 80 80 }
+	color_ui = rgb { 179 0 0 }
 }
 TIM = {
 	color = rgb { 252 186 3 }

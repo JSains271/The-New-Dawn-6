@@ -1,0 +1,17 @@
+characters = {
+	CRO_vlatko_pavletic = {
+		name = "Vlatko Pavletic" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_vlatko_pavletic_large
+				small = GFX_portrait_CRO_vlatko_pavletic_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2007.9.19.1"
+			id = -1
+		}
+	}
+}
+	

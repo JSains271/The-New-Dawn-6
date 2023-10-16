@@ -25,7 +25,7 @@ set_politics = {
 	ruling_party = democratic 
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 83
@@ -35,11 +35,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Jozef Tiso"
-	desc = "POLITICS_JOZEF_TISO_DESC"
-	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "Mikuláš Dzurinda"
+	desc = SLO_mikulas_dzurinda_desc
+	picture = "gfx/leaders/SLO/portrait_slo_mikulas_dzurinda.dds"
+	expire = "2030.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}

@@ -31,3 +31,11 @@ set_popularities = {
 	communism = 12
 	neutrality = 5
 }
+
+create_country_leader = {
+	name = "Milan Kučan"
+	desc = SLV_milan_kučan_desc
+	picture = "gfx/leaders/SLV/portrait_slv_milan_kucan.dds"
+	expire = "2030.1.1"
+	ideology = socialism
+}

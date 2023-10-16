@@ -1,0 +1,17 @@
+characters = {
+	SLV_milan_kučan = {
+		name = "Milan Kučan" 
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SLV_milan_kučan_large
+                                small=GFX_portrait_SLV_milan_kučan_small
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

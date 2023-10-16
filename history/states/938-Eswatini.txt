@@ -1,22 +1,24 @@
 state={
-	id=913
-	name="STATE_913"
+	id=938
+	name="STATE_938"
 	history={
-		owner = LES
+		owner = ESW
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
 		victory_points = {
-			4556 3 
+			7900 3 
 		}
-		add_core_of = LES
+		add_core_of = ESW
 
 	}
-        provinces={
-		4556 
+
+
+	provinces={
+		7900 
 	}
-	manpower=2281000
+	manpower=1192000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

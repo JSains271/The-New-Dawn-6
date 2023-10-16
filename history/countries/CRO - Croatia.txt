@@ -40,20 +40,9 @@ if = {
 set_convoys = 5
 
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+	add_political_power = 1
 	
 	set_technology = {
 	
@@ -86,7 +75,7 @@ set_politics = {
 	ruling_party = democratic 
 	last_election = "1935.6.9"
 	election_frequency = 12
-	elections_allowed = no # none after offset 1
+	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
 	democratic = 76
@@ -95,33 +84,15 @@ set_popularities = {
 	neutrality = 5
 }
 
+
 create_country_leader = {
-	name = "Ante Pavelic"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "Vlatko Pavletic"
+	desc = CRO_vlatko_pavletic_desc
+	picture = "gfx/leaders/CRO/portrait_cro_vlatko_pavletic.dds"
+	expire = "2007.9.19"
+	ideology = conservatism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Vladko Maček"
-	picture = "portrait_CRO_vladko_macek.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vladko Maček"
-	picture = "portrait_CRO_vladko_macek.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}

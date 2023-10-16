@@ -90,7 +90,7 @@ if = {
 	}
 }
 
-1939.1.1 = {
+1936.1.1 = {
 
 	add_ideas = {
 		limited_conscription
@@ -107,32 +107,13 @@ if = {
 	}
 }
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
 	}
-		complete_national_focus = YUG_western_focus
-		complete_national_focus = YUG_industrialization_program
-		complete_national_focus = YUG_friendship_treaty_with_italy
-		complete_national_focus = YUG_attract_axis_capital
-		complete_national_focus = YUG_expand_the_mining_industry
-		complete_national_focus = YUG_develop_civilian_industry
-		complete_national_focus = YUG_evolution
-		complete_national_focus = YUG_army_modernization
-		complete_national_focus = YUG_mountain_brigades
-		complete_national_focus = YUG_modernize_the_air_force
-		complete_national_focus = YUG_purchase_foreign
-		complete_national_focus = YUG_license_production 
-		complete_national_focus = YUG_fighter_license 
-		complete_national_focus = YUG_rare_minerals_exploitation
-		complete_national_focus = YUG_establish_the_banovina_of_croatia
-		complete_national_focus = YUG_ban_slovene_nationalist_parties
-		complete_national_focus = YUG_concessions_for_macedonians
-		complete_national_focus = YUG_small_arms 
-		complete_national_focus = YUG_domestic_artillery_production
-		complete_national_focus = YUG_expand_the_serbian_shipyards
+
 	}
 	
 	if = {
@@ -140,15 +121,6 @@ if = {
 		NOT = { has_dlc = "Death or Dishonor" }
 	}
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
 	}
 	
 	oob = "YUG_1939"
@@ -208,78 +180,34 @@ if = {
 }
 
 set_convoys = 10
-set_politics = {
-	ruling_party = communism 
-	last_election = "1935.5.3"
-	election_frequency = 36
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 43
-	fascism = 10
-	communism = 37
-	neutrality = 10
-}
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1938.12.1"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 10
-		fascism = 20
-		communism = 10
-		neutrality = 60
+	democratic = 43
+	fascism = 10
+	communism = 37
+	neutrality = 10
 	}
 }
 set_stability = 0.6
 
 create_country_leader = {
-	name = "Prince Paul"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Milan Milutinovic"
+	desc = YUG_milan_milutinovic_desc
+	picture = "gfx/leaders/ENG/portrait_yug_milan_milutinovic.dds"
+	expire = "2023.7.2"
+	ideology = socialism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Grol"
-	desc = "POLITICS_MILAN_GROL_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Josip Broz Tito"
-	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
 
 create_corps_commander = {
 	name = "Vladimir Čukavac"
