@@ -59,7 +59,7 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-	search_filters = { FOCUS_FILTER_INDUSTRY }
+	search_filters = {FOCUS_FILTER_POLITICAL}
 	completion_reward = {
 			add_timed_idea = {
 				idea = internationalism
@@ -100,7 +100,7 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-	search_filters = { FOCUS_FILTER_INDUSTRY }
+	search_filters = {FOCUS_FILTER_POLITICAL}
 	completion_reward = {
 			add_popularity = {
 			modifier = {
@@ -142,11 +142,11 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-	search_filters = { FOCUS_FILTER_INDUSTRY }
+	search_filters = {FOCUS_FILTER_POLITICAL}
 	completion_reward = {
 			add_popularity = {
 			ideology = facism
-			popularity = 1
+			popularity = 0.4
 		}
 	diplomatic_relation = {
     country = IRQ
@@ -183,7 +183,48 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 
-	search_filters = { FOCUS_FILTER_INDUSTRY }
+	search_filters = {FOCUS_FILTER_POLITICAL}
+	completion_reward = {
+			add_popularity = {
+			ideology = neutrality
+			popularity = 0.4
+		}
+	diplomatic_relation = {
+    country = SAU
+    relation = guarantee
+    active = yes
+		}
+			
+	}
+}
+
+shared_focus = {
+	id = PACIFIC_democratic_alliance
+	icon = GFX_goal_generic_construct_civilian
+	prerequisite = { focus = Welcome_to_PACIFIC}
+	mutually_exclusive = { focus = PACIFIC_align_China focus = PACIFIC_align_Iraq focus = PACIFIC_align_USA}
+	x = 3
+	y = 1
+	relative_position_id = Welcome_to_PACIFIC
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	available = {
+	}
+
+	bypass = {
+
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	search_filters = {FOCUS_FILTER_POLITICAL}
 	completion_reward = {
 			add_popularity = {
 			ideology = neutrality

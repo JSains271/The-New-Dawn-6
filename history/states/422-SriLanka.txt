@@ -1,7 +1,7 @@
 state=
 {
 	id=422
-	name="STATE_422"
+	name="Sri Lanka"
 	manpower = 22160000
 	
 	state_category = rural
