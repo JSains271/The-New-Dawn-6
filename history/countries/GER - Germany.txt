@@ -107,7 +107,7 @@ set_war_support = 0.3
 
 
 1939.1.1 = {
-	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
+	add_named_threat = { threat = 0 name = 1939_bookmark_threat }
 	set_war_support = 0.7
 
 	add_political_power = 1197
@@ -160,27 +160,6 @@ set_war_support = 0.3
 		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
 	}
 	#Soviet treaty end
-	
-	unlock_national_focus = GER_rhineland
-	unlock_national_focus = GER_anschluss
-	unlock_national_focus = GER_demand_sudetenland
-	unlock_national_focus = GER_first_vienna_award
-	unlock_national_focus = GER_end_of_czechoslovakia
-	unlock_national_focus = GER_demand_memel
-	unlock_national_focus = GER_four_year_plan
-	unlock_national_focus = GER_autarky
-	unlock_national_focus = GER_synthetic_rubber
-
-	set_global_flag = end_of_czechoslovakia
-	set_global_flag = olympics_1936
-	set_variable = { var = GER_mefo_bill_counter value = 90 }
-	complete_national_focus = GER_autobahn
-	complete_national_focus = GER_west_wall
-	complete_national_focus = GER_army_innovation
-	complete_national_focus = GER_hermann_goring_werke
-	complete_national_focus = GER_kdf_wagen
-	complete_national_focus = GER_coal_liquidization
-	complete_national_focus = GER_extra_tech_slot
 
 	#BUILDINGS
 	
