@@ -110,7 +110,7 @@ set_war_support = 0.3
 	add_named_threat = { threat = 0 name = 1939_bookmark_threat }
 	set_war_support = 0.7
 
-	add_political_power = 1197
+	add_political_power = 1
 	
 	#adding ministers
 	add_ideas = {
@@ -123,18 +123,14 @@ set_war_support = 0.3
 		GER_autarky_idea
 
 		#laws
-		war_economy
-		extensive_conscription
+		civilian_economy
+		limited_conscription
+                free_trade
 	}
 	
 	oob = "GER_1939"
 
 #Trade
-	create_import = {
-			resource = oil
-			factories = 2
-			exporter = SOV
-	}
 
 	#MR pact effect, Also has a part scripted in soviet history file
 	unlock_national_focus = GER_mol_rib_pact

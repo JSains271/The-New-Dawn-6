@@ -55,7 +55,7 @@ if = {
 		}
 	}
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 
 	add_ideas = {

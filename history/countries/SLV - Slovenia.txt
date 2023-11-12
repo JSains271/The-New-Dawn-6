@@ -32,6 +32,10 @@ set_popularities = {
 	neutrality = 5
 }
 
+        add_ideas = {
+               limited_conscription
+               }
+
 create_country_leader = {
 	name = "Milan Kučan"
 	desc = SLV_milan_kučan_desc

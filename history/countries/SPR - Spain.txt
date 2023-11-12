@@ -97,6 +97,7 @@ if = {
 		SPR_military_disloyalty
 		SPR_political_violence
 		SPR_national_strikes_3
+                limited_conscription
 	}
 	165 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
@@ -170,7 +171,7 @@ set_stability = 0.5
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	if = {
 		limit = {

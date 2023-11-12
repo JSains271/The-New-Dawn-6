@@ -162,7 +162,7 @@ if = {
 
 		#laws
 		partial_economic_mobilisation
-		limited_conscription
+		volunteer_only
 
 		#ENG_george_vi
 	}

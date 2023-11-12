@@ -140,9 +140,6 @@ if = {
 		fiat
 		beretta
 
-		#laws
-		partial_economic_mobilisation
-		extensive_conscription
 	}
 
 	oob = "ITA_1939"

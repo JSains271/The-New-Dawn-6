@@ -115,6 +115,11 @@ set_popularities = {
 	neutrality = 50
 }
 
+add_ideas = {
+         limited_conscription
+}
+
+
 create_country_leader = {
 	name = "Phraya Phahon"
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"

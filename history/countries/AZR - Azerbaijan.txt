@@ -73,6 +73,10 @@ set_popularities = {
 	neutrality = 67
 }
 
+add_ideas = {
+         limited_conscription
+}
+
 create_country_leader = {
 	name = "Mir Jafar Baghirov"
 	desc = ""

@@ -98,6 +98,11 @@ set_popularities = {
 	neutrality = 24
 }
 
+add_ideas = {
+         limited_conscription
+}
+
+
 
 recruit_character = ABK_kirilli_bechvaya
 

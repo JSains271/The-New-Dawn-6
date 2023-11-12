@@ -49,7 +49,7 @@ if = {
 1939.1.1 = {
 	remove_ideas = HUN_treaty_of_triannon
 
-	add_political_power = 1198
+	add_political_power = 1
 
 	if = {
 		limit = {
@@ -124,6 +124,7 @@ set_popularities = {
 	communism = 10
 	neutrality = 22
 }
+
 
 #Start Horty as neutral if DOD
 if = {
@@ -214,6 +215,9 @@ create_country_leader = {
 	communism = 10
 	neutrality = 22
        }
+        add_ideas = {
+              volunteer_only
+        }
 }
 
 

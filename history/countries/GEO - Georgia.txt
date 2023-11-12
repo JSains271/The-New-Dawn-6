@@ -73,6 +73,10 @@ set_popularities = {	democratic = 71
 	neutrality = 4
 }
 
+add_ideas = {
+         limited_conscription
+}
+
 create_country_leader = {
 	name = "Noe Zhordania"
 	desc = ""

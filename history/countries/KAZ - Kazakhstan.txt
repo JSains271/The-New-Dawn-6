@@ -73,6 +73,10 @@ set_popularities = {
 	neutrality = 27
 }
 
+add_ideas = {
+         limited_conscription
+}
+
 create_country_leader = {
 	name = "Nikolay Aleksandrovich Skvortsov"
 	desc = ""

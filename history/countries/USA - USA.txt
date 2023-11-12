@@ -81,7 +81,7 @@ set_popularities = {
 add_ideas = {
 	undisturbed_isolation
 	great_depression
-	disarmed_nation
+	volenteer_only
 	free_trade
 	home_of_the_free
 }

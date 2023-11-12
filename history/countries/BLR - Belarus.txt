@@ -71,6 +71,10 @@ set_politics = {
 set_popularities = {	democratic = 13	neutrality = 40	communism = 37	fascism = 10
 }
 
+add_ideas = {
+         limited_conscription
+}
+
 create_country_leader = {
     name = "Adam Stankievič"
     desc = ""

@@ -126,7 +126,7 @@ create_import = {
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 
 	#adding ministers
@@ -139,9 +139,9 @@ create_import = {
 		kawasaki
 
 		#laws
-		tot_economic_mobilisation
-		service_by_requirement
-		closed_economy
+		low_economic_mobilization
+		volunteer_only
+		export_focus
 	}
 	if = {
 		limit = {
@@ -250,7 +250,7 @@ set_politics = {
 	ruling_party = democratic 
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 85

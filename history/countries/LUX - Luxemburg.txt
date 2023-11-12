@@ -81,6 +81,12 @@ set_popularities = {
 		}
 	}
 }
+
+        add_ideas = {
+                 volunteer_only
+}
+
+
 #Pierre Dupong from 37
 create_country_leader = {
 	name = "Joseph Bech"

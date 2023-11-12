@@ -16,7 +16,7 @@ set_convoys = 20
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	oob = "CUB_1939"
 	set_technology = {
@@ -56,6 +56,11 @@ set_popularities = {
 	communism = 64
 	neutrality = 10
 }
+
+add_ideas = {
+         limited_conscription
+}
+
 
 create_country_leader = {
 	name = "José Agripino Barnet"

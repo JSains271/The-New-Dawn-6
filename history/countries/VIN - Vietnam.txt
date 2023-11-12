@@ -78,6 +78,10 @@ set_popularities = {
 	neutrality = 10
 }
 
+add_ideas = {
+         limited_conscription
+}
+
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
 create_country_leader = {

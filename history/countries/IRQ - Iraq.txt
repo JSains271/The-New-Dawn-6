@@ -77,6 +77,10 @@ set_popularities = {
 	neutrality = 25
 }
 
+add_ideas = {
+         service_by_requirement
+}
+
 create_country_leader = {
 	name = "Saddam Hussein"
 	desc = IRQ_saddam_hussein_desc

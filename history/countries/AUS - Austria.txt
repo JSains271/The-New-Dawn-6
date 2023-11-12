@@ -28,6 +28,10 @@ set_popularities = {
 	communism = 3
 }
 
+add_ideas = {
+          limited_conscription
+}
+
 set_stability = 0.50
 
 create_country_leader = {

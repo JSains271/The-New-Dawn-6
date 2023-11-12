@@ -68,6 +68,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
+add_ideas = {
+         extensive_conscription
+}
+
 set_popularities = {	democratic = 63
 	fascism = 10
 	communism = 10

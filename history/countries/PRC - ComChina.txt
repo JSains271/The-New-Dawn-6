@@ -50,7 +50,7 @@ set_autonomy = {
 	add_ideas = {
 		#laws
 		partial_economic_mobilisation
-		service_by_requirement
+		limited_conscription
 		closed_economy
 	}
 	

@@ -86,9 +86,9 @@ if = {
 }
 
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	if = {
 		limit = {
@@ -101,7 +101,10 @@ if = {
 				modifier = POR_helped_in_civil_war
 			}
 		}
-		add_ideas = POR_volunteers_in_the_war_nationalist
+		add_ideas = {
+                        POR_volunteers_in_the_war_nationalist
+                        limited_conscription
+             }
 	}
 		
 	oob = "POR_1939"

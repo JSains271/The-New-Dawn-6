@@ -23,6 +23,10 @@ set_popularities = {
 	neutrality = 10
 }
 
+add_ideas = {
+         service_by_requirement
+}
+
 create_country_leader = {
 	name = "Syngman Rhee"
 	desc = ""

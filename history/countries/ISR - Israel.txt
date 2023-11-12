@@ -11,7 +11,7 @@ set_convoys = 5
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	set_technology = {
 		tech_support = 1
@@ -58,6 +58,10 @@ set_popularities = {
 	fascism = 13
 	communism = 2
 	neutrality = 3
+}
+
+add_ideas = {
+         limited_conscription
 }
 
 create_country_leader = {

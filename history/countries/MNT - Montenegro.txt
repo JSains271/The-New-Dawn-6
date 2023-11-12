@@ -84,6 +84,9 @@ set_popularities = {
 	neutrality = 33
 	communism = 34
 }
+add_ideas = {
+               limited_conscription
+               }
 
 recruit_character = MNT_kristo_popovic
 recruit_character = MNT_blazo_jovanovic
