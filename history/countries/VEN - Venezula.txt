@@ -14,18 +14,9 @@ set_country_flag = monroe_doctrine
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
 	
 	oob = "VEN_1939"
 	set_technology = {
@@ -72,6 +63,10 @@ set_popularities = {
 	fascism = 69
 	communism = 10
 	neutrality = 10
+}
+
+add_ideas = {
+        extensive_conscription
 }
 
 create_country_leader = {

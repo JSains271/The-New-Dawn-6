@@ -134,45 +134,8 @@ if = {
 1939.1.1 = {
 
 	add_political_power = 1
-	add_command_power = 100
 	
-	#generic focuses
-	if = {
-		limit = {
-			NOT = {
-				has_dlc = "Arms Against Tyranny"
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		complete_national_focus = SWE_defense_act #35
-		complete_national_focus = SWE_urbanization #70
-		complete_national_focus = SWE_hygenic_housing #70
-		every_core_state = { #Apply effect from focus above
-			limit =  { is_fully_controlled_by = SWE }
-			add_dynamic_modifier = { modifier = SWE_hygenic_housing_output_bonus }
-		}
 
-		complete_national_focus = SWE_radiojanst #70
-		complete_national_focus = SWE_individual_liberty_and_prosperity_for_all #35
-		complete_national_focus = SWE_paid_holidays #35
-		complete_national_focus = SWE_saltsjobaden_agreement #70
-		complete_national_focus = SWE_research_slot_1 #70
-		complete_national_focus = SWE_education_reform #35
-		complete_national_focus = SWE_license_skf_ball_bearings #35
-		complete_national_focus = SWE_government_weapons_contract #35
-		complete_national_focus = SWE_husqvarna_vapenfabrik #70
-		complete_national_focus = SWE_norma_projektilfabrik #70
-		complete_national_focus = SWE_bofors_fly_swatter #35
-		complete_national_focus = SWE_form_saab #70
-		complete_national_focus = SWE_bofors_anti_tank_gun #70
-		complete_national_focus = SWE_gotaverken #70
-		complete_national_focus = SWE_refit_gotaverken_for_rapid_repairs #70
-		complete_national_focus = SWE_domestic_designs #70
-	}
 	
 	oob = "SWE_1939"
 	if = {
@@ -271,28 +234,24 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
-	communism = 8
-	fascism = 3
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.9.20"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 85
-		neutrality = 10
-		communism = 4
-		fascism = 1
-	}
+	democratic = 94
+	neutrality = 3
+	communism = 2
+	fascism = 1
 }
 
 set_convoys = 25
+
+create_country_leader = {
+	name = "Goran Persson"
+	desc = SWE_goran_persson_desc
+	picture = gfx/leaders/SWE/portrait_swe_goran_persson.dds
+	expire = "2030.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
 
 
 recruit_character = SWE_per_albin_hansson

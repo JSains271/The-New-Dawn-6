@@ -1,6 +1,6 @@
 ﻿capital = 101 #Nuuk
 
-oob = "ICE_1936"
+oob = "GRN_1936"
 
 set_research_slots = 2
 
@@ -55,4 +55,15 @@ if = {
 
          add_ideas = {
              disarmed_nation
+}
+
+create_country_leader = {
+	name = "Jonathan Motzfeldt"
+	desc = GRN_jonathan_motzfeldt_desc
+	picture = gfx/leaders/GRN/portrait_grn_jonathan_motzfeldt.dds
+	expire = "2030.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
 }

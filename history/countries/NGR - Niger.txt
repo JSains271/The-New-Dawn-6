@@ -1,11 +1,32 @@
-﻿capital = 550
+﻿capital = 781
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 10
+set_convoys = 0
+
+recruit_character = NGR_pot
+recruit_character = NGR_mt
+recruit_character = NGR_awt
+recruit_character = NGR_acgs
+recruit_character = NGR_communist_guy
+recruit_character = NGR_coi
+recruit_character = NGR_ar
+recruit_character = NGR_acr
+recruit_character = NGR_nccr
+recruit_character = NGR_ncm
+recruit_character = NGR_aco2
+recruit_character = NGR_stc
+recruit_character = NGR_aa2
+recruit_character = NGR_ncs
+recruit_character = NGR_nt
+recruit_character = NGR_democratic_guy
+recruit_character = NGR_fascist_guy
+recruit_character = NGR_ai2
+recruit_character = NGR_acas
+recruit_character = NGR_acd2
 
 1939.1.1 = {
 	
@@ -44,20 +65,19 @@ set_convoys = 10
 	}
 }
 
-
 set_politics = {
-	ruling_party = neutrality 
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 1
-	fascism = 10
-	communism = 10
-	neutrality = 79
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }
 
 add_ideas = {
-        extensive_conscription
+        limited_conscription
 }

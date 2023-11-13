@@ -11,26 +11,6 @@ if = {
 
 if = {
 	limit = {
-		NOT = {
-			has_dlc = "La Resistance"
-		}
-	}
-	set_popularities = {
-		democratic = 47
-		fascism = 46
-		communism = 7
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
-
-if = {
-	limit = {
 		has_dlc = "La Resistance"
 	}
 	every_owned_state = {
@@ -350,15 +330,13 @@ if = {
 	}
 	
 	create_country_leader = {
-		name = "José Díaz"
-		desc = "POLITICS_JOSE_DIAZ_DESC"
-		picture = "portrait_spr_jose_diaz.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			veteran_communist
-		}
+		name = "Jose Maria Aznar"
+		desc = SPR_jose_maria_aznar_desc
+		picture = gfx/leaders/SPR/portrait_spr_jose_maria_aznar.dds
+		expire = "2030.1.1"
+		ideology = conservatism
 	}
+
 	create_country_leader = {
 		name = "José Antonio Primo de Rivera"
 		desc = "POLITICS_JOSE_ANTONIO_PRIMO_DE_RIVERA_DESC"

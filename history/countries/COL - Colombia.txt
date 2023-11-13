@@ -43,18 +43,9 @@ set_convoys = 10
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
 	
 	oob = "COL_1939"
 	if = {
@@ -115,6 +106,10 @@ set_popularities = {
 
 }
 
+add_ideas = {
+        limited_conscription
+}
+
 create_country_leader = {
 	name = "Alfonso López Pumarejo"
 	desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
@@ -139,16 +134,6 @@ create_country_leader = {
 
 
 1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.5.1"
-		election_frequency = 48  
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 100
-	}
 
 	create_country_leader = {
 		name = "Eduardo Santos"

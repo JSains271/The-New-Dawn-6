@@ -25,6 +25,10 @@ set_popularities = {
 	neutrality = 49
 }
 
+add_ideas = {
+        limited_conscription
+}
+
 create_country_leader = {
 	name = "Ahmed Ben Bella"
 	desc = ""
