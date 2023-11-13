@@ -79,6 +79,15 @@ set_popularities = {
 	neutrality = 33
 	communism = 34
 }
+
 add_ideas = {
                limited_conscription
-               }
+}
+
+create_country_leader = {
+	name = "Boris Trajkovski"
+	desc = ENG_boris_trajkovski_desc
+	picture = "gfx/leaders/MAC/portrait_mac_boris_trajkovski.dds"
+	expire = "2030.1.1"
+	ideology = liberalism
+}

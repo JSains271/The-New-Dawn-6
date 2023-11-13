@@ -135,7 +135,7 @@ set_convoys = 10
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 
 	if = {
 		limit = { has_dlc = "Battle for the Bosporus" }

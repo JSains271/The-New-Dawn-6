@@ -84,9 +84,18 @@ set_popularities = {
 	neutrality = 33
 	communism = 34
 }
+
 add_ideas = {
-               limited_conscription
-               }
+        limited_conscription
+}
+
+create_country_leader = {
+	name = "Filip Vujanović"
+	desc = MNT_filip_vujanovic_desc
+	picture = "gfx/leaders/MNT/portrait_mnt_filip_vujanovic.dds"
+	expire = "2030.1.1"
+	ideology = liberalism
+}
 
 recruit_character = MNT_kristo_popovic
 recruit_character = MNT_blazo_jovanovic

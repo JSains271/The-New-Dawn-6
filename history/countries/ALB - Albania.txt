@@ -28,11 +28,11 @@ set_convoys = 5
 
 #Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Rexhep Meidani"
+	desc = "ALB_rexhep_meidani_desc"
+	picture = "gfx/leaders/ALB/portrait_alb_rexhep_meidani.dds"
+	expire = "2030.1.1"
+	ideology = socialism
 	traits = {
 		#
 	}

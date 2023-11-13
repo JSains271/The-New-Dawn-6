@@ -94,6 +94,29 @@ if = {
 
 set_convoys = 0
 
+IF = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MNT
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+        set_autonomy = {
+		target = KOS
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.1
+	}
+	ELSE = {
+		puppet = KOS
+                puppet = MNT
+	}
+}
+
 set_politics = {
 	ruling_party = communism 
 	last_election = "1936.1.1"
