@@ -1,62 +1,72 @@
 characters = {
-	POL_anna_andersson = {
-		name="Anastasia Romanov"
+	POL_aleksander_kwasniewski = {
+		name=POL_aleksander_kwasniewski
 		portraits = {
 			civilian = {
-				large="GFX_portrait_POL_anna_anderson"
+				large=GFX_portrait_POL_aleksander_kwasniewski_large
+                                small=GFX_portrait_POL_aleksander_kwasniewski_small
 			}
 		}
 		country_leader = {
-			ideology=despotism
-			traits = { the_last_romanov_maybe }
-			expire="1965.1.1.1"
+			ideology=centrist
+			traits = { }
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
 
-	POL_karl_albrecht = {
-		name=POL_karl_albrecht
+characters = {
+	POL_lech_kaczynski = {
+		name=POL_lech_kaczynski
 		portraits = {
 			civilian = {
-				large="GFX_portrait_POL_karl_albrecht"
+				large=GFX_portrait_POL_lech_kaczynski_large
+                                small=GFX_portrait_POL_lech_kaczynski_small
 			}
 		}
 		country_leader = {
-			ideology=despotism
-			traits = { patriot_king }
-			expire="1965.1.1.1"
+			ideology=conservatism 
+			traits = { }
+			expire="2010.4.10.1"
 			id=-1
 		}
 	}
 
-	POL_friedrich_christian = {
-		name=POL_friedrich_christian
+characters = {
+	POL_bronislaw_komorowski = {
+		name=POL_bronislaw_komorowski
 		portraits = {
 			civilian = {
-				large="GFX_portrait_POL_friedrich_christian"
+				large=GFX_portrait_POL_bronislaw_komorowski_large
+                                small=GFX_portrait_POL_bronislaw_komorowski_small
 			}
 		}
 		country_leader = {
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=conservatism 
+			traits = { }
+			expire="2030.1.1.1"
 			id=-1
-			traits = { royal_legitimist }
 		}
 	}
 
-	POL_sejmik_regency = {
-		name=POL_sejmik_regency
+characters = {
+	POL_andrzej_duda = {
+		name=POL_andrzej_duda
 		portraits = {
 			civilian = {
-				large="GFX_portrait_POL_Sejmik_Regency" 
+				large=GFX_portrait_POL_andrzej_duda_large
+                                small=GFX_portrait_POL_andrzej_duda_small
 			}
 		}
 		country_leader = {
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=conservatism 
+			traits = { }
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+
 
 	POL_boleslaw_wieniawa_glugoszowski = {
 		name=POL_boleslaw_wieniawa_glugoszowski

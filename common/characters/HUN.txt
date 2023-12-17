@@ -7,5 +7,55 @@ characters={
                                 small=GFX_portrait_HUN_viktor_orban_small
 			}
 		}
-        }
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+		HUN_peter_medgyessy={
+		name=HUN_peter_medgyessy
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_peter_medgyessy_large
+                                small=GFX_portrait_HUN_peter_medgyessy_small
+			}
+		}
+		country_leader={
+			ideology=indepedent 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+		HUN_ferenc_gyurcsany={
+		name=HUN_ferenc_gyurcsany
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_ferenc_gyurcsany_large
+                                small=GFX_portrait_HUN_ferenc_gyurcsany_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+		HUN_gordon_bajnai={
+		name=HUN_gordon_bajnai
+		portraits={
+			civilian={
+				large=GFX_portrait_HUN_gordon_bajnai_large
+                                small=GFX_portrait_HUN_gordon_bajnai_small
+			}
+		}
+		country_leader={
+			ideology=indepedent
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
 }

@@ -61,7 +61,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = indepedent
+	ruling_party = socialism
 	last_election = "1993.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,11 +75,13 @@ add_ideas = {
          limited_conscription
 }
 
+recruit_character = BLR_alexander_lukashenko
+
 create_country_leader = {
-    name = "Adam Stankievič"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-    expire = "1965.1.1"
+    name = "Alexander Lukashenko"
+    desc = BLR_alexander_lukashenko
+    picture = "gfx/leaders/BLR/portrait_blr_alexander_lukashenko.dds"
+    expire = "2030.1.1"
     ideology = socialism
     traits = {
         #

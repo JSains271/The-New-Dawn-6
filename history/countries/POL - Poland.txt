@@ -47,7 +47,7 @@ if = {
 		basic_depth_charges = 1
 	}
 }
-1939.1.1 = {
+2000.1.1 = {
 	
 	if = {
 		limit = {
@@ -154,69 +154,23 @@ set_popularities = {
 	neutrality = 4
 }
 
-1939.1.1 = {
-	set_popularities = {
-	democratic = 71
-	fascism = 20
-	communism = 5
-	neutrality = 4
-	}
-}
+
+recruit_character = POL_aleksander_kwasniewski
+recruit_character = POL_lech_kaczynski
+recruit_character = POL_bronislaw_komorowski
+recruit_character = POL_andrzej_duda
 
 create_country_leader = {
-	name = "Władysław Sikorski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
+	name = "Aleksander Kwaśniewski"
+	desc = POL_aleksander_kwasniewski_desc
+	picture = gfx/leaders/POL/portrait_pol_aleksander_kwasniewski.dds
+	expire = "2030.1.1"
+	ideology = centrist
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Ignacy Mościcki"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Władysław Gomułka"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Lech Kaczynski"
-	desc = POL_lech_kaczynski_desc
-	picture = gfx/leaders/POL/portrait_pol_lech_kacynski.dds
-	expire = "2010.4.10"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bolesław Piasecki"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "Władysław Sikorski"

@@ -117,19 +117,6 @@ IF = {
 	}
 }
 
-set_politics = {
-	ruling_party = communism 
-	last_election = "1936.1.1"
-	election_frequency = 36
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 43
-	fascism = 10
-	communism = 37
-	neutrality = 10
-}
-
 2000.1.1 = {
 	set_politics = {
 		ruling_party = democratic
@@ -146,6 +133,16 @@ set_popularities = {
 
 }
 set_stability = 0.6
+
+recruit_character = SER_milan_milutinovic
+recruit_character = SER_natasa_micic
+recruit_character = SER_dragan_marsicanin
+recruit_character = SER_vojislav_mihailovic
+recruit_character = SER_predarg_markovic
+recruit_character = SER_boris_tadic
+recruit_character = SER_slavica_dukic_dejanovic
+recruit_character = SER_tomislav_nikolic
+recruit_character = SER_aleksandar_vucic
 
 
 create_country_leader = {

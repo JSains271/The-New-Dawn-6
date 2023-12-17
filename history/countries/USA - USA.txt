@@ -88,6 +88,9 @@ add_ideas = {
 
 recruit_character = USA_bill_clinton
 recruit_character = USA_george_bush
+recruit_character = USA_barack_obama
+recruit_character = USA_donald_trump
+recruit_character = USA_joe_biden
 
 # DIPLOMACY
 set_autonomy = {
@@ -96,7 +99,7 @@ set_autonomy = {
 create_country_leader = {
 	name = "Bill Clinton"
 	desc = USA_bill_clinton_desc
-	picture = "gfx/leaders/USA/portrait_usa_bill-clinton_large.dds"
+	picture = "gfx/leaders/USA/portrait_usa_bill_clinton_large.dds"
 	expire = "2030.1.1"
 	ideology = liberalism
 }

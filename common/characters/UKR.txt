@@ -1,0 +1,94 @@
+characters = {
+	characters={
+	UKR_leonid_kuchma={
+		name=UKR_leonid_kuchma
+		portraits={
+			civilian={
+				large=GFX_portrait_UKR_leonid_kuchma_large
+                                small=GFX_portrait_UKR_leonid_kuchma_small
+			}
+		}
+		country_leader={
+			ideology=indepedent 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+UKR_viktor_yushchenko={
+		name=UKR_viktor_yushchenko
+		portraits={
+			civilian={
+				large=GFX_portrait_UKR_viktor_yushchenko_large
+                                small=GFX_portrait_UKR_viktor_yushchenko_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+UKR_viktor_yushchenko={
+		name=UKR_viktor_yushchenko
+		portraits={
+			civilian={
+				large=GFX_portrait_UKR_viktor_yushchenko_large
+                                small=GFX_portrait_UKR_viktor_yushchenko_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+UKR_oleksandr_turchynov={
+		name=UKR_oleksandr_turchynov
+		portraits={
+			civilian={
+				large=GFX_portrait_UKR_oleksandr_turchynov_large
+                                small=GFX_portrait_UKR_oleksandr_turchynov_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+UKR_petro_poroshenko={
+		name=UKR_petro_poroshenko
+		portraits={
+			civilian={
+				large=GFX_portrait_UKR_petro_poroshenko_large
+                                small=GFX_portrait_UKR_petro_poroshenko_small
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+
+UKR_volodymyr_zelenskyy={
+		name=UKR_volodymyr_zelenskyy
+		portraits={
+			civilian={
+				large=GFX_portrait_UKR_volodymyr_zelenskyy_large
+                                small=GFX_portrait_UKR_volodymyr_zelenskyy_small
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+}
+	

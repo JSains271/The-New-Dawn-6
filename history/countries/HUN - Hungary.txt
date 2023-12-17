@@ -18,36 +18,8 @@ set_technology = {
 	fuel_silos = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		disarmed_nation
-		HUN_treaty_of_triannon
-	}
-}
 
-if = {
-	limit = {
-		#has_dlc = Battle for the Bosporus
-	}
-	add_opinion_modifier = { 
-		target = CZE
-		modifier = BFTB_incongruous_neighbors
-	}
-	add_opinion_modifier = { 
-		target = ROM
-		modifier = BFTB_incongruous_neighbors
-	}
-	add_opinion_modifier = { 
-		target = YUG
-		modifier = BFTB_incongruous_neighbors
-	}
-}
-
-1939.1.1 = {
-	remove_ideas = HUN_treaty_of_triannon
+2000.1.1 = {
 
 	add_political_power = 1
 
@@ -125,40 +97,17 @@ set_popularities = {
 	neutrality = 22
 }
 
+recruit_character = HUN_viktor_orban
+recruit_character = HUN_peter_medgyessy
+recruit_character = HUN_ferenc_gyurcsany
+recruit_character = HUN_gordon_bajnai
 
-#Start Horty as neutral if DOD
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	create_country_leader = {
+create_country_leader = {
 		name = "Viktor Orbán"
 		desc = HUN_viktor_orban_desc
 		picture = "gfx/leaders/HUN/portrait_hun_viktor_orban.dds"
 		expire = "2030.1.1"
-		ideology = conservatism
-		traits = {
-			fascist_sympathies
-			anti_communist
-		}
-		id = 500 #Horthy Neutral
-	}
-	else = {
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-		}
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-		}
-	}
+		ideology = conservatism 
 }
 
 create_country_leader = {

@@ -1,6 +1,6 @@
 characters={
 	SLO_mikulas_dzurinda={
-		name="Mikuláš Dzurinda"
+		name=SLO_mikulas_dzurinda
 		portraits={
 			civilian={
 				large=GFX_portrait_SLO_mikulas_dzurinda_large
@@ -9,6 +9,103 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SLO_robert_fico={
+		name=SLO_robert_fico
+		portraits={
+			civilian={
+				large=GFX_portrait_SLO_robert_fico_large
+                                small=GFX_portrait_SLO_robert_fico_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SLO_iveta_radicova={
+		name=SLO_iveta_radicova
+		portraits={
+			civilian={
+				large=GFX_portrait_SLO_iveta_radicova_large
+                                small=GFX_portrait_SLO_iveta_radicova_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+
+characters={
+	SLO_peter_pellegrini={
+		name=SLO_peter_pellegrini
+		portraits={
+			civilian={
+				large=GFX_portrait_SLO_peter_pellegrini_large
+                                small=GFX_portrait_SLO_peter_pellegrini_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SLO_igor_matovic={
+		name=SLO_igor_matovic
+		portraits={
+			civilian={
+				large=GFX_portrait_SLO_igor_matovic_large
+                                small=GFX_portrait_SLO_igor_matovic_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SLO_eduard_heger={
+		name=SLO_eduard_heger
+		portraits={
+			civilian={
+				large=GFX_portrait_SLO_eduard_heger_large
+                                small=GFX_portrait_SLO_eduard_heger_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SLO_l'udovit_odor={
+		name=SLO_l'udovit_odor
+		portraits={
+			civilian={
+				large=GFX_portrait_SLO_l'udovit_odor_large
+                                small=GFX_portrait_SLO_l'udovit_odor_small
+			}
+		}
+		country_leader={
+			ideology=indepedent 
 			expire="2030.1.1"
 			id=-1
 		}

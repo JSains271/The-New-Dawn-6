@@ -65,6 +65,11 @@ add_ideas = {
         limited_conscription
 }
 
+recruit_character = FRA_jacques_chirac
+recruit_character = FRA_nicolas_sarkozy
+recruit_character = FRA_francois_hollande
+recruit_character = FRA_emmanuel_macron
+
 create_country_leader = {
 	name = "Jacques Chirac"
 	desc = FRA_jacques_chirac_desc

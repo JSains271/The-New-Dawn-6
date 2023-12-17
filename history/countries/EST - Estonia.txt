@@ -37,7 +37,7 @@ set_convoys = 5
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	oob = "EST_1939"
 	if = {
@@ -129,7 +129,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Konstantin Päts"
+	name = "Konstantin Pats"
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "GFX_Portrait_estonia_konstantin_pats"
 	expire = "1965.1.1"

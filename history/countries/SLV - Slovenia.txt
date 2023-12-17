@@ -36,6 +36,12 @@ set_popularities = {
                limited_conscription
                }
 
+recruit_character = SLV_milan_kučan
+recruit_character = SLV_janez_drnovsek
+recruit_character = SLV_danilo_turk
+recruit_character = SLV_borut_pahor
+recruit_character = SLV_natasa_pirc_musar
+
 create_country_leader = {
 	name = "Milan Kučan"
 	desc = SLV_milan_kučan_desc

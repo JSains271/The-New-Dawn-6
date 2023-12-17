@@ -1,10 +1,10 @@
 characters={
 	NOR_kjell_magne_bondevik={
-		name="Kjell Magne Bondevik"
+		name=NOR_kjell_magne_bondevik
 		portraits={
 			civilian={
-				large= GFX_portrait_nor_kjell_magne_bondevik_large
-                                small= GFX_portrait_nor_kjell_magne_bondevik_small
+				large= GFX_portrait_NOR_kjell_magne_bondevik_large
+                                small= GFX_portrait_NOR_kjell_magne_bondevik_small
 			}
 		}
 		country_leader={
@@ -13,45 +13,53 @@ characters={
 			id=-1
 		}
 	}
-	NOR_vidkun_quisling={
-		name="Vidkun Quisling"
+
+	NOR_jens_stoltenberg={
+		name=NOR_jens_stoltenberg
 		portraits={
 			civilian={
-				large=GFX_portrait_Vidkun_Quisling
+				large= GFX_portrait_NOR_jens_stoltenberg_large
+                                small= GFX_portrait_NOR_jens_stoltenberg_small
 			}
 		}
 		country_leader={
-			ideology=nazism
-			expire="1965.1.1.1"
+			ideology=socialism  
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	NOR_johan_ludwig_mowinckel={
-		name="Johan Ludwig Mowinckel"
+
+	NOR_erna_solberg={
+		name=NOR_erna_solberg
 		portraits={
 			civilian={
-				large=GFX_portrait_Johan_Ludwig_Mowinckel
+				large= GFX_portrait_NOR_erna_solberg_large
+                                small= GFX_portrait_NOR_erna_solberg_small
 			}
 		}
 		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
+			ideology=conservatism  
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	NOR_adam_egedenissen={
-		name="Adam Egede-Nissen"
+
+	NOR_jonas_gahr_store={
+		name=NOR_jonas_gahr_store
 		portraits={
 			civilian={
-				large=GFX_portrait_Adam_Egede-Nissen
+				large= GFX_portrait_NOR_jonas_gahr_store_large
+                                small= GFX_portrait_NOR_jonas_gahr_store_small
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology=conservatism  
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+
 	NOR_carl_gustav_fleischer={
 		name="Carl Gustav Fleischer"
 		portraits={

@@ -89,12 +89,16 @@ add_ideas = {
         limited_conscription
 }
 
+recruit_character = MNT_filip_vujanovic
+recruit_character = MNT_milo_dukanovic
+recruit_character = MNT_jakov_milatovic
+
 create_country_leader = {
 	name = "Filip Vujanović"
 	desc = MNT_filip_vujanovic_desc
 	picture = "gfx/leaders/MNT/portrait_mnt_filip_vujanovic.dds"
 	expire = "2030.1.1"
-	ideology = liberalism
+	ideology = socialism 
 }
 
 recruit_character = MNT_kristo_popovic

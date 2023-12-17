@@ -1,10 +1,10 @@
 characters={
 	DEN_poul_nyrup_rasmussen={
-		name="Poul Nyrup Rasmussen"
+		name=DEN_poul_nyrup_rasmussen
 		portraits={
 			civilian={
-				large= GFX_portrait_den_poul_nyrup_rasmussen_large
-                                small= GFX_portrait_den_poul_nyrup_rasmussen_small
+				large= GFX_portrait_DEN_poul_nyrup_rasmussen_large
+                                small= GFX_portrait_DEN_poul_nyrup_rasmussen_small
 			}
 		}
 		country_leader={
@@ -13,45 +13,56 @@ characters={
 			id=-1
 		}
 	}
-	DEN_frits_clausen={
-		name="Frits Clausen"
+
+characters={
+	DEN_lars_lokke_rasmussen={
+		name=DEN_lars_lokke_rasmussen
 		portraits={
 			civilian={
-				large=GFX_portrait_Frits_Clausen
+				large= GFX_portrait_DEN_lars_lokke_rasmussen_large
+                                small= GFX_portrait_DEN_lars_lokke_rasmussen_small
 			}
 		}
 		country_leader={
-			ideology=nazism
-			expire="1965.1.1.1"
+			ideology=conservatism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	DEN_aksel_larsen={
-		name="Aksel Larsen"
+
+characters={
+	DEN_helle_thorming-schmidt={
+		name=DEN_helle_thorming-schmidt
 		portraits={
 			civilian={
-				large=GFX_portrait_Aksel_Larsen
+				large= GFX_portrait_DEN_helle_thorming-schmidt_large
+                                small= GFX_portrait_DEN_helle_thorming-schmidt_small
 			}
 		}
 		country_leader={
-			ideology=leninism
-			expire="1965.1.1.1"
+			ideology=socialism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	DEN_peter_rochegune_munch={
-		name="Peter Rochegune Munch"
+
+characters={
+	DEN_mette_fredriksen={
+		name=DEN_mette_fredriksen
 		portraits={
 			civilian={
-				large=GFX_portrait_Peter_Rochegune_Munch
+				large= GFX_portrait_DEN_mette_fredriksen_large
+                                small= GFX_portrait_DEN_mette_fredriksen_small
 			}
 		}
 		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
+			ideology=socialism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+
 	DEN_wilhelm_wain_prior={
 		name="Wilhelm Wain Prior"
 		portraits={

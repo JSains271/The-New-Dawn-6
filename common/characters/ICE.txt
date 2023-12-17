@@ -3,8 +3,8 @@ characters = {
 		name = "Ólafur Ragnar Grímsson" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_olafur_ragnar_grimsson_large
-                                small = GFX_portrait_olafur_ragnar_grimsson_small
+				large = GFX_portrait_ICE_olafur_ragnar_grimsson_large
+                                small = GFX_portrait_ICE_olafur_ragnar_grimsson_small
 			}
 		}
 		country_leader = {
@@ -18,8 +18,8 @@ characters = {
 		name = "Guðni Thorlacius Jóhannesson" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_guoni_thorlacius_johannesson_large
-                                small = GFX_portrait_guoni_thorlacius_johannesson_small
+				large = GFX_portrait_ICE_guoni_thorlacius_johannesson_large
+                                small = GFX_portrait_ICE_guoni_thorlacius_johannesson_small
 			}
 		}
 		country_leader = {

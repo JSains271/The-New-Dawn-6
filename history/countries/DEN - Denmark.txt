@@ -46,10 +46,20 @@ IF = {
 }
 
 #### COUNTRY LEADERS ####
-recruit_character = DEN_thorvald_stauning
-recruit_character = DEN_knud_bach
-recruit_character = DEN_knud_bach_2
-recruit_character = DEN_knud_bach_3
+
+recruit_character = DEN_poul_nyrup_rasmussen
+recruit_character = DEN_lars_lokke_rasmussen
+recruit_character = DEN_helle_thorming-schmidt
+recruit_character = DEN_mette_fredriksen
+
+create_country_leader = {
+	name = "Poul Nyrup Rasmussen"
+	desc = DEN_poul_nyrup_rasmussen_desc
+	picture = "gfx/leaders/DEN/portrait_den_poul_nyrup_rasmussen.dds"
+	expire = "2030.1.1"
+	ideology = socialism
+}
+
 if = {
 	limit = {
 		has_dlc = "Arms Against Tyranny"

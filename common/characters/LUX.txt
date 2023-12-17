@@ -1,59 +1,34 @@
 characters={
-	LUX_joseph_bech={
-		name="Joseph Bech"
+	LUX_jean-claude_juncker={
+		name=LUX_jean-claude_juncker
 		portraits={
 			civilian={
-				large="GFX_portrait_luxembourg_joseph_bech"
+				large=GFX_portrait_LUX_jean-claude_juncker_large
+                                small=GFX_portrait_LUX_jean-claude_juncker_small
 			}
 		}
 		country_leader={
 			ideology=conservatism
-			expire="1965.1.1.1"
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	LUX_gustave_lebeau={
-		name="Gustave Lebeau"
+
+LUX_xavier_bettel={
+		name=LUX_xavier_bettel
 		portraits={
 			civilian={
-				large=GFX_portrait_Gustave_Lebeau
+				large=GFX_portrait_LUX_xavier_bettel_large
+                                small=GFX_portrait_LUX_xavier_bettel_small
 			}
 		}
 		country_leader={
-			ideology=stalinism
-			traits={ reluctant_interventionist }
-			expire="1951.1.1.12"
+			ideology=liberalism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	LUX_frédéric_nagelmackers={
-		name="Frédéric Nagelmackers"
-		portraits={
-			civilian={
-				large=GFX_portrait_Frederic_Nagelmackers
-			}
-		}
-		country_leader={
-			ideology=fascism_ideology
-			traits={ editor }
-			expire="1954.1.1.12"
-			id=-1
-		}
-	}
-	LUX_jean_pirson={
-		name="Jean Pirson"
-		portraits={
-			civilian={
-				large=GFX_portrait_Jean_Pirson
-			}
-		}
-		country_leader={
-			ideology=oligarchism
-			traits={ quartermaster_general }
-			expire="1942.1.1.12"
-			id=-1
-		}
-	}
+
 	LUX_pierre_dupong={
 		advisor={
 			slot = political_advisor
@@ -65,19 +40,7 @@ characters={
 					silent_workhorse 
 				}
 		}
-		name="Jean-Claude Juncker"
-		portraits={
-			civilian={
-				large= GFX_portrait_lux_jean-claude_juncker_large
-                                small= GFX_portrait_lux_jean-claude_juncker_small
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			expire="2030.1.1.1"
-			id=-1
-		}
-	}
+
 	LUX_damien_roeser={
 		advisor={
 			

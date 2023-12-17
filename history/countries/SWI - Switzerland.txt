@@ -87,6 +87,25 @@ add_ideas = {
 
 set_stability = 0.85
 
+recruit_character = SWI_adolf_ogi
+recruit_character = SWI_moritz_leuenberger
+recruit_character = SWI_kaspar_villiger
+recruit_character = SWI_pascal_couchenpin
+recruit_character = SWI_joseph_deiss
+recruit_character = SWI_samuel_schmid
+recruit_character = SWI_micheline_calmy-rey
+recruit_character = SWI_hans-rudolf_merz
+recruit_character = SWI_doris_leuthard
+recruit_character = SWI_evelin_widmer-schlumpf
+recruit_character = SWI_ueli_maurer
+recruit_character = SWI_didier_burkhalter
+recruit_character = SWI_simonetta_sommaruga
+recruit_character = SWI_johann_schneider-ammann
+recruit_character = SWI_alain_berset
+recruit_character = SWI_guy_parmelin
+recruit_character = SWI_ignazio_cassis
+
+
 create_country_leader = {
 	name = "Adolf Ogi"
 	desc = SWI_adolf_ogi_desc

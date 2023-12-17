@@ -51,14 +51,24 @@ set_popularities = {
 	neutrality = 5
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = MOL_petru_lucinschi
+recruit_character = MOL_vladimir_voronin
+recruit_character = MOL_nicolae_timofti
+recruit_character = MOL_igor_dodon
+recruit_character = MOL_maia_sandu
 
+create_country_leader = {
+	name = "Petru Lucinschi"
+	desc = MOL_petru_lucinschi_desc
+	picture = "gfx/leaders/MOL/portrait_mol_petru_lucinschi.dds"
+	expire = "2030.1.1"
+	ideology = socialism 
+}
+
+create_country_leader = {
+	name = "Vladimir Voronin"
+	desc = MOL_vladimir_voronin_desc
+	picture = "gfx/leaders/MOL/portrait_mol_vladimir_voronin.dds"
+	expire = "2030.1.1"
+	ideology = Marxist-Leninist
+}

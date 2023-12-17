@@ -1,6 +1,6 @@
 characters={
 	USA_bill_clinton={
-		name=USA_charaters_bill_clinton
+		name=USA_bill_clinton
 		portraits={
 			civilian={
 				large=GFX_portrait_USA_bill_clinton_large

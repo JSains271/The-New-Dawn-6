@@ -13,14 +13,31 @@ characters = {
                                                                                                                   
 
 	SOV_vladimir_putin = {
-		name = SOV_character_vladimir_putin
+		name = SOV_vladimir_putin
 		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_vladimir_putin
+				large=GFX_portrait_SOV_vladimir_putin_large
+                                small=GFX_portrait_SOV_vladimir_putin_small
 			}
 		}
 		country_leader = {
 			ideology = putinism
+			traits = {  }
+			expire = "2030.1.1"
+			id = -1
+		}
+	}
+
+	SOV_dmitry_medvedev = {
+		name = SOV_dmitry_medvedev
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SOV_dmitry_medvedev_large
+                                small=GFX_portrait_SOV_dmitry_medvedev_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
 			traits = {  }
 			expire = "2030.1.1"
 			id = -1

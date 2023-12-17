@@ -3,8 +3,8 @@ characters={
 		name=BEL_guy_verhofstadt
 		portraits={
 			civilian={
-				large=GFX_portrait_bel_guy_verhofstadt_large
-                                small=GFX_portrait_bel_guy_verhofstadt_small
+				large=GFX_portrait_BEL_guy_verhofstadt_large
+                                small=GFX_portrait_BEL_guy_verhofstadt_small
 			}
 		}
 		country_leader={
@@ -13,19 +13,135 @@ characters={
 			id=-1
 		}
 	}
-	BEL_joseph_jacquemotte={
-		name=BEL_joseph_jacquemotte
+
+characters={
+	BEL_yves_leterme={
+		name=BEL_yves_leterme
 		portraits={
 			civilian={
-				large=GFX_portrait_BEL_joseph_jacquemotte
+				large=GFX_portrait_BEL_yves_leterme_large
+                                small=GFX_portrait_BEL_yves_leterme_small
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
-			expire="1965.1.1.1"
+			ideology=conservatism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+characters={
+	BEL_herman_van_rompuy={
+		name=BEL_herman_van_rompuy
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_herman_van_rompuy_large
+                                small=GFX_portrait_BEL_herman_van_rompuy_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	BEL_elio_di_rupo={
+		name=BEL_elio_di_rupo
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_elio_di_rupo_large
+                                small=GFX_portrait_BEL_elio_di_rupo_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	BEL_elio_di_rupo={
+		name=BEL_elio_di_rupo
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_elio_di_rupo_large
+                                small=GFX_portrait_BEL_elio_di_rupo_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	BEL_charles_michel={
+		name=BEL_charles_michel
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_charles_michel_large
+                                small=GFX_portrait_BEL_charles_michel_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	BEL_sophie_wilmes={
+		name=BEL_sophie_wilmes
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_sophie_wilmes_large
+                                small=GFX_portrait_BEL_sophie_wilmes_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	BEL_sophie_wilmes={
+		name=BEL_sophie_wilmes
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_sophie_wilmes_large
+                                small=GFX_portrait_BEL_sophie_wilmes_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	BEL_alexander_de_croo={
+		name=BEL_alexander_de_croo
+		portraits={
+			civilian={
+				large=GFX_portrait_BEL_alexander_de_croo_large
+                                small=GFX_portrait_BEL_alexander_de_croo_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
 	BEL_leon_degrelle={
 		name=BEL_leon_degrelle
 		portraits={

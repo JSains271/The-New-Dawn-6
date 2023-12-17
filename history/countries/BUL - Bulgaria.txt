@@ -172,50 +172,18 @@ set_politics = {
 		long_name = BUL_democratic_party_bftb_long
 	}
 
-	#DLC LEADERS
-	create_country_leader = { #DLC
-		name = "Boris III"
-		desc = "POLITICS_BORIS_III_DESC"
-		picture = "Portrait_Bulgaria_Boris_III.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			tsar_unifier
-		}
-	}
+recruit_character = BUL_petar_stoyanov
+recruit_character = BUL_georgi_parvanov
+recruit_character = BUL_rosen_pleveliev
+recruit_character = BUL_rumen_radev
 
-	create_country_leader = { #DLC
-		name = "Georgi Dimitrov"
-		desc = "POLITICS_GEORGI_DIMITROV_DESC"
-		picture = GFX_portrait_bul_georgi_dimitrov
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			the_hero_of_the_leipzig_trials
-		}
-	}
-
-	create_country_leader = { #DLC
-		name = "Nikola Mushanov" 
-		desc = "POLITICS_NIKOLA_MUSHANOV_DESC"
-		picture = GFX_portrait_bul_nikola_mushanov
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			appeaser
-		}
-	}
-
-	create_country_leader = { #DLC
-		name = "Hristo Lukov"
-		desc = "POLITICS_HRISTO_LUKOV_DESC"
-		picture = "GFX_Portrait_bulgaria_hristo_lukov"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			hardened_officer
-		}
-	}
+create_country_leader = {
+	name = "Petar Stoyanov"
+	desc = BUL_petar_stoyanov_desc
+	picture = "gfx/leaders/BUL/portrait_bul_petar_stoyanov.dds"
+	expire = "2030.1.1"
+	ideology = conservatism 
+}
 
 	create_navy_leader = { #DLC
 		name = "Atanas Shalapatov"

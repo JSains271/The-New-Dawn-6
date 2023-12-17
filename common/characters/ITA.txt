@@ -9,132 +9,61 @@ characters = {
   ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
 
 
-	ITA_benito_mussolini = {
-		name = ITA_benito_mussolini
+	ITA_carlo_azegilo_ciampi = {
+		name = ITA_carlo_azegilo_ciampi
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ITA_benito_mussolini
-			}
-		}
-
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { il_duce }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
-		corps_commander = {
-			traits={}
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-			visible = {
-				has_completed_focus = ITA_capo_supremo
-			}
-		}
-	}
-
-	ITA_grand_council = {
-		name = ITA_grand_council
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ITA_grand_council
-			}
-		}
-
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { the_grand_council }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-	}
-
-	ITA_comitato_di_liberazione_nazionale = {
-		name = ITA_comitato_di_liberazione_nazionale
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ITA_cln
-			}
-		}
-
-		#COUNTRY LEADER ROLE IS GIVEN VIA EVENT (Communist or Democratic)
-	}
-
-	ITA_papa_pio_xi = {
-		name = ITA_papa_pio_xi
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ITA_papa_pio_xi
-			}
-		}
-
-		#COUNTRY LEADER ROLE IS GIVEN LATER
-	}
-
-	ITA_papa_pio_xii = {
-		name = ITA_papa_pio_xii
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ITA_papa_pio_xii
-			}
-		}
-
-		#COUNTRY LEADER ROLE IS GIVEN LATER
-	}
-
-	ITA_antonio_gramsci = {
-		name = ITA_antonio_gramsci
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ITA_antonio_gramsci
-			}
-		}
-
-		#COUNTRY LEADER ROLE IS GIVEN LATER
-	}
-
-	#Balbo and Grandi can start with no country leader trait, then get it via focus/event
-
-	#Ivanoe Bonomi and Alcide de Gasperi (Democratic leaders) further down to keep order
-
-	ITA_carloz_azeglio_ciamp = {
-		name = ITA_carloz_azeglio_ciampi
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ita_carloz_azeglio_ciampi_large
-                                small = GFX_portrait_ita_carloz_azeglio_ciampi_small
+				large=GFX_portrait_ITA_carlo_azegilo_ciampi_large
+                                small=GFX_portrait_ITA_carlo_azegilo_ciampi_small
 			}
 		}
 
 		country_leader = {
 			ideology = indepedent
-			traits = { resistance_leader }
+			traits = { }
 			expire = "2016.9.16.1"
 			id = -1
 		}
+
 	}
 
-	ITA_vittorio_emanuele_iii = {
-		name = ITA_vittorio_emanuele_iii
+	ITA_giorgio_napolitano = {
+		name = ITA_giorgio_napolitano
 		portraits = {
 			civilian = {
-				large = GFX_portrait_ITA_vittorio_emanuele_III
-				small = GFX_portrait_ITA_vittorio_emanuele_III_small #just in case
+				large=GFX_portrait_ITA_giorgio_napolitano_large
+                                small=GFX_portrait_ITA_giorgio_napolitano_small
 			}
 		}
 
 		country_leader = {
-			ideology = despotism
-			traits = { the_soldier_king }
-			expire = "1965.1.1.1"
+			ideology = socialism
+			traits = { }
+			expire = "2023.9.22.1"
 			id = -1
 		}
+
 	}
+
+	ITA_sergio_mattarella = {
+		name = ITA_sergio_mattarella
+		portraits = {
+			civilian = {
+				large=GFX_portrait_ITA_sergio_mattarella_large
+                                small=GFX_portrait_ITA_sergio_mattarella_small
+			}
+		}
+
+		country_leader = {
+			ideology = centrist 
+			traits = { }
+			expire = "2030.1.1.1"
+			id = -1
+		}
+
+	}
+
+
 
 	# Palmiro Togliatti and Sandro Pertini (communist leaders) are further down to keep order.
 

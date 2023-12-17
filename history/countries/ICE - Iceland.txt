@@ -25,6 +25,7 @@ IF = {
 	add_ideas = {
 		disarmed_nation
 		civilian_economy
+                disarmed_nation
 	}
 }
 set_cosmetic_tag = ICE_personal_union
@@ -87,35 +88,10 @@ IF = {
 	}
 }
 # Characters
-IF = {
-	limit = {
-		has_dlc = "Arms Against Tyranny"
-	}
-	recruit_character = ICE_hermann_jonasson
-	recruit_character = ICE_gisli_sigurbjornsson
-	recruit_character = ICE_brynjolfur_bjarnason
-	recruit_character = ICE_sveinn_bjornsson
-	recruit_character = ICE_olafur_thors
-	recruit_character = ICE_eysteinn_jonsson
-	recruit_character = ICE_haraldur_gudhmundsson
-	recruit_character = ICE_skuli_gudhmundsson
-	recruit_character = ICE_stefan_johann_stefansson
-	recruit_character = ICE_jakob_moller
-	recruit_character = ICE_magnus_jonsson
-	recruit_character = ICE_einar_arnorsson
-	recruit_character = ICE_bjorn_olafsson
-	recruit_character = ICE_vilhjalmur_thor
-	recruit_character = ICE_johann_saemundsson
-	recruit_character = ICE_bjorn_thordharson
-	recruit_character = ICE_olafur_petursson
-	recruit_character = ICE_olaf_j_thorlacius
-	recruit_character = ICE_einar_olgeirsson
-	recruit_character = ICE_isleifur_hognason
-	recruit_character = ICE_agnar_eldberg_kofoed-hansen
-	recruit_character = ICE_bjorn_sveinsson_bjornsson
-	recruit_character = ICE_king_knud	
-	recruit_character = ICE_werner_gerlach
-}
+
+recruit_character = ICE_olafur_ragnar_grimsson
+recruit_character = ICE_guoni_thorlacius_johannesson
+
 1939.1.1 = {
 	IF = {
 		limit = {
@@ -239,10 +215,6 @@ set_popularities = {
 	}
 }
 
-IF = {
-	limit = {
-		NOT = { has_dlc = "Arms Against Tyranny" }
-	}
 create_country_leader = {
 	name = "Olafur Ragnar Grimsson"
 	desc = ICE_olafur_ragnar_grimsson_desc

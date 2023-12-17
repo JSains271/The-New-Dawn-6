@@ -12,9 +12,9 @@ set_technology = {
 
 set_convoys = 10
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 
 	
 	oob = "IRE_1939"
@@ -71,12 +71,16 @@ set_popularities = {
 		elections_allowed = yes
 	}
 }
+
+recruit_character = IRE_mary_mcaleese
+recruit_character = IRE_michael_d_higgins
+
 create_country_leader = {
 	name = "Mary McAleese"
-	desc = IRE_Mary_McAleese_desc
+	desc = IRE_mary_mcaleese_desc
 	picture = gfx/leaders/IRE/portrait_ire_mary_mcaleese.dds
-	expire = "1965.1.1"
-	ideology = conservatism
+	expire = "2030.1.1"
+	ideology = conservatism 
 	traits = {
 		#
 	}

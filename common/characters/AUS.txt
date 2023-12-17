@@ -1,23 +1,11 @@
 characters={
-	AUS_kurt_schuschnigg={
-		name=AUS_kurt_schuschnigg
-		portraits={
-			civilian={
-				large=GFX_portrait_AUS_kurt_schuschnigg
-			}
-		}
-		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
+
 	AUS_thomas_klestil={
 		name=AUS_thomas_klestil
 		portraits={
 			civilian={
-				large=GFX_portrait_ENG_thomas_klestil_large
-                                small=GFX_portrait_ENG_thomas_klestil_small
+				large=GFX_portrait_AUSthomas_klestil_large
+                                small=GFX_portrait_AUS_thomas_klestil_small
 			}
 		}
 		country_leader={
@@ -26,43 +14,39 @@ characters={
 			id=-1
 		}
 	}
-	AUS_arthur_seyss-inquart={
-		name=AUS_arthur_seyss-inquart
+
+	AUS_heinz_fischer={
+		name=AUS_heinz_fischer
 		portraits={
 			civilian={
-				large=GFX_portrait_AUS_arthur_seyss-inquart
-				small=GFX_portrait_AUS_arthur_seyss-inquart_small
+				large=GFX_portrait_AUS_heinz_fischer_large
+                                small=GFX_portrait_AUS_heinz_fischer_small
 			}
 		}
 		country_leader={
-			ideology=nazism
-			expire="1965.1.1.1"
+			ideology=socialism 
+			expire="2030.1.1.1"
 			id=-1
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = AUS_arthur_seyss-inquart
-			allowed  = {
-					original_tag  = AUS
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
 	}
-	AUS_alfred_klahr={
-		name=AUS_alfred_klahr
+
+
+	AUS_alexander_van_der_bellen={
+		name=AUS_alexander_van_der_bellen
 		portraits={
 			civilian={
-				large=GFX_portrait_AUS_alfred_klahr
+				large=GFX_portrait_AUS_alexander_van_der_bellen_large
+                                small=GFX_portrait_AUS_alexander_van_der_bellen_small
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology= indepedent 
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+
 	AUS_karl_eglseer={
 		name=AUS_karl_eglseer
 		portraits={

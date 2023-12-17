@@ -1,6 +1,6 @@
 characters = {
 	CRO_vlatko_pavletic = {
-		name = "Vlatko Pavletic" 
+		name = CRO_vlatko_pavletic 
 		portraits = {
 			civilian = {
 				large = GFX_portrait_CRO_vlatko_pavletic_large
@@ -10,6 +10,81 @@ characters = {
 		country_leader = {
 			ideology = conservatism
 			expire = "2007.9.19.1"
+			id = -1
+		}
+	}
+
+	CRO_zlatko_tomcic = {
+		name = CRO_zlatko_tomcic 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_zlatko_tomcic_large
+				small = GFX_portrait_CRO_zlatko_tomcic_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	CRO_stjepan_mesic = {
+		name = CRO_stjepan_mesic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_stjepan_mesic_large
+				small = GFX_portrait_CRO_stjepan_mesic_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	CRO_ivo_josipovic = {
+		name = CRO_ivo_josipovic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_ivo_josipovic_large
+				small = GFX_portrait_CRO_ivo_josipovic_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	CRO_kolinda_grabar-kitarovic = {
+		name = CRO_kolinda_grabar-kitarovic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_kolinda_grabar-kitarovic_large
+				small = GFX_portrait_CRO_kolinda_grabar-kitarovic_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	CRO_zoran_milanovic = {
+		name = CRO_zoran_milanovic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CRO_zoran_milanovic_large
+				small = GFX_portrait_CRO_zoran_milanovic_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
 			id = -1
 		}
 	}

@@ -13,45 +13,72 @@ characters={
 			id=-1
 		}
 	}
-	SWE_sven_olov_lindholm={
-		name=SWE_sven_olov_lindholm
+
+characters={
+	SWE_fredrik_reinfeldt={
+		name=SWE_fredrik_reinfeldt
 		portraits={
 			civilian={
-				large=GFX_portrait_SWE_sven_olov_lindholm
+				large=GFX_portrait_SWE_fredrik_reinfeldt_large
+				small=GFX_portrait_SWE_fredrik_reinfeldt_small
 			}
 		}
 		country_leader={
-			ideology=nazism
-			expire="1965.1.1.1"
+			ideology=liberalism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	SWE_sven_linderot={
-		name=SWE_sven_linderot
+
+characters={
+	SWE_stefan_lofven={
+		name=SWE_stefan_lofven
 		portraits={
 			civilian={
-				large=GFX_portrait_SWE_sven_linderot
+				large=GFX_portrait_SWE_stefan_lofven_large
+				small=GFX_portrait_SWE_stefan_lofven_small
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology=socialism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	SWE_axel_pehrssonbramstorp={
-		name=SWE_axel_pehrssonbramstorp
+
+
+characters={
+	SWE_magdalena_andersson={
+		name=SWE_magdalena_andersson
 		portraits={
 			civilian={
-				large=GFX_portrait_SWE_axel_pehrssonbramstorp
+				large=GFX_portrait_SWE_magdalena_andersson_large
+				small=GFX_portrait_SWE_magdalena_andersson_small
 			}
 		}
 		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
+			ideology=socialism
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+characters={
+	SWE_ulf_kristersson={
+		name=SWE_ulf_kristersson
+		portraits={
+			civilian={
+				large=GFX_portrait_SWE_ulf_kristersson_large
+				small=GFX_portrait_SWE_ulf_kristersson_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
 	SWE_folke_hogberg={
 		name=SWE_folke_hogberg
 		portraits={

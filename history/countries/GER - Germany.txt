@@ -140,7 +140,6 @@ set_war_support = 0.3
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
-	diplomatic_relation = { country = SOV relation = non_aggression_pact }
 	add_opinion_modifier = { target = SOV modifier = MR_pact }
 	#MR pact end
 
@@ -265,9 +264,10 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
 
-activate_mission = GER_mefo_bills_mission
+recruit_character = GER_gerhard_schroder
+recruit_character = GER_angela_merkel
+recruit_character = GER_olaf_scholz
 
 create_country_leader = {
 	name = "Gerhard Schroder"

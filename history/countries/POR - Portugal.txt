@@ -182,43 +182,9 @@ set_popularities = {
 set_convoys = 100
 set_stability = 0.75
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-
-	create_country_leader = {
-		name = "António de Oliveira Salazar"
-		desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-		picture = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			conservative_nationalist_lar
-		}
-	}
-	
-	create_country_leader = {
-		name = "Bento Gonçalves"
-		desc = "POLITICS_BENTO_GONCALVES_DESC"
-		picture = "gfx/leaders/POR/portrait_por_bento_goncalves.dds"
-		expire = "1965.1.1"
-		ideology = marxism
-		traits = {
-			veteran_communist
-		}
-	}
-	
-	create_country_leader = {
-		name = "Francisco de Barcelos Rolão Preto"
-		desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-		picture = "gfx/leaders/POR/portrait_por_francisco_de_barcelos_oliveira_preto.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			fascist_militia_leader
-		}
-	}
+recruit_character = POR_jorge_sampaio
+recruit_character = POR_anibal_cavaco_silva
+recruit_character = POR_marcelo_rebelo_de_sousa
 	
 	create_country_leader = {
 		name = "Jorge Sampaio"
@@ -275,45 +241,7 @@ if = {
 		maneuvering_skill = 4
 		coordination_skill = 4
 	}
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "La Resistance" }
-	}
-	create_country_leader = {
-		name = "António de Oliveira Salazar"
-		desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-		picture = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			conservative_nationalist
-		}
-	}
-	
-	create_country_leader = {
-		name = "Bento Gonçalves"
-		desc = "POLITICS_BENTO_GONCALVES_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-		expire = "1965.1.1"
-		ideology = marxism
-		traits = {
-			#
-		}
-	}
-	
-	create_country_leader = {
-		name = "Francisco de Barcelos Rolão Preto"
-		desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-	
+}	
 	
 	create_corps_commander = {
 		name = "José Vicente de Freitas"

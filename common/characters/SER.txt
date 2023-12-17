@@ -14,6 +14,134 @@ characters={
 		}
 	}
 
+characters={
+	SER_natasa_micic={
+		name=SER_natasa_micic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_natasa_micic_large
+				small=GFX_portrait_SER_natasa_micic_small
+			}
+		}
+		country_leader={
+			ideology= liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_dragan_marsicanin={
+		name=SER_dragan_marsicanin
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_dragan_marsicanin_large
+				small=GFX_portrait_SER_dragan_marsicanin_small
+			}
+		}
+		country_leader={
+			ideology= conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_vojislav_mihailovic={
+		name=SER_vojislav_mihailovic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_vojislav_mihailovic_large
+				small=GFX_portrait_SER_vojislav_mihailovic_small
+			}
+		}
+		country_leader={
+			ideology= indepedent 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_predarg_markovic={
+		name=SER_predarg_markovic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_predarg_markovic_large
+				small=GFX_portrait_SER_predarg_markovic_small
+			}
+		}
+		country_leader={
+			ideology= centrist 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_boris_tadic={
+		name=SER_boris_tadic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_boris_tadic_large
+				small=GFX_portrait_SER_boris_tadic_small
+			}
+		}
+		country_leader={
+			ideology= socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_slavica_dukic_dejanovic={
+		name=SER_slavica_dukic_dejanovic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_slavica_dukic_dejanovic_large
+				small=GFX_portrait_SER_slavica_dukic_dejanovic_small
+			}
+		}
+		country_leader={
+			ideology= socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_tomislav_nikolic={
+		name=SER_tomislav_nikolic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_tomislav_nikolic_large
+				small=GFX_portrait_SER_tomislav_nikolic_small
+			}
+		}
+		country_leader={
+			ideology= indepedent 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+characters={
+	SER_aleksandar_vucic={
+		name=SER_aleksandar_vucic
+		portraits={
+			civilian={
+				large=GFX_portrait_SER_aleksandar_vucic_large
+				small=GFX_portrait_SER_aleksandar_vucic_small
+			}
+		}
+		country_leader={
+			ideology= liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		portraits={
 			army={

@@ -74,60 +74,43 @@ set_convoys = 10
 	}
 }
 
-set_politics = {
-	ruling_party = democratic 
-	last_election = "1931.10.3"
-	election_frequency = 108
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 83
-	fascism = 7
-	communism = 7
-	neutrality = 3
+2000.1.1 = {
+
+	set_politics = {
+		ruling_party = democratic 
+		last_election = "1931.10.3"
+		election_frequency = 108
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 83
+		fascism = 7
+		communism = 7
+		neutrality = 3
+	}
+
+	recruit_character = LAT_vaira_vike_freiberga
+	recruit_character = LAT_valdis_zatlers
+	recruit_character = LAT_andris_berzins
+	recruit_character = LAT_raimonds_vejonis
+	recruit_character = LAT_egils_levits
+	recruit_character = LAT_edgars_rinkevics
+
+	create_country_leader = {
+		name = "Vaira Vike-Freiberga"
+		desc = LAT_vaira_vike_freiberga_desc
+		picture = "gfx/leaders/LAT/portrait_lat_vaira_vike_freiberga.dds"
+		expire = "2030.1.1"
+		ideology = indepedent 
+		traits = {
+			#
+		}
+	}
+
 }
 
-create_country_leader = {
-	name = "Karlis Ulmanis"
-	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "GFX_Portrait_latvia_karlis_ulmanis"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Gustavs Celmiņš"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Fricis Menders"
-	desc = ""
-	picture = "GFX_portrait_lat_fricis_menders"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Vilis Lacis"
-	desc = ""
-	picture = "GFX_portrait_lat_vilis_lacis"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
+
 
 create_corps_commander = {
 	name = "Berkis Krisjanis"

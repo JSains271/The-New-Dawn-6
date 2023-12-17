@@ -88,6 +88,12 @@ set_popularities = {
                limited_conscription
                }
 
+recruit_character = CRO_vlatko_pavletic
+recruit_character = CRO_zlatko_tomcic
+recruit_character = CRO_stjepan_mesic
+recruit_character = CRO_ivo_josipovic
+recruit_character = CRO_kolinda_grabar-kitarovic
+recruit_character = CRO_zoran_milanovic
 
 create_country_leader = {
 	name = "Vlatko Pavletic"

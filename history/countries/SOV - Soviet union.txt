@@ -81,9 +81,9 @@ if = {
 	}
 }
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#adding ministers, already have 2 set
 	add_ideas = {
@@ -258,12 +258,15 @@ add_ideas = {
 
 }
 
+recruit_character = SOV_vladimir_putin
+recruit_character = SOV_dmitry_medvedev
+
 create_country_leader = {
 	name = "Vladimir Putin"
 	desc = SOV_vladimir_putin_desc
 	picture = "gfx/leaders/SOV/portrait_sov_vladimir_putin.dds"
 	expire = "2030.1.1"
-	ideology = socialism
+	ideology = putinism
 	traits = {
 		
 	}
@@ -280,16 +283,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Vladimir Putin"
-	desc = SOV_vladimir_putin_desc
-	picture = "gfx/leaders/SOV/portrait_sov_vladimir_putin.dds"
-	expire = "2030.1.1"
-	ideology = putinism
-	traits = {
-		
-	}
-}
 
 add_namespace = {
 	name = "unit_leader_sov"

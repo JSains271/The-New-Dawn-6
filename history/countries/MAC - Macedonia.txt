@@ -84,10 +84,16 @@ add_ideas = {
                limited_conscription
 }
 
+
+recruit_character = MAC_boris_trajkovski
+recruit_character = MAC_branko_crvenkovski
+recruit_character = MAC_gjorge_ivanov
+recruit_character = MAC_stevo_pendarovski
+
 create_country_leader = {
 	name = "Boris Trajkovski"
-	desc = ENG_boris_trajkovski_desc
+	desc = MAC_boris_trajkovski_desc
 	picture = "gfx/leaders/MAC/portrait_mac_boris_trajkovski.dds"
 	expire = "2030.1.1"
-	ideology = liberalism
+	ideology = conservatism 
 }

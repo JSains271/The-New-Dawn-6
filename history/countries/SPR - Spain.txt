@@ -176,7 +176,6 @@ set_stability = 0.5
 		limit = {
 			has_dlc = "La Resistance"
 		}
-		add_manpower = -250000
 		remove_ideas = {
 			SPR_military_disloyalty
 			SPR_political_violence
@@ -277,6 +276,11 @@ set_stability = 0.5
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
 }
+
+recruit_character = SPR_jose_maria_aznar
+recruit_character = SPR_jose_luis_rodriguez_zapatero
+recruit_character = SPR_mariano_rajoy
+recruit_character = SPR_pedro_sanchez
 
 if = {
 	limit = {

@@ -1,0 +1,17 @@
+characters = {
+	BLR_alexander_lukashenko={
+		name=BLR_alexander_lukashenko
+		portraits={
+			civilian={
+				large=GFX_portrait_BLR_alexander_lukashenko_large
+                                small=GFX_portrait_BLR_alexander_lukashenko_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+}
+	

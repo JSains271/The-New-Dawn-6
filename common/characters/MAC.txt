@@ -1,0 +1,64 @@
+characters = {
+	
+	MAC_boris_trajkovski={
+		name=MAC_boris_trajkovski
+		portraits={
+			civilian={
+				large=GFX_portrait_MAC_boris_trajkovski_large
+                                small=GFX_portrait_MAC_boris_trajkovski_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAC_branko_crvenkovski={
+		name=MAC_branko_crvenkovski
+		portraits={
+			civilian={
+				large=GFX_portrait_MAC_branko_crvenkovski_large
+                                small=GFX_portrait_MAC_branko_crvenkovski_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAC_gjorge_ivanov={
+		name=MAC_gjorge_ivanov
+		portraits={
+			civilian={
+				large=GFX_portrait_MAC_gjorge_ivanov_large
+                                small=GFX_portrait_MAC_gjorge_ivanov_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAC_stevo_pendarovski={
+		name=MAC_stevo_pendarovski
+		portraits={
+			civilian={
+				large=GFX_portrait_MAC_stevo_pendarovski_large
+                                small=GFX_portrait_MAC_stevo_pendarovski_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+}
+	

@@ -24,7 +24,7 @@ set_technology = {
 		volunteer_only
 	}
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	oob = "BEL_1939"
 	set_technology = {
@@ -79,19 +79,13 @@ set_popularities = {
 	neutrality = 3
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
-	}
-}
+recruit_character = BEL_guy_verhofstadt
+recruit_character = BEL_yves_leterme
+recruit_character = BEL_herman_van_rompuy
+recruit_character = BEL_elio_di_rupo
+recruit_character = BEL_charles_michel
+recruit_character = BEL_sophie_wilmes
+recruit_character = BEL_alexander_de_croo
 
 set_convoys = 80
 set_stability = 0.75

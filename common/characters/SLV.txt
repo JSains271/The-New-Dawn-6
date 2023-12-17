@@ -1,6 +1,6 @@
 characters = {
 	SLV_milan_kučan = {
-		name = "Milan Kučan" 
+		name = SLV_milan_kučan
 		portraits = {
 			civilian = {
 				large=GFX_portrait_SLV_milan_kučan_large
@@ -9,6 +9,66 @@ characters = {
 		}
 		country_leader = {
 			ideology = socialism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	SLV_janez_drnovsek = {
+		name = SLV_janez_drnovsek
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SLV_janez_drnovsek_large
+                                small=GFX_portrait_SLV_janez_drnovsek_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	SLV_danilo_turk = {
+		name = SLV_danilo_turk
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SLV_danilo_turk_large
+                                small=GFX_portrait_SLV_danilo_turk_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	SLV_borut_pahor = {
+		name = SLV_borut_pahor
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SLV_borut_pahor_large
+                                small=GFX_portrait_SLV_borut_pahor_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	SLV_natasa_pirc_musar = {
+		name = SLV_natasa_pirc_musar
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SLV_natasa_pirc_musar_large
+                                small=GFX_portrait_SLV_natasa_pirc_musar_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
 			expire = "2030.1.1.1"
 			id = -1
 		}

@@ -21,6 +21,17 @@ set_technology = {
 
 set_research_slots = 3
 
+	add_ideas = {
+		CZE_fortification_focus
+                limited_conscription
+	}
+
+recruit_character = CZE_vaclav_havel
+recruit_character = CZE_vaclav_klaus
+recruit_character = CZE_milos_zeman
+recruit_character = CZE_petr_pavel
+
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.5.19"
@@ -46,27 +57,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Jaroslav Krejčí"
-	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Klement Gottwald"
-	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
-	picture = "Portrait_Czech_Klement_Gottwald.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "Vojtěch Luža"

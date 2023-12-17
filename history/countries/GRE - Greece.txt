@@ -133,7 +133,7 @@ if = {
 
 set_convoys = 10
 
-1939.1.1 = {
+2000.1.1 = {
 
 	add_political_power = 1
 
@@ -178,29 +178,24 @@ set_convoys = 10
 	communism = 4
 	neutrality = 3
         }
+
+recruit_character = GRE_konstantinos_stephanopoulos
+recruit_character = GRE_karolos_papoulias
+recruit_character = GRE_prokopis_pavlopoulos
+recruit_character = GRE_katerina_sakellaropoulou
 		
 		create_country_leader = {
-			name = "Themistoklis Sofoulis"
-			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
-			picture = GFX_portrait_gre_themistoklis_sofoulis
-			expire = "1965.1.1"
-			ideology = liberalism
+			name = "Konstantinos Stephanopoulos"
+			desc = GRE_konstantinos_stephanopoulos
+			picture = "gfx/leaders/GRE/portrait_gre_konstantinos_stephanopoulos.dds"
+			expire = "2016.11.20"
+			ideology = indepedent 
 			traits = {
-				professional_crisis_solver
+
 			}
 		}
 	
-		create_country_leader = {
-			name = "Ioannis Metaxas"
-			desc = "POLITICS_IOANNIS_METAXAS_DESC"
-			picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
-				arkhigos
-			}
-		}
-	
+
 		set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 	
 		set_variable = { var = GRE_debt_to_the_ifc_britain_var value = 5 }

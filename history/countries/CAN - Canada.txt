@@ -66,7 +66,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+2000.1.1 = {
 	add_political_power = 1
 	
 	
@@ -167,12 +167,17 @@ set_popularities = {
         neutrality = 4
 }
 
+recruit_character = CAN_jean_chretien
+recruit_character = CAN_paul_martin
+recruit_character = CAN_stephen_harper
+recruit_character = CAN_justin_trudeau
+
 create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
+	name = "Jean Chretien"
+	desc = CAN_jean_chretien_desc
+	picture = "gfx/leaders/CAN/portrait_can_jean_chretien.dds"
+	expire = "2030.1.1"
+	ideology = liberalism 
 	traits = {
 		#
 	}

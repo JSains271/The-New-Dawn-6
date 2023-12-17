@@ -26,7 +26,14 @@ set_popularities = {
 
 set_convoys = 5
 
-#Victor Emmanuel III of Italy after 39
+
+recruit_character = ALB_rexhep_meidani
+recruit_character = ALB_alfred_moisiu
+recruit_character = ALB_bamir_topi
+recruit_character = ALB_bujar_nishani
+recruit_character = ALB_llir_meta
+recruit_character = ALB_bajram_begaj
+
 create_country_leader = {
 	name = "Rexhep Meidani"
 	desc = "ALB_rexhep_meidani_desc"
@@ -38,16 +45,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Enver Hoxha"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		staunch_stalinist
-	}
-}
 
 create_field_marshal = {
 	name = "Xhemal Aranitasi"

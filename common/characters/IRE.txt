@@ -1,24 +1,25 @@
 characters={
-	IRE_Mary_McAleese={
-		name="Mary McAleese"
+	IRE_mary_mcaleese={
+		name=IRE_mary_mcaleese
 		portraits={
 			civilian={
-				large=GFX_portrait_Mary_McAleese_large
-                                small=GFX_portrait_Mary_McAleese_small
+				large=GFX_portrait_IRE_mary_mcaleese_large
+                                small=GFX_portrait_IRE_mary_mcaleese_small
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=conservatism 
 			expire="2030.1.1.1"
 			id=-1
 		}
 	}
-	IRE_Michael_D_Higgins={
-		name="Michael D. Higgins"
+
+	IRE_michael_d_higgins={
+		name=IRE_michael_d_higgins
 		portraits={
 			civilian={
-				large=GFX_portrait_IRE_Michael_D_Higgins_large
-                                small=GFX_portrait_IRE_Michael_D_Higgins_small
+				large=GFX_portrait_IRE_michael_d_higgins_large
+                                small=GFX_portrait_IRE_michael_d_higgins_small
 			}
 		}
 		country_leader={

@@ -84,13 +84,13 @@ if = {
 }
 
 
-1939.1.1 = {
+2000.1.1 = {
 	add_ideas = {
 		volunteer_only
                 free_trade
 	}
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
 	remove_ideas = HOL_weak_government	
@@ -184,6 +184,18 @@ set_popularities = {
 
 set_convoys = 150
 set_stability = 0.75
+
+recruit_character = HOL_wim_kok
+recruit_character = HOL_jan_peter_balkenende
+recruit_character = HOL_mark_rutte
+
+	create_country_leader = {
+		name = "Wim Kok"
+		desc = HOL_wim_kok_desc
+		picture = gfx/leaders/HOL/portrait_hol_wil_kok.dds
+		expire = "2018.10.20"
+		ideology = liberalism
+	}
 
 #create_country_leader = {
 #	name = "Dirk Jan de Geer"

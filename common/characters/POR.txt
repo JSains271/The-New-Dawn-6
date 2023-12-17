@@ -1,31 +1,49 @@
 characters = {
 
-	POR_antonio_de_oliveira_salazar = {
-		name = POR_antonio_de_oliveira_salazar
+	POR_jorge_sampaio = {
+		name = POR_jorge_sampaio
 		portraits = {
 			civilian = {
-				large = GFX_portrait_POR_antonio_de_oliveira_salazar
+				large = GFX_portrait_POR_antonio_de_oliveira_salazar_large
+				small = GFX_portrait_POR_antonio_de_oliveira_salazar_small
 			}
 		}
 		country_leader = {
-			ideology=despotism
-			traits = { conservative_nationalist_lar }
-			expire = "1965.1.1.1"
+			ideology=socialism
+			traits = {  }
+			expire = "2021.9.10.1"
 			id = -1
 		}
 	}
 
-	POR_bento_goncalves = {
-		name = POR_bento_goncalves
+	POR_anibal_cavaco_silva = {
+		name = POR_anibal_cavaco_silva
 		portraits = {
 			civilian = {
-				large = GFX_portrait_POR_bento_goncalves
+				large = GFX_portrait_POR_anibal_cavaco_silva_large
+				small = GFX_portrait_POR_anibal_cavaco_silva_small
 			}
 		}
 		country_leader = {
-			ideology=marxism
-			traits = { veteran_communist }
-			expire = "1965.1.1.1"
+			ideology=liberalism
+			traits = { }
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	POR_marcelo_rebelo_de_sousa = {
+		name = POR_marcelo_rebelo_de_sousa
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POR_marcelo_rebelo_de_sousa_large
+				small = GFX_portrait_POR_marcelo_rebelo_de_sousa_small
+			}
+		}
+		country_leader = {
+			ideology=liberalism
+			traits = { }
+			expire = "2030.1.1.1"
 			id = -1
 		}
 	}

@@ -28,99 +28,247 @@ characters={
 		}
 	}
 
-	SWI_ernest_beuin={
-		name=SWI_ernest_beuin
+	SWI_moritz_leuenberger={
+		name=SWI_moritz_leuenberger
 		portraits={
 			civilian={
-				large=GFX_portrait_SWI_ernest_beuin
+				large=GFX_portrait_SWI_moritz_leuenberger_large
+				small=GFX_portrait_SWI_moritz_leuenberger_small
 			}
 		}
 		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
+			ideology=socialism 
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
 
-	SWI_max_leo_keller={
-		instance = { #BBA
-			allowed = {has_dlc = "By Blood Alone"}
-			advisor={
-				slot = political_advisor
-				idea_token = SWI_max_leo_keller
-				allowed  = {
-					original_tag  = SWI
-				}
-				visible = {
-					SWI_councilor_visible = yes
-				}
-				available = {
-					SWI_can_be_councilor = yes
-				}
-				traits  = {
-					SWI_fascist 
-				}
-				on_add = {
-					SWI_on_add_councilors = yes
-				}		
-				on_remove = {
-					SWI_on_remove_councilor = yes
-				}
-
-	
-				can_be_fired = no
-
-				ai_will_do = {
-					base = 4000
-					modifier = {
-						factor = 5 
-						SWI_AI_is_fascist = yes 
-					}
-					modifier = {
-						factor = 0.1
-						SWI_is_historical_ai = yes
-					}
-				}
-				
-			}
-			name=SWI_max_leo_keller
-			portraits={
-				civilian={
-					large="GFX_portrait_SWI_max_leo_keller"
-					small="GFX_portrait_SWI_max_leo_keller_small"
-				}
-			}
-		}
-		instance = { #No BBA 
-			allowed = {
-				NOT = { has_dlc = "By Blood Alone" }	
-			}
-			name=SWI_max_leo_keller
-			portraits={
-				civilian={
-					large="GFX_portrait_SWI_max_leo_keller"
-				}
-			}
-			country_leader={
-				ideology=nazism
-				expire="1965.1.1.1"
-				id=-1
-			}
-		}
-	}
-	SWI_fritz_platten={
-		name=SWI_fritz_platten
+	SWI_kaspar_villiger={
+		name=SWI_kaspar_villiger
 		portraits={
 			civilian={
-				large=GFX_portrait_SWI_fritz_platten
+				large=GFX_portrait_SWI_kaspar_villiger_large
+				small=GFX_portrait_SWI_kaspar_villiger_small
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology=liberalism 
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+	SWI_pascal_couchenpin={
+		name=SWI_pascal_couchenpin
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_pascal_couchenpin_large
+				small=GFX_portrait_SWI_pascal_couchenpin_small
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_joseph_deiss={
+		name=SWI_joseph_deiss
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_joseph_deiss_large
+				small=GFX_portrait_SWI_joseph_deiss_small
+			}
+		}
+		country_leader={
+			ideology=centrist 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_samuel_schmid={
+		name=SWI_samuel_schmid
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_samuel_schmid_large
+				small=GFX_portrait_SWI_samuel_schmid_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_micheline_calmy-rey={
+		name=SWI_micheline_calmy-rey
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_micheline_calmy-rey_large
+				small=GFX_portrait_SWI_micheline_calmy-rey_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_hans-rudolf_merz={
+		name=SWI_hans-rudolf_merz
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_hans-rudolf_merz_large
+				small=GFX_portrait_SWI_hans-rudolf_merz_small
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_doris_leuthard={
+		name=SWI_doris_leuthard
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_doris_leuthard_large
+				small=GFX_portrait_SWI_doris_leuthard_small
+			}
+		}
+		country_leader={
+			ideology=centrist 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_evelin_widmer-schlumpf={
+		name=SWI_evelin_widmer-schlumpf
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_evelin_widmer-schlumpf_large
+				small=GFX_portrait_SWI_evelin_widmer-schlumpf_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+
+	SWI_ueli_maurer={
+		name=SWI_ueli_maurer
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_ueli_maurer_large
+				small=GFX_portrait_SWI_ueli_maurer_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_didier_burkhalter={
+		name=SWI_didier_burkhalter
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_didier_burkhalter_large
+				small=GFX_portrait_SWI_didier_burkhalter_small
+			}
+		}
+		country_leader={
+			ideology=liberalism  
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_simonetta_sommaruga={
+		name=SWI_simonetta_sommaruga
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_simonetta_sommaruga_large
+				small=GFX_portrait_SWI_simonetta_sommaruga_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_johann_schneider-ammann={
+		name=SWI_johann_schneider-ammann
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_johann_schneider-ammann_large
+				small=GFX_portrait_SWI_johann_schneider-ammann_small
+			}
+		}
+		country_leader={
+			ideology=liberalism  
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_alain_berset={
+		name=SWI_alain_berset
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_alain_berset_large
+				small=GFX_portrait_SWI_alain_berset_small
+			}
+		}
+		country_leader={
+			ideology=socialism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_guy_parmelin={
+		name=SWI_guy_parmelin
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_guy_parmelin_large
+				small=GFX_portrait_SWI_guy_parmelin_small
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	SWI_ignazio_cassis={
+		name=SWI_ignazio_cassis
+		portraits={
+			civilian={
+				large=GFX_portrait_SWI_ignazio_cassis_large
+				small=GFX_portrait_SWI_ignazio_cassis_small
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
 
 	SWI_henri_guisan={
 		name=SWI_henri_guisan

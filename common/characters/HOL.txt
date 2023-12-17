@@ -1,18 +1,52 @@
 characters={
-	HOL_hendrikus_colijn={
-		name=HOL_hendrikus_colijn
+	HOL_wim_kok={
+		name=HOL_wim_kok
 		portraits={
 			civilian={
-				large="GFX_portrait_holland_hendrikus_colijn"
+				large=GFX_portrait_HOL_wim_kok_large
+                                small=GFX_portrait_HOL_wim_kok_small
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="2018.10.20.1"
+			id=-1
+		}
+	}
+
+	HOL_jan_peter_balkenende={
+		name=HOL_jan_peter_balkenende
+		portraits={
+			civilian={
+				large=GFX_portrait_HOL_jan_peter_balkenende_large
+                                small=GFX_portrait_HOL_jan_peter_balkenende_small
 			}
 		}
 		country_leader={
 			ideology=conservatism
-			traits={ strict_austerity_adherent }
-			expire="1965.1.1.1"
+			traits={ }
+			expire="2018.10.20.1"
 			id=-1
 		}
 	}
+
+	HOL_mark_rutte={
+		name=HOL_mark_rutte
+		portraits={
+			civilian={
+				large=GFX_portrait_HOL_mark_rutte_large
+                                small=GFX_portrait_HOL_mark_rutte_small
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ }
+			expire="2018.10.20.1"
+			id=-1
+		}
+	}
+
 	HOL_anton_mussert={
 		name=HOL_anton_mussert
 		portraits={

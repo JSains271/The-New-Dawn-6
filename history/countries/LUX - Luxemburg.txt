@@ -13,9 +13,9 @@ set_technology = {
 }
 set_war_support = 0.1
 set_stability = 0.8
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 119
+	add_political_power = 1
 	
 	oob = "LUX_1939"
 	set_technology = {
@@ -62,13 +62,10 @@ set_popularities = {
 	neutrality = 3
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1937.6.6"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+2000.1.1 = {
+
+recruit_character = LUX_jean-claude_juncker
+recruit_character = LUX_xavier_bettel
 
 	create_country_leader = {
 		name = "Jean-Claude Juncker"
