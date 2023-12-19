@@ -1,0 +1,32 @@
+characters = {
+	SYR_hafez_al-assad = {
+		name = SYR_hafez_al-assad 
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SYR_hafez_al-assad_large
+                                small=GFX_portrait_SYR_hafez_al-assad_small
+			}
+		}
+		country_leader = {
+			ideology = despotism 
+			expire = "2000.6.10.1"
+			id = -1
+		}
+	}
+
+	SYR_bashar_al-assad = {
+		name = SYR_bashar_al-assad
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SYR_bashar_al-assad_large
+                                small=GFX_portrait_SYR_bashar_al-assad_small
+			}
+		}
+		country_leader = {
+			ideology = despotism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,47 @@
+characters = {
+	LEB_emile_lahoud = {
+		name = LEB_emile_lahoud
+		portraits = {
+			civilian = {
+				large=GFX_portrait_LEB_emile_lahoud_large
+                                small=GFX_portrait_LEB_emile_lahoud_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	LEB_michel_suleiman = {
+		name = LEB_michel_suleiman
+		portraits = {
+			civilian = {
+				large=GFX_portrait_LEB_michel_suleiman_large
+                                small=GFX_portrait_LEB_michel_suleiman_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	LEB_michel_aoun = {
+		name = LEB_michel_aoun
+		portraits = {
+			civilian = {
+				large=GFX_portrait_LEB_michel_aoun_large
+                                small=GFX_portrait_LEB_michel_aoun_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,17 @@
+characters = {
+	JOR_abdullah_ii = {
+		name = JOR_abdullah_ii
+		portraits = {
+			civilian = {
+				large=GFX_portrait_JOR_abdullah_ii_large
+                                small=GFX_portrait_JOR_abdullah_ii_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

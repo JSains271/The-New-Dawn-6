@@ -81,6 +81,15 @@ add_ideas = {
          service_by_requirement
 }
 
+recruit_character = IRQ_saddam_hussein
+recruit_character = IRQ_jay_garner
+recruit_character = IRQ_paul_bremer
+recruit_character = IRQ_ghazi_ajil_al-yawer
+recruit_character = IRQ_jalal_talabani
+recruit_character = IRQ_fuad_masum
+recruit_character = IRQ_barham_salih
+recruit_character = IRQ_abdul_latif_rashid
+
 create_country_leader = {
 	name = "Saddam Hussein"
 	desc = IRQ_saddam_hussein_desc

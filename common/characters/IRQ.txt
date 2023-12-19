@@ -1,6 +1,6 @@
 characters={
 	IRQ_saddam_hussein={
-		name="Saddam Hussein"
+		name=IRQ_saddam_hussein
 		portraits={
 			civilian={
 				large="GFX_portrait_irq_saddam_hussein_large"
@@ -10,6 +10,127 @@ characters={
 		country_leader={
 			ideology=fascism_ideology
 			expire="2006.12.30"
+			id=-1
+		}
+	}
+
+	IRQ_jay_garner={
+		name=IRQ_jay_garner
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_jay_garner_large"
+                                small="GFX_portrait_irq_jay_garner_small"
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	IRQ_paul_bremer={
+		name=IRQ_paul_bremer
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_paul_bremer_large"
+                                small="GFX_portrait_irq_paul_bremer_small"
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	IRQ_paul_bremer={
+		name=IRQ_paul_bremer
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_paul_bremer_large"
+                                small="GFX_portrait_irq_paul_bremer_small"
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	IRQ_ghazi_ajil_al-yawer={
+		name=IRQ_ghazi_ajil_al-yawer
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_ghazi_ajil_al-yawer_large"
+                                small="GFX_portrait_irq_ghazi_ajil_al-yawer_small"
+			}
+		}
+		country_leader={
+			ideology=indepedent 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	IRQ_jalal_talabani={
+		name=IRQ_jalal_talabani
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_jalal_talabani_large"
+                                small="GFX_portrait_irq_jalal_talabani_small"
+			}
+		}
+		country_leader={
+			ideology=centrist 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+
+	IRQ_fuad_masum={
+		name=IRQ_fuad_masum
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_fuad_masum_large"
+                                small="GFX_portrait_irq_fuad_masum_small"
+			}
+		}
+		country_leader={
+			ideology=centrist 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	IRQ_barham_salih={
+		name=IRQ_barham_salih
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_barham_salih_large"
+                                small="GFX_portrait_irq_barham_salih_small"
+			}
+		}
+		country_leader={
+			ideology=centrist 
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	IRQ_abdul_latif_rashid={
+		name=IRQ_abdul_latif_rashid
+		portraits={
+			civilian={
+				large="GFX_portrait_irq_abdul_latif_rashid_large"
+                                small="GFX_portrait_irq_abdul_latif_rashid_small"
+			}
+		}
+		country_leader={
+			ideology=centrist 
+			expire="2030.1.1"
 			id=-1
 		}
 	}

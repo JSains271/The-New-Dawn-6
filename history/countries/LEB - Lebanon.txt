@@ -10,7 +10,7 @@ set_convoys = 5
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -69,11 +69,15 @@ set_popularities = {
 	neutrality = 33
 }
 
+recruit_character = LEB_emile_lahoud
+recruit_character = LEB_michel_suleiman
+recruit_character = LEB_michel_aoun
+
 create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
-	ideology = liberalism
+	name = "Émile Lahoud"
+	desc = LEB_emile_lahoud_desc
+	picture = "gfx/leaders/LEB/portrait_leb_emile_lahoud.dds"
+	ideology = indepedent 
 	traits = {
 		#
 	}

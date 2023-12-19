@@ -65,41 +65,14 @@ add_ideas = {
          limited_conscription
 }
 
-create_country_leader = {
-	name = "Hashim al-Atassi"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_navy_1.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
+recruit_character = SYR_hafez_al-assad
+recruit_character = SYR_bashar_al-assad
 
 create_country_leader = {
-	name = "Antun Saadeh"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ghazi bin Faisal"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khalid Bakdash"
-	desc = ""
-	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds"
-	ideology = leninism
+	name = "Hafez al-Assad"
+	desc = SYR_hafez_al-assad
+	picture = "gfx/leaders/SYR/portrait_syr_hafez_al-assad.dds"
+	ideology = despotism 
 	traits = {
 		#
 	}

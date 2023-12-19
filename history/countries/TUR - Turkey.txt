@@ -202,9 +202,9 @@ if = {
 	}
 }
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 
 	set_politics = {
 	ruling_party = democratic 
@@ -218,37 +218,7 @@ if = {
 	neutrality = 51
         }
 
-	if = {
-		limit = { has_dlc = "Battle for the Bosporus" }
-		complete_national_focus = TUR_the_montreux_convention
-		complete_national_focus = TUR_continue_the_policy_of_etatism
-		complete_national_focus = TUR_hava_okulu
-		complete_national_focus = TUR_ratify_the_six_arrows
-		complete_national_focus = TUR_peace_at_home
-		complete_national_focus = TUR_turkish_state_railways
-		complete_national_focus = TUR_the_second_five_year_plan
-		complete_national_focus = TUR_treaty_of_saadabad
-		complete_national_focus = TUR_the_sanayiciler
-		complete_national_focus = TUR_learning_from_the_great_war
-		complete_national_focus = TUR_the_guardians_of_kemalism
-		complete_national_focus = TUR_assess_our_future
-		complete_national_focus = TUR_the_hatay_issue
-		complete_national_focus = TUR_turk_ulusu
-		complete_national_focus = TUR_cooperate_with_the_debt_council
-		complete_national_focus = TUR_utilize_foreign_capital
-		complete_national_focus = TUR_modernising_the_army
-		complete_national_focus = TUR_expand_the_air_bases
-		remove_ideas = {
-			civilian_economy
-			TUR_kemalist_army_officers_limited_power_loyal
-			TUR_kemalist_army_officers_extended_power_loyal
-			TUR_tpda
-			TUR_disorganised_armed_forces
-			TUR_debt_council
-			TUR_etatism
-			TUR_second_five_year_plan_inonu
-			TUR_ismet_inonu
-		}
+
 		add_ideas = {
 			partial_economic_mobilisation
 			limited_conscription
@@ -276,30 +246,7 @@ if = {
 
 		set_variable = { var = TUR_kemalist_power_variable value = 7 }
 
-		create_country_leader = {
-			name = "İsmet İnönü"
-			desc = "POLITICS_ISMET_INÖNÜ_DESC"
-			picture = "Portrait_Turkey_Ismet_Inonu.dds"
-			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
-				milli_sef
-			}
-		}
 	}
-
-	if = {
-		limit = { NOT = { has_dlc = "Battle for the Bosporus" } }
-		#generic focuses
-		complete_national_focus = army_effort
-		complete_national_focus = equipment_effort
-		complete_national_focus = motorization_effort
-		complete_national_focus = aviation_effort
-		complete_national_focus = naval_effort
-		complete_national_focus = large_navy
-		complete_national_focus = industrial_effort
-		complete_national_focus = construction_effort
-		complete_national_focus = production_effort
 
 		add_ideas = {
 			partial_economic_mobilisation
@@ -307,12 +254,17 @@ if = {
 			export_focus
 		}
 
+recruit_character = TUR_suleyman_demirel
+recruit_character = TUR_ahmet_necdet_sezer
+recruit_character = TUR_abdullah_gul
+recruit_character = TUR_recep_tayyip_erdogan
+
 		create_country_leader = {
-			name = "İsmet İnönü"
-			desc = "POLITICS_ISMET_INÖNÜ_DESC"
-			picture = "Portrait_Turkey_Ismet_Inonu.dds"
-			expire = "1965.1.1"
-			ideology = despotism
+			name = "Süleyman Demirel"
+			desc = TUR_suleyman_demirel_desc
+			picture = "gfx/leaders/TUR/portrait_tur_suleyman_demirel.dds"
+			expire = "2015.6.17"
+			ideology = conservatism 
 			traits = {
 				
 			}
