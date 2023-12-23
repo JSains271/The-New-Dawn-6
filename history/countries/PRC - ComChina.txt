@@ -22,30 +22,8 @@ set_autonomy = {
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	oob = "PRC_1939"
-
-	if = {
-		limit = {
-			has_dlc = "Waking the Tiger"
-		}
-		set_research_slots = 3
-
-		add_ideas = {
-			PRC_revolutionary_military_commission
-			PRC_low_popular_support_3
-			PRC_the_long_march_2
-			PRC_mobile_warfare
-			PRC_focus_on_china
-		}
-		remove_ideas = {
-			PRC_low_popular_support_1
-			PRC_the_long_march_1
-		}
-		else = {
-			#generic focuses
-		}
-	}
 	
 	add_ideas = {
 		#laws
@@ -99,33 +77,26 @@ set_popularities = {
 }
 
 add_ideas = {
-	closed_economy
+	export_focus
 	service_by_requirement
 	partial_economic_mobilisation
 }
 
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_the_long_march_1
-		PRC_low_popular_support_3
-		PRC_power_struggles
-		PRC_red_army_weakened
-	}
-}
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
+
+recruit_character = PRC_jiang_zemin
+recruit_character = PRC_hu_jintao
+recruit_character = PRC_xi_jinping
 
 create_country_leader = {
 	name = "Jiang Zemin"
 	desc = PRC_jiang_zemin_desc
 	picture = "gfx/leaders/PRC/portrait_prc_jiang_zemin.dds"
-	expire = "1965.1.1"
+	expire = "2022.11.30"
 	ideology = marxism
 	traits = {
-		cornered_fox
+		
 	}
 }
 

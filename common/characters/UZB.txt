@@ -1,0 +1,32 @@
+characters = {
+	UZB_islam_karimov = {
+		name = UZB_islam_karimov
+		portraits = {
+			civilian = {
+				large=GFX_portrait_UZB_islam_karimov_large
+                                small=GFX_portrait_UZB_islam_karimov_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2016.9.2.1"
+			id = -1
+		}
+	}
+
+UZB_shavkat_mirziyoyev = {
+		name = UZB_shavkat_mirziyoyev
+		portraits = {
+			civilian = {
+				large=GFX_portrait_UZB_shavkat_mirziyoyev_large
+                                small=GFX_portrait_UZB_shavkat_mirziyoyev_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

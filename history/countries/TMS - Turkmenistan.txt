@@ -51,13 +51,18 @@ add_ideas = {
          limited_conscription
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = TMS_saparmurat_niyazov
+recruit_character = TMS_gurbanguly_berdimuhamedow
+recruit_character = TMS_serdar_berdimuhamedow
+
+
+create_country_leader = {
+	
+	name = "Saparmurat Niyazov"
+	picture = "gfx/leaders/TMS/portrait_tms_saparmurat_niyazov.dds"
+	expire = "2006.12.21"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}

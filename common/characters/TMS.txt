@@ -1,0 +1,47 @@
+characters = {
+	TMS_saparmurat_niyazov = {
+		name = TMS_saparmurat_niyazov
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TMS_saparmurat_niyazov_large
+                                small=GFX_portrait_TMS_saparmurat_niyazov_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2006.12.21.1"
+			id = -1
+		}
+	}
+
+TMS_gurbanguly_berdimuhamedow = {
+		name = TMS_gurbanguly_berdimuhamedow
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TMS_gurbanguly_berdimuhamedow_large
+                                small=GFX_portrait_TMS_gurbanguly_berdimuhamedow_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+TMS_serdar_berdimuhamedow = {
+		name = TMS_serdar_berdimuhamedow
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TMS_serdar_berdimuhamedow_large
+                                small=GFX_portrait_TMS_serdar_berdimuhamedow_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

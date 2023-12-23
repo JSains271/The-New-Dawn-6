@@ -1882,3 +1882,282 @@ spriteType = {
 		name = "small=GFX_portrait_JOR_abdullah_ii_small"
 		texturefile = "gfx/characters/JOR/portrait_jor_abdullah_ii.dds"
 	}
+
+#SAU
+
+spriteType = {
+		name = "large=GFX_portrait_SAU_abdullah_fahd_large"
+		texturefile = "gfx/leaders/SAU/portrait_sau_abdullah_fahd.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_SAU_abdullah_fahd_small"
+		texturefile = "gfx/characters/SAU/portrait_sau_abdullah_fahd.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_SAU_abdullah_large"
+		texturefile = "gfx/leaders/SAU/portrait_sau_abdullah.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_SAU_abdullah_small"
+		texturefile = "gfx/characters/SAU/portrait_sau_abdullah.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_SAU_salman_large"
+		texturefile = "gfx/leaders/SAU/portrait_sau_salman.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_SAU_salman_small"
+		texturefile = "gfx/characters/SAU/portrait_sau_salman.dds"
+	}
+
+#KAZ
+
+spriteType = {
+		name = "large=GFX_portrait_KAZ_nursultan_nazarbayev_large"
+		texturefile = "gfx/leaders/KAZ/portrait_kaz_nursultan_nazarbayev.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KAZ_nursultan_nazarbayev_small"
+		texturefile = "gfx/characters/KAZ/portrait_kaz_nursultan_nazarbayev.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KAZ_kassym-jomart_tokayev_large"
+		texturefile = "gfx/leaders/KAZ/portrait_kaz_kassym-jomart_tokayev.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KAZ_kassym-jomart_tokayev_small"
+		texturefile = "gfx/characters/KAZ/portrait_kaz_kassym-jomart_tokayev.dds"
+	}
+
+#UZB
+
+spriteType = {
+		name = "large=GFX_portrait_UZB_islam_karimov_large"
+		texturefile = "gfx/leaders/UZB/portrait_uzb_islam_karimov.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_UZB_islam_karimov_small"
+		texturefile = "gfx/characters/UZB/portrait_uzb_islam_karimov.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_UZB_shavkat_mirziyoyev_large"
+		texturefile = "gfx/leaders/UZB/portrait_uzb_shavkat_mirziyoyev.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_UZB_shavkat_mirziyoyev_small"
+		texturefile = "gfx/characters/UZB/portrait_uzb_shavkat_mirziyoyev.dds"
+	}
+
+#KYR
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_askar_akayev_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_askar_akayev.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_askar_akayev_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_askar_akayev.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_ishenbai_kadyrbekov_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_ishenbai_kadyrbekov.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_ishenbai_kadyrbekov_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_ishenbai_kadyrbekov.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_kurmanbek_bakiyev_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_kurmanbek_bakiyev.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_kurmanbek_bakiyev_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_kurmanbek_bakiyev.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_roza_otunbayeva_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_roza_otunbayeva.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_roza_otunbayeva_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_roza_otunbayeva.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_almazbek_atambayev_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_almazbek_atambayev.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_almazbek_atambayev_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_almazbek_atambayev.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_sooronbay_jeenbekov_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_sooronbay_jeenbekov.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_sooronbay_jeenbekov_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_sooronbay_jeenbekov.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_sadyr_japarov_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_sadyr_japarov.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_sadyr_japarov_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_sadyr_japarov.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_KYR_talant_mamytov_large"
+		texturefile = "gfx/leaders/KYR/portrait_kyr_talant_mamytov.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_KYR_talant_mamytov_small"
+		texturefile = "gfx/characters/KYR/portrait_kyr_talant_mamytov.dds"
+	}
+
+#TAJ
+
+spriteType = {
+		name = "large=GFX_portrait_TAJ_emomali_rahmon_large"
+		texturefile = "gfx/leaders/TAJ/portrait_taj_emomali_rahmon.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_TAJ_emomali_rahmon_small"
+		texturefile = "gfx/characters/TAJ/portrait_taj_emomali_rahmon.dds"
+	}
+
+#TMS
+
+spriteType = {
+		name = "large=GFX_portrait_TMS_saparmurat_niyazov_large"
+		texturefile = "gfx/leaders/TMS/portrait_tms_saparmurat_niyazov.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_TMS_saparmurat_niyazov_small"
+		texturefile = "gfx/characters/TMS/portrait_tms_saparmurat_niyazov.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_TMS_gurbanguly_berdimuhamedow_large"
+		texturefile = "gfx/leaders/TMS/portrait_tms_gurbanguly_berdimuhamedow.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_TMS_gurbanguly_berdimuhamedow_small"
+		texturefile = "gfx/characters/TMS/portrait_tms_gurbanguly_berdimuhamedow.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_TMS_serdar_berdimuhamedow_large"
+		texturefile = "gfx/leaders/TMS/portrait_tms_serdar_berdimuhamedow.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_TMS_serdar_berdimuhamedow_small"
+		texturefile = "gfx/characters/TMS/portrait_tms_serdar_berdimuhamedow.dds"
+	}
+
+#MON
+
+spriteType = {
+		name = "large=GFX_portrait_MON_natsagiin_bagabandi_large"
+		texturefile = "gfx/leaders/MON/portrait_mon_natsagiin_bagabandi.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_MON_natsagiin_bagabandi_small"
+		texturefile = "gfx/characters/MON/portrait_mon_natsagiin_bagabandi.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_MON_nambaryn_enkhbayar_large"
+		texturefile = "gfx/leaders/MON/portrait_mon_nambaryn_enkhbayar.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_MON_nambaryn_enkhbayar_small"
+		texturefile = "gfx/characters/MON/portrait_mon_nambaryn_enkhbayar.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_MON_tsakhiagiin_elbegdorj_large"
+		texturefile = "gfx/leaders/MON/portrait_mon_tsakhiagiin_elbegdorj.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_MON_tsakhiagiin_elbegdorj_small"
+		texturefile = "gfx/characters/MON/portrait_mon_tsakhiagiin_elbegdorj.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_MON_khaltmaagiin_battulga_large"
+		texturefile = "gfx/leaders/MON/portrait_mon_khaltmaagiin_battulga.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_MON_khaltmaagiin_battulga_small"
+		texturefile = "gfx/characters/MON/portrait_mon_khaltmaagiin_battulga.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_MON_ukhnaagiin_khurelsukh_large"
+		texturefile = "gfx/leaders/MON/portrait_mon_ukhnaagiin_khurelsukh.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_MON_ukhnaagiin_khurelsukh_small"
+		texturefile = "gfx/characters/MON/portrait_mon_ukhnaagiin_khurelsukh.dds"
+	}
+
+#PRC
+
+spriteType = {
+		name = "large=GFX_portrait_PRC_jiang_zemin_large"
+		texturefile = "gfx/leaders/PRC/portrait_prc_jiang_zemin.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PRC_jiang_zemin_small"
+		texturefile = "gfx/characters/PRC/portrait_prc_jiang_zemin.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_PRC_hu_jintao_large"
+		texturefile = "gfx/leaders/PRC/portrait_prc_hu_jintao.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PRC_hu_jintao_small"
+		texturefile = "gfx/characters/PRC/portrait_prc_hu_jintao.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_PRC_xi_jinping_large"
+		texturefile = "gfx/leaders/PRC/portrait_prc_xi_jinping.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PRC_xi_jinping_small"
+		texturefile = "gfx/characters/PRC/portrait_prc_xi_jinping.dds"
+	}
+
+#NRK
+
+spriteType = {
+		name = "large=GFX_portrait_NRK_kim_jong_il_large"
+		texturefile = "gfx/leaders/NRK/portrait_nrk_kim_jong_il.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NRK_kim_jong_il_small"
+		texturefile = "gfx/characters/NRK/portrait_nrk_kim_jong_il.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_NRK_kim_jong_un_large"
+		texturefile = "gfx/leaders/NRK/portrait_nrk_kim_jong_un.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NRK_kim_jong_un_small"
+		texturefile = "gfx/characters/NRK/portrait_nrk_kim_jong_un.dds"
+	}

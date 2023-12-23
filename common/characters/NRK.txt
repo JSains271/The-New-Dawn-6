@@ -1,0 +1,33 @@
+characters = {
+	NRK_kim_jong_il = {
+		name = NRK_kim_jong_il
+		portraits = {
+			civilian = {
+				large=GFX_portrait_NRK_kim_jong_il_large
+                                small=GFX_portrait_NRK_kim_jong_il_small
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2011.12.17.1"
+			id = -1
+		}
+	}
+
+	NRK_kim_jong_un = {
+		name = NRK_kim_jong_un
+		portraits = {
+			civilian = {
+				large=GFX_portrait_NRK_kim_jong_un_large
+                                small=GFX_portrait_NRK_kim_jong_un_small
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+}
+	

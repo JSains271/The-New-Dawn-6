@@ -77,28 +77,20 @@ add_ideas = {
          limited_conscription
 }
 
+recruit_character = KAZ_nursultan_nazarbayev
+recruit_character = KAZ_kassym-jomart_tokayev
+
+
 create_country_leader = {
-	name = "Nikolay Aleksandrovich Skvortsov"
-	desc = ""
-	picture = "Portrait_KAZ_Nikolay_Skvortsov.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	name = "Nursultan Nazarbayev"
+	desc = KAZ_nursultan_nazarbayev_desc
+	picture = "gfx/leaders/KAZ/portrait_kaz_nursultan_nazarbayev.dds"
+	expire = "2030.1.1"
+	ideology = despotism  
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Ilyas Zhansugurov"
-	desc = ""
-	picture = "Portrait_KAZ_Ilyas_Zhansugurov.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
 
 
 

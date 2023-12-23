@@ -13,19 +13,9 @@ add_ideas = {
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = construction_effort_2
-	complete_national_focus = production_effort_2
-	complete_national_focus = infrastructure_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
 	
 	oob = "MON_1939"
 	set_technology = {
@@ -69,28 +59,25 @@ set_popularities = {
 	neutrality = 10
 }
 
-create_country_leader = {
-	name = "Anandyn Amar"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = GFX_portrait_mon_anandyn_amar
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
+
+
+add_ideas = {
+	limited_conscription
 }
 
-1939.1.1 = {
-	add_ideas = {
-		limited_conscription
-	}
+recruit_character = MON_natsagiin_bagabandi
+recruit_character = MON_nambaryn_enkhbayar
+recruit_character = MON_tsakhiagiin_elbegdorj
+recruit_character = MON_khaltmaagiin_battulga
+recruit_character = MON_ukhnaagiin_khurelsukh
+
 
 	create_country_leader = {
-		name = "Khorloogiin Choibalsan"
-		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
+		name = "Natsagiin Bagabandi"
+		desc = MON_natsagiin_bagabandi_desc
+		picture = "gfx/leaders/MON/portrait_mon_natsagiin_bagabandi.dds"
+		expire = "2030.1.1"
+		ideology = socialism 
 		traits = {
 			#
 		}

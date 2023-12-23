@@ -51,13 +51,22 @@ add_ideas = {
          limited_conscription
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = KYR_askar_akayev
+recruit_character = KYR_ishenbai_kadyrbekov
+recruit_character = KYR_kurmanbek_bakiyev
+recruit_character = KYR_roza_otunbayeva
+recruit_character = KYR_almazbek_atambayev
+recruit_character = KYR_sooronbay_jeenbekov
+recruit_character = KYR_sadyr_japarov
+recruit_character = KYR_talant_mamytov
+
+create_country_leader = {
+	
+	name = "Askar Akayev"
+	picture = "gfx/leaders/KYR/portrait_kyr_askar_akayev.dds"
+	expire = "2030.1.1"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}

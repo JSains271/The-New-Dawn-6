@@ -1,6 +1,6 @@
 characters={
 	PRC_jiang_zemin={
-		name=PRC_character_jiang_zemin
+		name=PRC_jiang_zemin
 		portraits={
 			civilian={
 				large=GFX_portrait_prc_jiang_zemin_large
@@ -11,6 +11,38 @@ characters={
 			ideology= marxism
 			traits={ }
 			expire="2022.11.30"
+			id=-1
+		}
+	}
+
+	PRC_hu_jintao={
+		name=PRC_hu_jintao
+		portraits={
+			civilian={
+				large=GFX_portrait_prc_hu_jintao_large
+				small=GFX_portrait_prc_hu_jintao_small
+			}
+		}
+		country_leader={
+			ideology= marxism
+			traits={ }
+			expire="2030.1.1"
+			id=-1
+		}
+	}
+
+	PRC_xi_jinping={
+		name=PRC_xi_jinping
+		portraits={
+			civilian={
+				large=GFX_portrait_prc_xi_jinping_large
+				small=GFX_portrait_prc_xi_jinping_small
+			}
+		}
+		country_leader={
+			ideology= marxism
+			traits={ }
+			expire="2030.1.1"
 			id=-1
 		}
 	}

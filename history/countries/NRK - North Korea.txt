@@ -27,45 +27,16 @@ add_ideas = {
          service_by_requirement
 }
 
-create_country_leader = {
-	name = "Syngman Rhee"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+recruit_character = NRK_kim_jong_il
+recruit_character = NRK_kim_jong_un
+
 
 create_country_leader = {
-	name = "Yi Kang"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Kim Il-sung"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
+	name = "Kim Jong Il"
+	desc = NRK_kim_jong_il_desc
+	picture = "gfx/leaders/NRK/portrait_nrk_kim_jong_il.dds"
+	expire = "2011.12.17"
 	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Yi Un"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
 	traits = {
 		#
 	}
