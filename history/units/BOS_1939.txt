@@ -1,0 +1,48 @@
+﻿start_equipment_factor = 0
+division_template = { battalion size (in 1943)
+
+name = "Infantry Division"
+	division_names_group = BOS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division= {	# "1st Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11899
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	# "1st Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11899
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+}
+
+### No MNT air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "BOS"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}
