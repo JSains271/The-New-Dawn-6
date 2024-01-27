@@ -1,5 +1,4 @@
 characters = {
-	characters={
 	UKR_leonid_kuchma={
 		name=UKR_leonid_kuchma
 		portraits={
@@ -10,21 +9,6 @@ characters = {
 		}
 		country_leader={
 			ideology=indepedent 
-			expire="2030.1.1.1"
-			id=-1
-		}
-	}
-
-UKR_viktor_yushchenko={
-		name=UKR_viktor_yushchenko
-		portraits={
-			civilian={
-				large=GFX_portrait_UKR_viktor_yushchenko_large
-                                small=GFX_portrait_UKR_viktor_yushchenko_small
-			}
-		}
-		country_leader={
-			ideology=conservatism 
 			expire="2030.1.1.1"
 			id=-1
 		}

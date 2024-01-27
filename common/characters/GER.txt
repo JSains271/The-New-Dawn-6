@@ -15,7 +15,6 @@ characters={
 		}
 	}
 
-characters={
 	GER_angela_merkel={
 		name=GER_angela_merkel
 		portraits={
@@ -32,7 +31,6 @@ characters={
 		}
 	}
 
-characters={
 	GER_olaf_scholz={
 		name=GER_olaf_scholz
 		portraits={

@@ -14,7 +14,6 @@ characters={
 		}
 	}
 
-characters={
 	DEN_lars_lokke_rasmussen={
 		name=DEN_lars_lokke_rasmussen
 		portraits={
@@ -30,7 +29,6 @@ characters={
 		}
 	}
 
-characters={
 	DEN_helle_thorming-schmidt={
 		name=DEN_helle_thorming-schmidt
 		portraits={
@@ -46,7 +44,6 @@ characters={
 		}
 	}
 
-characters={
 	DEN_mette_fredriksen={
 		name=DEN_mette_fredriksen
 		portraits={

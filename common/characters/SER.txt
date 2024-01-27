@@ -14,7 +14,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_natasa_micic={
 		name=SER_natasa_micic
 		portraits={
@@ -30,7 +29,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_dragan_marsicanin={
 		name=SER_dragan_marsicanin
 		portraits={
@@ -46,7 +44,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_vojislav_mihailovic={
 		name=SER_vojislav_mihailovic
 		portraits={
@@ -62,7 +59,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_predarg_markovic={
 		name=SER_predarg_markovic
 		portraits={
@@ -78,7 +74,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_boris_tadic={
 		name=SER_boris_tadic
 		portraits={
@@ -94,7 +89,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_slavica_dukic_dejanovic={
 		name=SER_slavica_dukic_dejanovic
 		portraits={
@@ -110,7 +104,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_tomislav_nikolic={
 		name=SER_tomislav_nikolic
 		portraits={
@@ -126,7 +119,6 @@ characters={
 		}
 	}
 
-characters={
 	SER_aleksandar_vucic={
 		name=SER_aleksandar_vucic
 		portraits={

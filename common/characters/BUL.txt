@@ -1,9 +1,3 @@
-characters = {
-
-	#######################
-	### COUNTRY LEADERS ###
-	#######################
-
 characters={
 	BUL_petar_stoyanov={
 		name=BUL_petar_stoyanov

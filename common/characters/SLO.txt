@@ -14,7 +14,6 @@ characters={
 		}
 	}
 
-characters={
 	SLO_robert_fico={
 		name=SLO_robert_fico
 		portraits={
@@ -30,7 +29,6 @@ characters={
 		}
 	}
 
-characters={
 	SLO_iveta_radicova={
 		name=SLO_iveta_radicova
 		portraits={
@@ -46,8 +44,6 @@ characters={
 		}
 	}
 
-
-characters={
 	SLO_peter_pellegrini={
 		name=SLO_peter_pellegrini
 		portraits={
@@ -63,7 +59,6 @@ characters={
 		}
 	}
 
-characters={
 	SLO_igor_matovic={
 		name=SLO_igor_matovic
 		portraits={
@@ -79,7 +74,6 @@ characters={
 		}
 	}
 
-characters={
 	SLO_eduard_heger={
 		name=SLO_eduard_heger
 		portraits={
@@ -95,7 +89,6 @@ characters={
 		}
 	}
 
-characters={
 	SLO_l'udovit_odor={
 		name=SLO_l'udovit_odor
 		portraits={

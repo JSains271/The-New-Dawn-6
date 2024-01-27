@@ -15,7 +15,6 @@ characters = {
 		}
 	}
 
-characters = {
 	POL_lech_kaczynski = {
 		name=POL_lech_kaczynski
 		portraits = {
@@ -32,7 +31,6 @@ characters = {
 		}
 	}
 
-characters = {
 	POL_bronislaw_komorowski = {
 		name=POL_bronislaw_komorowski
 		portraits = {
@@ -49,7 +47,6 @@ characters = {
 		}
 	}
 
-characters = {
 	POL_andrzej_duda = {
 		name=POL_andrzej_duda
 		portraits = {

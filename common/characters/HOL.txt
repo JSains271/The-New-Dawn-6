@@ -75,19 +75,6 @@ characters={
 			id=-1
 		}
 	}
-	HOL_wim_kok = {
-		name=HOL_wim_kok
-		country_leader={
-			expire = "2018.10.20"
-			ideology = liberalism
-		}
-		portraits={
-			civilian={
-				large= GFX_Portrait_hol_wim_kok_large
-                                small= GFX_Portrait_hol_wim_kok_small
-			}
-		}
-	}
 
 	HOL_wilhelmina = {
 		name=HOL_wilhelmina
