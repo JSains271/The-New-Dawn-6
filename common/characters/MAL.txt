@@ -1,0 +1,92 @@
+characters={
+	MAL_mahathir_mohamad={
+		name=MAL_mahathir_mohamad
+		portraits={
+			civilian={
+				large=GFX_portrait_MAL_mahathir_mohamad_large
+                                small=GFX_portrait_MAL_mahathir_mohamad_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAL_abdullah_ahmad_badawi={
+		name=MAL_abdullah_ahmad_badawi
+		portraits={
+			civilian={
+				large=GFX_portrait_MAL_abdullah_ahmad_badawi_large
+                                small=GFX_portrait_MAL_abdullah_ahmad_badawi_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAL_najib_razak={
+		name=MAL_najib_razak
+		portraits={
+			civilian={
+				large=GFX_portrait_MAL_najib_razak_large
+                                small=GFX_portrait_MAL_najib_razak_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+
+	MAL_muhyiddin_yassin={
+		name=muhyiddin_yassin
+		portraits={
+			civilian={
+				large=GFX_portrait_MAL_muhyiddin_yassin_large
+                                small=GFX_portrait_MAL_muhyiddin_yassin_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAL_ismail_sabri_yakkob={
+		name=ismail_sabri_yakkob
+		portraits={
+			civilian={
+				large=GFX_portrait_MAL_ismail_sabri_yakkob_large
+                                small=GFX_portrait_MAL_ismail_sabri_yakkob_small
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	MAL_anwar_ibrahim={
+		name=anwar_ibrahim
+		portraits={
+			civilian={
+				large=GFX_portrait_MAL_anwar_ibrahim_large
+                                small=GFX_portrait_MAL_anwar_ibrahim_small
+			}
+		}
+		country_leader={
+			ideology=liberalism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -8,21 +8,12 @@ set_technology = {
 	basic_light_tank = 1
 }
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = construction_effort_2
-	complete_national_focus = production_effort_2
-	complete_national_focus = infrastructure_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+
 	
 	oob = "AFG_1939"
 	set_technology = {
@@ -63,39 +54,33 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	democratic = 33
-	fascism = 10
+	fascism = 20
 	communism = 10
-	neutrality = 47
+	democratic = 7
+	neutrality = 63
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
+recruit_character = AFG_mohammed_omar
+
 create_country_leader = {
-	name = "Mohammed Zahir Shah"
+	name = "Mohammed Omar"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/AFG/portrait_afg_mohammed_omar.dds"
+	expire = "2013.4.23"
 	ideology = despotism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 20
-		communism = 10
-		neutrality = 70
-	}
+set_party_name = { 
+	ideology = neutrality
+	name = Taliban
+	long_name = Taliban
 }
+
+
 
 create_corps_commander = {
 	name = "Sardar Shah Wali Khan"

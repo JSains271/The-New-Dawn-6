@@ -27,11 +27,19 @@ add_ideas = {
          extensive_conscription
 }
 
+recruit_character = KOR_kim_dae-jung
+recruit_character = KOR_roh_moo-hyun
+recruit_character = KOR_lee_myung-bak
+recruit_character = KOR_park_geun-hye
+recruit_character = KOR_hwang_kyp-ahn
+recruit_character = KOR_moon_jae-in
+recruit_character = KOR_yoon_suk_yeol
+
 create_country_leader = {
-	name = "Syngman Rhee"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
+	name = "Kim Dae-jung"
+	desc = KOR_kim_dae-jung_desc
+	picture = "gfx/leaders/KOR/portrait_kor_kim_dae-jung.dds"
+	expire = "2009.8.18"
 	ideology = conservatism
 	traits = {
 		#

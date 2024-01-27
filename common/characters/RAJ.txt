@@ -8,39 +8,90 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology= liberalism 
 			expire="2005.11.9.1"
 			id=-1
 		}
 	}
 
-	RAJ_v_d_savarkar={
-		name="V. D. Savarkar"
+	RAJ_A_P_J_Abdul_Kalam={
+		name=RAJ_A_P_J_Abdul_Kalam
 		portraits={
 			civilian={
-				large="GFX_RAJ_veer_savarkar"
+				large=GFX_portrait_RAJ_A_P_J_Abdul_Kalam_large
+                                small=GFX_portrait_RAJ_A_P_J_Abdul_Kalam_small
 			}
 		}
 		country_leader={
-			ideology=falangism
-			expire="1965.1.1.1"
+			ideology= indepedent 
+			expire="2015.7.27.1"
 			id=-1
 		}
 	}
 
-	RAJ_p_krishna_pillai={
-		name=RAJ_p_krishna_pillai
+
+	RAJ_pratibha_devisingh_patil={
+		name=RAJ_pratibha_devisingh_patil
 		portraits={
 			civilian={
-				large="GFX_RAJ_krishna_pillai"
+				large=GFX_portrait_RAJ_pratibha_devisingh_patil_large
+                                small=GFX_portrait_RAJ_pratibha_devisingh_patil_small
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology= liberalism 
+			expire="2030.1.1.1"
 			id=-1
 		}
 	}
+
+	RAJ_pranab_mukherjee={
+		name=RAJ_pranab_mukherjee
+		portraits={
+			civilian={
+				large=GFX_portrait_RAJ_pranab_mukherjee_large
+                                small=GFX_portrait_RAJ_pranab_mukherjee_small
+			}
+		}
+		country_leader={
+			ideology= liberalism 
+			expire="2020.8.31.1"
+			id=-1
+		}
+	}
+
+
+	RAJ_ram_nath_kovind={
+		name=RAJ_ram_nath_kovind
+		portraits={
+			civilian={
+				large=GFX_portrait_RAJ_ram_nath_kovind_large
+                                small=GFX_portrait_RAJ_ram_nath_kovind_small
+			}
+		}
+		country_leader={
+			ideology= conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	RAJ_droupadi_murmu={
+		name=RAJ_droupadi_murmu
+		portraits={
+			civilian={
+				large=GFX_portrait_RAJ_droupadi_murmu_large
+                                small=GFX_portrait_RAJ_droupadi_murmu_small
+			}
+		}
+		country_leader={
+			ideology= conservatism 
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+
 
 	RAJ_noel_beresfordpeirse={
 		name=RAJ_noel_beresfordpeirse

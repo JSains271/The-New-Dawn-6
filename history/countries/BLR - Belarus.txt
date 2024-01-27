@@ -61,14 +61,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = neutrality 
 	last_election = "1993.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 
-set_popularities = {	democratic = 13	neutrality = 40	communism = 37	fascism = 10
+set_popularities = {	democratic = 30	neutrality = 40	communism = 20	fascism = 10
 }
 
 add_ideas = {
@@ -82,7 +82,7 @@ create_country_leader = {
     desc = BLR_alexander_lukashenko
     picture = "gfx/leaders/BLR/portrait_blr_alexander_lukashenko.dds"
     expire = "2030.1.1"
-    ideology = socialism
+    ideology = despotism  
     traits = {
         #
     }

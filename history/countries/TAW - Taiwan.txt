@@ -8,7 +8,7 @@ set_technology = {
 	basic_light_tank = 1
 }
 
-1939.1.1 = {
+2000.1.1 = {
 
 	add_political_power = 1
 	
@@ -48,20 +48,23 @@ set_technology = {
 	}
 }
 
+recruit_character = TAW_lee_teng-hui
+recruit_character = TAW_chen_shui-bian
+recruit_character = TAW_ma_ying-jeou
+recruit_character = TAW_tsai_ing-wen
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
-	name = "Mohammed Zahir Shah"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Lee Teng-hui"
+	desc = TAW_lee_teng-hui_desc
+	picture = "gfx/leaders/TAW/portrait_taw_lee_teng-hui.dds"
+	expire = "2020.7.30"
+	ideology = conservatism 
 	traits = {
-		#
+		
 	}
 }
 
-1939.1.1 = {
+
 set_politics = {
 	ruling_party = democratic 
 	last_election = "1936.1.1"

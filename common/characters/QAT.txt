@@ -1,0 +1,32 @@
+characters = {
+	QAT_hamad_bin_khalifa_al_thani = {
+		name = QAT_hamad_bin_khalifa_al_thani 
+		portraits = {
+			civilian = {
+				large=GFX_portrait_QAT_hamad_bin_khalifa_al_thani_large
+                                small=GFX_portrait_QAT_hamad_bin_khalifa_al_thani_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	QAT_tamim_bin_hamad_al_thani = {
+		name = QAT_tamim_bin_hamad_al_thani
+		portraits = {
+			civilian = {
+				large=GFX_portrait_QAT_tamim_bin_hamad_al_thani_large
+                                small=GFX_portrait_QAT_tamim_bin_hamad_al_thani_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

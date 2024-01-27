@@ -7,7 +7,7 @@ set_technology = {
 
 set_convoys = 0
 
-1939.1.1 = {
+2000.1.1 = {
 	
 	#generic focuses
 	
@@ -52,10 +52,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 21
+	democratic = 29
 	fascism = 10
 	communism = 10
-	neutrality = 59
+	neutrality = 51
 }
 
 add_ideas = {

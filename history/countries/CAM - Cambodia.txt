@@ -67,57 +67,34 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality 
+	ruling_party = democratic 
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 17
+	democratic = 32
 	fascism = 10
 	communism = 10
-	neutrality = 63
+	neutrality = 48
 }
 
 add_ideas = {
          limited_conscription
 }
 
+recruit_character = CAM_hun_sen
+recruit_character = CAM_hun_manet
 
 create_country_leader = {
-	name = "Pol Pot" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
-	expire = "1953.3.1"
-	ideology = anarchist_communism #insanity
+	name = "Hun Sen" 
+	desc = CAM_hun_sen_desc
+	picture = "gfx/leaders/CAM/portrait_cam_hun_sen.dds"
+	expire = "2030.1.1"
+	ideology = conservatism 
 	traits = {
 		
 	}
 }
-
-#non standard english alphabet character
-create_country_leader = {
-	name = "Sisowath Youtévong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Norodom Sihanouk" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything historical on fascism
 

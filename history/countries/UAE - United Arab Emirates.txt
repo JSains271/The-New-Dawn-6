@@ -11,16 +11,7 @@ set_convoys = 5
 
 1939.1.1 = {
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
@@ -56,13 +47,18 @@ set_popularities = {
 	neutrality = 64
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = UAE_zayed_bin_sultan_al_nahyan
+recruit_character = UAE_khalifa_bin_zayed_al_nahyan
+recruit_character = UAE_mohamed_bin_zayed_al_nahyan
+
+
+create_country_leader = {
+	
+	name = "Zayed bin Sultan Al Nahyan"	
+	picture = "gfx/leaders/UAE/portrait_uae_zayed_bin_sultan_al_nahyan.dds"
+	expire = "2004.11.2"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}

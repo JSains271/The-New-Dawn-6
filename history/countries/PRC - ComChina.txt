@@ -20,7 +20,7 @@ set_autonomy = {
 	 autonomous_state =  autonomy_supervised_state
     }
 
-1939.1.1 = {
+2000.1.1 = {
 
 	add_political_power = 1
 	oob = "PRC_1939"
@@ -70,10 +70,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 4
-	fascism = 10
-	communism = 76
-	neutrality = 10
+	democratic = 10
+	fascism = 0
+	communism = 90
+	neutrality = 0
 }
 
 add_ideas = {

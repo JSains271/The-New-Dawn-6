@@ -82,47 +82,24 @@ add_ideas = {
          limited_conscription
 }
 
+recruit_character = VIN_tran_duc_luong
+recruit_character = VIN_nguyen_minh_triet
+recruit_character = VIN_truong_tan_sang
+recruit_character = VIN_tran_dai_quang
+recruit_character = VIN_dang_thi_ngoc_thinh
+recruit_character = VIN_nguyen_phu_trong
+recruit_character = VIN_nguyen_xuan_phuc
+recruit_character = VIN_vo_thi_anh_xuan
+recruit_character = VIN_vo_van_thuong
+
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
 create_country_leader = {
-	name = "Phan Bôi Châu" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ho Chí Minh" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ngô Đình Diêm"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nguyen Tuong Tam"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
+	name = "Tran Duc luong" 
+	desc = VIN_tran_duc_luong_desc
+	picture = "gfx/leaders/VIN/portrait_vin_tran_duc_luong.dds"
+	expire = "2030.1.1"
+	ideology = marxism 
 	traits = {
 		
 	}

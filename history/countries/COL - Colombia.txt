@@ -41,7 +41,7 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 10
 
-1939.1.1 = {
+2000.1.1 = {
 
 	add_political_power = 1
 	
@@ -94,15 +94,15 @@ set_convoys = 10
 set_convoys = 5
 set_politics = {
 	ruling_party = democratic
-	last_election = "1934.2.11"
+	last_election = "1998.5.31"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 56
+	democratic = 55
 	fascism = 10
 	communism = 10
-	neutrality = 24
+	neutrality = 25
 
 }
 

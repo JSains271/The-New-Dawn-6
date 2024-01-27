@@ -10,7 +10,7 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+2000.1.1 = {
 	#generic focuses
 	
 	set_technology = {
@@ -41,11 +41,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 38
+	democratic = 16
 	fascism = 10
-	communism = 10
-	neutrality = 42
+	communism = 20
+	neutrality = 64
 }
 
 add_ideas = {
@@ -57,7 +58,7 @@ create_country_leader = {
 	name = "Jonas Lote"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = despotism  
 	traits = {
 		#
 	}

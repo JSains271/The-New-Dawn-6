@@ -67,36 +67,11 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
-	add_political_power = 1198
+2000.1.1 = {
+	add_political_power = 1
 	oob = "AST_1939"
 	
-	if = {
-		limit = { has_dlc = "Together for Victory" }
-		complete_national_focus = AST_additional_militia_training
-		complete_national_focus = AST_royal_australian_artillery
-		complete_national_focus = AST_daimler_dingo
-		complete_national_focus = AST_expand_the_raaf
-		complete_national_focus = AST_cockatoo_island_shipyards
-		complete_national_focus = AST_expand_northern_presence
-		complete_national_focus = AST_standard_gauge_railway
-		complete_national_focus = AST_industries_assistance_corporation
-		complete_national_focus = AST_western_australian_government_railways
-		complete_national_focus = AST_south_australian_housing_trust
-		
-		else = {
-			#generic focuses
-			complete_national_focus = army_effort
-			complete_national_focus = equipment_effort
-			complete_national_focus = motorization_effort
-			complete_national_focus = aviation_effort
-			complete_national_focus = naval_effort
-			complete_national_focus = large_navy
-			complete_national_focus = industrial_effort
-			complete_national_focus = construction_effort
-			complete_national_focus = production_effort
-		}
-	}
+	#generic focuses
 
 	add_ideas = {
 		#laws		
@@ -106,43 +81,16 @@ if = {
 
 	
 	set_technology = {
-		fighter1 = 1
-		tactical_bomber1 = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		
+
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
+
 
 		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
+
 
 		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_refining = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+		
 	}
 	if = {
 		limit = {
@@ -170,6 +118,7 @@ if = {
 	}
 }
 
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.9.15"
@@ -178,84 +127,34 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 90
-	fascism = 2
+	democratic = 89
+	fascism = 3
 	communism = 4
 	neutrality = 4
 }
 
+recruit_character = AST_john_howard
+recruit_character = AST_kevin_rudd
+recruit_character = AST_julia_gillard
+recruit_character = AST_tony_abbott
+recruit_character = AST_malcom_turnbull
+recruit_character = AST_scott_morrison
+recruit_character = AST_anthony_albanese
+
 create_country_leader = {
-	name = "John Curtin"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Australia_John_Curtin.dds"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "John Howard"
+	desc = AST_john_howard_desc
+	picture = "gfx/leaders/AST/portrait_ast_john_howard.dds"
+	expire = "2030.1.1"
+	ideology = conservatism 
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rod Hull"
-	desc = ""
-	picture = "Portrait_Australia_Rod_Hull.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
 
 set_convoys = 100
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1937.10.23"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 99
-		communism = 1
-	}
-
-	set_convoys = 100
-}
 
 create_corps_commander = {
 	name = "Leslie Morshead"

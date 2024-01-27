@@ -69,17 +69,6 @@ if = {
 2000.1.1 = {
 	add_political_power = 1
 	
-	
-	if = {
-		limit = { has_dlc = "Together for Victory" }
-
-		
-		else = {
-			#generic focuses
-
-		}
-	}
-
 	add_ideas = {
 		#laws
 		volunteer_only
@@ -161,10 +150,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 86
+	democratic = 84
 	fascism = 2
 	communism = 8
-        neutrality = 4
+        neutrality = 6
 }
 
 recruit_character = CAN_jean_chretien

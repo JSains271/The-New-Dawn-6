@@ -160,10 +160,10 @@ set_politics = {
 }
 
 	set_popularities = { 
-		democratic = 67
+		democratic = 72
 		fascism = 10
 		neutrality = 10
-		communism = 13
+		communism = 18
 	}
 
 	set_party_name = { # DLC

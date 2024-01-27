@@ -1,6 +1,6 @@
 ﻿capital = 288
 
-#oob = ""
+oob = "BRM_2000"
 
 # Starting tech
 set_technology = {
@@ -9,7 +9,7 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+2000.1.1 = {
 	#generic focuses
 
 	
@@ -37,29 +37,33 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism 
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 54
-	fascism = 10
+	democratic = 9
+	fascism = 71
 	communism = 10
-	neutrality = 26
+	neutrality = 10
 }
 
 add_ideas = {
          limited_conscription
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = BRM_than_shwe
+recruit_character = BRM_khin_nyunt
+recruit_character = BRM_soe_win
+recruit_character = BRM_thein_sein
+recruit_character = BRM_min_aung_hlaing
+
+create_country_leader = {
+	name = "Than Shwe"
+	desc = BRM_than_shwe_desc
+	picture = "gfx/leaders/BRM/portrait_brm_than_shwe.dds"
+	expire = "2030.1.1"
+	ideology = fascism_ideology 
+
+}

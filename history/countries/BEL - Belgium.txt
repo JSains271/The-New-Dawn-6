@@ -19,7 +19,7 @@ set_technology = {
 	fuel_refining = 1
 }
 
-1939.1.1 = {
+2000.1.1 = {
 	add_ideas = {
 		volunteer_only
 	}
@@ -73,10 +73,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 92
-	fascism = 1
+	democratic = 88
+	fascism = 3
 	communism = 4
-	neutrality = 3
+	neutrality = 5
 }
 
 recruit_character = BEL_guy_verhofstadt

@@ -1,0 +1,32 @@
+characters = {
+	CAM_hun_sen = {
+		name = CAM_hun_sen
+		portraits = {
+			civilian = {
+				large=GFX_portrait_CAM_hun_sen_large
+                                small=GFX_portrait_CAM_hun_sen_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	CAM_hun_manet = {
+		name = CAM_hun_manet
+		portraits = {
+			civilian = {
+				large=GFX_portrait_CAM_hun_manet_large
+                                small=GFX_portrait_CAM_hun_manet_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

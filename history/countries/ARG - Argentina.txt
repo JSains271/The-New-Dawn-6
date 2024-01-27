@@ -51,20 +51,11 @@ if = {
 
 set_country_flag = monroe_doctrine
 
-1939.1.1 = {
+2000.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
 	
 	oob = "ARG_1939"
 	if = {
@@ -129,17 +120,18 @@ set_country_flag = monroe_doctrine
 }
 
 set_convoys = 120
+
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic 
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 76
-	fascism = 14
-	communism = 6
-	neutrality = 4
+	democratic = 84
+	fascism = 6
+	communism = 4
+	neutrality = 6
 }
 
 create_country_leader = {
@@ -150,33 +142,6 @@ create_country_leader = {
 	ideology = despotism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1937.9.5"
-		election_frequency = 108
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 5
-		fascism = 5
-		communism = 12
-		neutrality = 78
-	}
-
-	create_country_leader = {
-		name = "Roberto María Ortiz"
-		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-			#
-		}
 	}
 }
 

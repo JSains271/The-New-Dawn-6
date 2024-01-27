@@ -1,0 +1,78 @@
+characters = {
+	ARM_robert_kocharyan= {
+		name = ARM_robert_kocharyan 
+		portraits = {
+			civilian = {
+				large=GFX_portrait_ARM_robert_kocharyan_large
+                                small=GFX_portrait_ARM_robert_kocharyan_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	ARM_serzh_sargsyan= {
+		name = ARM_serzh_sargsyan 
+		portraits = {
+			civilian = {
+				large=GFX_portrait_ARM_serzh_sargsyan_large
+                                small=GFX_portrait_ARM_serzh_sargsyan_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	ARM_armen_sarkissian= {
+		name = ARM_armen_sarkissian
+		portraits = {
+			civilian = {
+				large=GFX_portrait_ARM_armen_sarkissian_large
+                                small=GFX_portrait_ARM_armen_sarkissian_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	ARM_alen_simonyan= {
+		name = ARM_alen_simonyan
+		portraits = {
+			civilian = {
+				large=GFX_portrait_ARM_alen_simonyan_large
+                                small=GFX_portrait_ARM_alen_simonyan_small
+			}
+		}
+		country_leader = {
+			ideology = centrist 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+
+	ARM_vahagn_khachaturyan= {
+		name = ARM_vahagn_khachaturyan
+		portraits = {
+			civilian = {
+				large=GFX_portrait_ARM_vahagn_khachaturyan_large
+                                small=GFX_portrait_ARM_vahagn_khachaturyan_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

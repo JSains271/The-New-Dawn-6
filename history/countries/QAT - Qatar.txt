@@ -11,15 +11,7 @@ set_convoys = 5
 
 1939.1.1 = {
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+
 	
 	set_technology = {
 
@@ -56,13 +48,16 @@ set_popularities = {
 	neutrality = 75
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = QAT_hamad_bin_khalifa_al_thani
+recruit_character = QAT_tamim_bin_hamad_al_thani
+
+create_country_leader = {
+	
+	name = "Hamad bin Khalifa Al Thani"
+	picture = "gfx/leaders/QAT/portrait_qat_hamad_bin_khalifa_al_thani.dds"
+	expire = "2030.1.1"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}

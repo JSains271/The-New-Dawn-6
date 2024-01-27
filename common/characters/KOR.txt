@@ -1,0 +1,108 @@
+characters = {
+	KOR_kim_dae-jung = {
+		name = KOR_kim_dae-jung
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_kim_dae-jung_large
+                                small=GFX_portrait_KOR_kim_dae-jung_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2009.8.18.1"
+			id = -1
+		}
+	}
+
+	KOR_roh_moo-hyun = {
+		name = KOR_roh_moo-hyun
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_roh_moo-hyun_large
+                                small=GFX_portrait_KOR_roh_moo-hyun_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2009.5.23.1"
+			id = -1
+		}
+	}
+
+	KOR_lee_myung-bak = {
+		name = KOR_lee_myung-bak
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_lee_myung-bak_large
+                                small=GFX_portrait_KOR_lee_myung-bak_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+
+	KOR_park_geun-hye = {
+		name = KOR_park_geun-hye
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_park_geun-hye_large
+                                small=GFX_portrait_KOR_park_geun-hye_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_hwang_kyp-ahn = {
+		name = KOR_hwang_kyp-ahn
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_hwang_kyp-ahn_large
+                                small=GFX_portrait_KOR_hwang_kyp-ahn_small
+			}
+		}
+		country_leader = {
+			ideology = indepedent 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_moon_jae-in = {
+		name = KOR_moon_jae-in
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_moon_jae-in_large
+                                small=GFX_portrait_KOR_moon_jae-in_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	KOR_yoon_suk_yeol = {
+		name = KOR_yoon_suk_yeol
+		portraits = {
+			civilian = {
+				large=GFX_portrait_KOR_yoon_suk_yeol_large
+                                small=GFX_portrait_KOR_yoon_suk_yeol_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

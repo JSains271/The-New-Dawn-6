@@ -109,53 +109,38 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
+	democratic = 52
 	fascism = 10
 	communism = 10
-	neutrality = 50
+	neutrality = 28
 }
 
 add_ideas = {
          limited_conscription
 }
 
+recruit_character = SIA_chuan_leekpai
+recruit_character = SIA_thanksin_shinawatra
+recruit_character = SIA_surayud_chulanont
+recruit_character = SIA_samak_sundaravej
+recruit_character = SIA_somchai_wongsawat
+recruit_character = SIA_abhisit_vejjajiva
+recruit_character = SIA_yingluck_shinawatra
+recruit_character = SIA_prayut_chan-o-cha
+recruit_character = SIA_srettha_thavisin
 
 create_country_leader = {
-	name = "Phraya Phahon"
-	desc = "POLITICS_PHRAYA_PHAHON_DESC"
-	picture = "Portrait_Siam_Phraya_Phahon.dds"
-	expire = "1965.1.1"
-	ideology = despotism
+	name = "Chuan Leekpai"
+	desc = SIA_chuan_leekpai_desc
+	picture = "gfx/leaders/SIA/portrait_sia_chuan_leekpai.dds"
+	expire = "2030.1.1"
+	ideology = conservatism 
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-set_politics = {
-	ruling_party = democratic 
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 10
-	neutrality = 50
-}
 
-	create_country_leader = {
-		name = "Plaek Phibunsongkhram"
-		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			#
-		}
-	}
-}
 
 ### VARIANTS ###
 # 1936 Start #

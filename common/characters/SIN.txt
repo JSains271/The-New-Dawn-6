@@ -1,0 +1,32 @@
+characters = {
+	SIN_goh_chok_tong = {
+		name = SIN_goh_chok_tong
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SIN_goh_chok_tong_large
+                                small=GFX_portrait_SIN_goh_chok_tong_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	SIN_lee_hsien_loong = {
+		name = SIN_lee_hsien_loong
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SIN_lee_hsien_loong_large
+                                small=GFX_portrait_SIN_lee_hsien_loong_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

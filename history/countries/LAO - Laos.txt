@@ -77,7 +77,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality 
+	ruling_party = communism 
 	last_election = "1933.7.1"
 	election_frequency = 36+
 	elections_allowed = yes
@@ -85,46 +85,26 @@ set_politics = {
 set_popularities = {
 	democratic = 10
 	fascism = 10
-	communism = 10
-	neutrality = 70
+	communism = 70
+	neutrality = 10
 }
 
 add_ideas = {
          limited_conscription
 }
 
+recruit_character = LAO_khamtai_siphandon
+recruit_character = LAO_choummaly_sayasone
+recruit_character = LAO_bounnhang_vorachit
+recruit_character = LAO_thongloun_sisoulith
 
 create_country_leader = {
-	name = "Souphanouvong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = marxism
+	name = "Khamtai Siphandon"
+	desc = LAO_khamtai_siphandon_desc
+	picture = "gfx/leaders/LAO/portrait_lao_khamtai_siphandon.dds"
+	expire = "2030.1.1"
+	ideology = marxism 
 	traits = {
 		
 	}
 }
-
-create_country_leader = {
-	name = "Sisavang Vong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kou Voragong" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-#couldnt find historical fascists

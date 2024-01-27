@@ -1,0 +1,88 @@
+characters={
+	INS_abdurrahman_wahid={
+		name=INS_abdurrahman_wahid
+		portraits={
+			civilian={
+				large=GFX_portrait_INS_abdurrahman_wahid_large
+                                small=GFX_portrait_INS_abdurrahman_wahid_small
+			}
+		}
+		country_leader={
+			ideology= centrist 
+			traits = {
+			}
+			expire="2009.12.30.1"
+			id=-1
+		}
+	}
+
+	INS_megawati_sukarnoputri={
+		name=INS_megawati_sukarnoputri
+		portraits={
+			civilian={
+				large=GFX_portrait_INS_megawati_sukarnoputri_large
+                                small=GFX_portrait_INS_megawati_sukarnoputri_small
+			}
+		}
+		country_leader={
+			ideology= socialism 
+			traits = {
+			}
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	INS_susilo_bambang_yudhoyono={
+		name=INS_susilo_bambang_yudhoyono
+		portraits={
+			civilian={
+				large=GFX_portrait_INS_susilo_bambang_yudhoyono_large
+                                small=GFX_portrait_INS_susilo_bambang_yudhoyono_small
+			}
+		}
+		country_leader={
+			ideology= centrist 
+			traits = {
+			}
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	INS_joko_widodo={
+		name=INS_joko_widodo
+		portraits={
+			civilian={
+				large=GFX_portrait_INS_joko_widodo_large
+                                small=GFX_portrait_INS_joko_widodo_small
+			}
+		}
+		country_leader={
+			ideology= socialism 
+			traits = {
+			}
+			expire="2030.1.1.1"
+			id=-1
+		}
+	}
+
+	INS_hein_ter_poorten={
+		name =HOL_hein_ter_poorten
+		portraits={
+			army={
+				large="GFX_portrait_hol_hein_ter_poorten"
+				small="GFX_idea_HOL_hein_ter_poorten"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard inspirational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

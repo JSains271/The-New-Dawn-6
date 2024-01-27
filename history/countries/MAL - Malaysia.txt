@@ -81,54 +81,30 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 53
+	democratic = 27
 	fascism = 10
 	communism = 10
-	neutrality = 27
+	neutrality = 53
 }
 
+recruit_character = MAL_mahathir_mohamad
+recruit_character = MAL_abdullah_ahmad_badawi
+recruit_character = MAL_najib_razak
+recruit_character = MAL_muhyiddin_yassin
+recruit_character = MAL_ismail_sabri_yakkob
+recruit_character = MAL_anwar_ibrahim
+
 create_country_leader = {
-	name = "Onn Jaafar"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
-	expire = "1953.3.1"
+	name = "Mahathir Mohamad"
+	desc = MAL_mahathir_mohamad_desc
+	picture = "gfx/leaders/MAL/portrait_mal_mahathir_mohamad.dds"
+	expire = "2030.1.1"
 	ideology = conservatism
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Shenton Thomas"
-	desc = ""
-	picture = "GFX_portrait_malaya_shenton_thomas"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
 
-create_country_leader = {
-	name = "Lai Teck"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ibrahim Hj Yaacob" #this guy supported Japanese during the war, and was imprisoned for it, could be made fascist?
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
-	}
-}
 
 

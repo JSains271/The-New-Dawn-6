@@ -1,54 +1,6 @@
 characters={
-	ENG_winston_churchill={
-		name=ENG_winston_churchill
-		portraits={
-			civilian={
-				large=GFX_portrait_ENG_winston_churchill
-			}
-			army={
-				small="GFX_idea_ENG_winston_churchill"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ENG_winston_churchill
-			available  = {
-				has_government  = neutrality 
-				has_completed_focus  = ENG_the_kings_party 
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			allowed  = {
-				original_tag  = ENG
-				has_dlc = "Man the Guns"
-			}
-			traits  = {
-				royalist_bulldog 
-			}
-			ai_will_do  = {
-				factor  = 1.000
-			}
-		}
-
-		country_leader={
-			ideology=conservatism
-			traits = {
-				british_bulldog
-			}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-
-		ENG_tony_blair={
-		name=ENG_tony_blair
+	ENG_tony_blair={
+	name=ENG_tony_blair
 		portraits={
 			civilian={
 				large=GFX_portrait_ENG_tony_blair_large

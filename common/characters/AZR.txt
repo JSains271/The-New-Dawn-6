@@ -1,0 +1,32 @@
+characters = {
+	AZR_heydar_aliyev = {
+		name = AZR_heydar_aliyev
+		portraits = {
+			civilian = {
+				large=GFX_portrait_AZR_heydar_aliyev_large
+                                small=GFX_portrait_AZR_heydar_aliyev_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2003.12.12.1"
+			id = -1
+		}
+	}
+
+	AZR_ilham_aliyev = {
+		name = AZR_ilham_aliyev
+		portraits = {
+			civilian = {
+				large=GFX_portrait_AZR_ilham_aliyev_large
+                                small=GFX_portrait_AZR_ilham_aliyev_small
+			}
+		}
+		country_leader = {
+			ideology = despotism  
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

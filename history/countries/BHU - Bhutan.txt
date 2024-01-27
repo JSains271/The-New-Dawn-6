@@ -9,7 +9,8 @@ set_technology = {
 }
 set_war_support = 0.1
 set_stability = 0.8
-1939.1.1 = {
+
+2000.1.1 = {
 
 	add_political_power = 1
 	
@@ -41,42 +42,33 @@ set_stability = 0.8
 }
 
 set_politics = {
-	ruling_party = democratic 
+	ruling_party = neutrality 
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 70
+	democratic = 9
 	fascism = 10
 	communism = 10
-	neutrality = 10
+	neutrality = 71
 }
 
 add_ideas = {
          limited_conscription
 }
 
+recruit_character = BHU_jigme_singye
+recruit_character = BHU_jigme_khesar_namgyel
+
 create_country_leader = {
-	name = "Jigme Wangchuck"
-	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "GFX_portrait_buthan_jigme_wangchuk"
-	expire = "1965.1.1"
+	name = "Jigme Singye"
+	desc = BHU_jigme_singye_desc
+	picture = "gfx/leaders/BHU/portrait_bhu_jigme_singye.dds"
+	expire = "2030.1.1"
 	ideology = despotism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
 	}
 }

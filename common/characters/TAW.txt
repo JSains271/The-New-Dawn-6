@@ -1,0 +1,62 @@
+characters = {
+	TAW_lee_teng-hui = {
+		name = TAW_lee_teng-hui
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TAW_lee_teng-hui_large
+                                small=GFX_portrait_TAW_lee_teng-hui_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2020.7.30.1"
+			id = -1
+		}
+	}
+
+	TAW_chen_shui-bian = {
+		name = TAW_chen_shui-bian
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TAW_chen_shui-bian_large
+                                small=GFX_portrait_TAW_chen_shui-bian_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	TAW_ma_ying-jeou = {
+		name = TAW_ma_ying-jeou
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TAW_ma_ying-jeou_large
+                                small=GFX_portrait_TAW_ma_ying-jeou_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	TAW_tsai_ing-wen = {
+		name = TAW_tsai_ing-wen
+		portraits = {
+			civilian = {
+				large=GFX_portrait_TAW_tsai_ing-wen_large
+                                small=GFX_portrait_TAW_tsai_ing-wen_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,122 @@
+characters = {
+	GEO_eduard_shevardnadze = {
+		name = GEO_eduard_shevardnadze
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_eduard_shevardnadze_large
+                                small=GFX_portrait_GEO_eduard_shevardnadze_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism 
+			expire = "2014.7.7.1"
+			id = -1
+		}
+	}
+
+	GEO_nino_burjanadze = {
+		name = GEO_nino_burjanadze
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_nino_burjanadze_large
+                                small=GFX_portrait_GEO_nino_burjanadze_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	GEO_mikheil_saakashvili = {
+		name = GEO_mikheil_saakashvili
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_mikheil_saakashvili_large
+                                small=GFX_portrait_GEO_mikheil_saakashvili_small
+			}
+		}
+		country_leader = {
+			ideology = liberalism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	GEO_bidzina_ivanishvili = {
+		name = GEO_bidzina_ivanishvili
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_bidzina_ivanishvili_large
+                                small=GFX_portrait_GEO_bidzina_ivanishvili_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	GEO_irakli_garibashvili = {
+		name = GEO_irakli_garibashvili
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_irakli_garibashvili_large
+                                small=GFX_portrait_GEO_irakli_garibashvili_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	GEO_giorgi_kvirikashvili = {
+		name = GEO_giorgi_kvirikashvili
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_giorgi_kvirikashvili_large
+                                small=GFX_portrait_GEO_giorgi_kvirikashvili_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	GEO_mamuka_bakhtadze = {
+		name = GEO_mamuka_bakhtadze
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_mamuka_bakhtadze_large
+                                small=GFX_portrait_GEO_mamuka_bakhtadze_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	GEO_giorgi_gakharia = {
+		name = GEO_giorgi_gakharia
+		portraits = {
+			civilian = {
+				large=GFX_portrait_GEO_giorgi_gakharia_large
+                                small=GFX_portrait_GEO_giorgi_gakharia_small
+			}
+		}
+		country_leader = {
+			ideology = socialism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -102,8 +102,14 @@ add_ideas = {
          limited_conscription
 }
 
+recruit_character = SIN_goh_chok_tong
+recruit_character = SIN_lee_hsien_loong
 
+create_country_leader = {
+	name = "Goh Chok Tong"
+	desc = SIN_goh_chok_tong_desc
+	picture = "gfx/leaders/SIN/portrait_sin_goh_chok_tong.dds"
+	expire = "2030.1.1"
+	ideology = conservatism 
 
-recruit_character = ABK_kirilli_bechvaya
-
-
+}

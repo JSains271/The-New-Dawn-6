@@ -52,13 +52,19 @@ add_ideas = {
          limited_conscription
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = KUW_jaber_al-ahmad_al-sabah
+recruit_character = KUW_saad_al-salim_al-sabah
+recruit_character = KUW_sabah_al-ahmad_al-jaber_al-sabah
+recruit_character = KUW_nawaf_al-ahmad_al-jaber_al-sabah
+recruit_character = KUW_mishal_al-ahmad_al-jaber_al-sabah
+
+create_country_leader = {
+	
+	name = "Jaber Al-Ahmed Al-Sabah"
+	picture = "gfx/leaders/KUW/portrait_kuw_jaber_al-ahmad_al-sabah.dds"
+	expire = "2006.1.15"
+	ideology = despotism  
+	traits = {
+		#
+	}
+}

@@ -28,18 +28,7 @@ if = {
 	set_technology = { camelry = 1 }
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
 
-	add_ideas = {
-		RAJ_princely_states
-		RAJ_marginalized_muslim_community
-		RAJ_agrarian_society
-		RAJ_risk_of_famine
-	}
-
-	add_to_tech_sharing_group = commonwealth_research
-}
 
 set_technology = {
 	gwtank = 1
@@ -49,13 +38,7 @@ set_convoys = 20
 
 1939.1.1 = {
 	
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-	}
-
-	add_political_power = 1198
+	add_political_power = 1
 	oob = "RAJ_1939"
 
 	add_ideas = {
@@ -120,35 +103,20 @@ set_popularities = {
 	neutrality = 24
 }
 
+recruit_character = RAJ_K_R_Narayanan
+recruit_character = RAJ_A_P_J_Abdul_Kalam
+recruit_character = RAJ_pratibha_devisingh_patil
+recruit_character = RAJ_pranab_mukherjee
+recruit_character = RAJ_ram_nath_kovind
+recruit_character = RAJ_droupadi_murmu
+
+
 create_country_leader = {
 	name = "K. R. Narayanan"
 	desc = RAJ_K_R_Narayanan_desc
 	picture = gfx/leaders/RAJ/portrait_raj_k_r_narayanan.dds
 	expire = "2005.11.9"
 	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-# REVISIT Unclear if appropriate for this ideology
-create_country_leader = {
-	name = "V. D. Savarkar"
-	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
-	expire = "1965.1.1"
-	ideology = marxism
 	traits = {
 		
 	}

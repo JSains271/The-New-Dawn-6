@@ -72,40 +72,25 @@ add_ideas = {
          extensive_conscription
 }
 
-set_popularities = {	democratic = 63
+set_popularities = {	democratic = 42
 	fascism = 10
-	communism = 10
-	neutrality = 17
+	communism = 38
+	neutrality = 10
 }
 
-create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
+recruit_character = ARM_robert_kocharyan
+recruit_character = ARM_serzh_sargsyan
+recruit_character = ARM_armen_sarkissian
+recruit_character = ARM_alen_simonyan
+recruit_character = ARM_vahagn_khachaturyan
+
 
 create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
+	name = "Robert Kocharyan"
+	desc = ARM_robert_kocharyan_desc
+	picture = "gfx/leaders/ARM/portrait_arm_robert_kocharyan.dds"
+	expire = "2030.1.1"
+	ideology = indepedent 
 	traits = {
 		
 	}

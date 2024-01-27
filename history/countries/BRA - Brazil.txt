@@ -48,7 +48,7 @@ if = {
 }
 set_country_flag = monroe_doctrine
 
-1939.1.1 = {
+2000.1.1 = {
 
 	add_political_power = 1
 	
@@ -110,17 +110,17 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic 
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 59
-	fascism = 10
-	communism = 10
-	neutrality = 21
+	democratic = 86
+	fascism = 5
+	communism = 5
+	neutrality = 4
 }
 
 add_ideas = {
@@ -173,17 +173,6 @@ create_country_leader = {
 
 set_convoys = 40
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1934.7.17"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
-	}
-}
 
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"

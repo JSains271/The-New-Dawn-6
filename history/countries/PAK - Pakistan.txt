@@ -27,18 +27,10 @@ set_convoys = 20
 1939.1.1 = {#placeholder same tech as ENG
 	#generic focuses
 
-	add_political_power = 1198
+	add_political_power = 1
 	oob = "PAK_1939"
 	
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+
 
 	add_ideas = {
 		#laws
@@ -89,7 +81,7 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic 
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -101,35 +93,18 @@ set_popularities = {
 	neutrality = 43
 }
 
+recruit_character = PAK_muhammad_rafiq_tarar
+recruit_character = PAK_pervez_musharraf
+recruit_character = PAK_asif_ali_zardari
+recruit_character = PAK_mamnoon_hussain
+recruit_character = PAK_arif_alvi
 
 create_country_leader = {
-	name = "Qazi Muhammad Essa"
 	
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = centrism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Muhammad Ali Jinnah"
-	
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Haji Mohammad Danesh"
-	
-	picture = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
-	expire = "1960.1.1"
-	ideology = marxism
+	name = "Muhammad Rafiq Tarar"
+	picture = "gfx/leaders/PAK/portrait_pak_muhammad_rafiq_tarar.dds"
+	expire = "2021.3.7"
+	ideology = conservatism 
 	traits = {
 		
 	}

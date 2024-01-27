@@ -1,0 +1,62 @@
+characters = {
+	LAO_khamtai_siphandon={
+	name=LAO_khamtai_siphandon
+		portraits={
+			civilian={
+				large=GFX_portrait_LAO_khamtai_siphandon_large
+                                small=GFX_portrait_LAO_khamtai_siphandon_small
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	LAO_choummaly_sayasone={
+	name=LAO_choummaly_sayasone
+		portraits={
+			civilian={
+				large=GFX_portrait_LAO_choummaly_sayasone_large
+                                small=GFX_portrait_LAO_choummaly_sayasone_small
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	LAO_bounnhang_vorachit={
+	name=LAO_bounnhang_vorachit
+		portraits={
+			civilian={
+				large=GFX_portrait_LAO_bounnhang_vorachit_large
+                                small=GFX_portrait_LAO_bounnhang_vorachit_small
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	LAO_thongloun_sisoulith={
+	name=LAO_thongloun_sisoulith
+		portraits={
+			civilian={
+				large=GFX_portrait_LAO_thongloun_sisoulith_large
+                                small=GFX_portrait_LAO_thongloun_sisoulith_small
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

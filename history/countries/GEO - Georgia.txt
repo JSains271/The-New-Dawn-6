@@ -77,26 +77,26 @@ add_ideas = {
          limited_conscription
 }
 
+recruit_character = GEO_eduard_shevardnadze
+recruit_character = GEO_nino_burjanadze
+recruit_character = GEO_mikheil_saakashvili
+recruit_character = GEO_bidzina_ivanishvili
+recruit_character = GEO_irakli_garibashvili
+recruit_character = GEO_giorgi_kvirikashvili
+recruit_character = GEO_mamuka_bakhtadze
+recruit_character = GEO_giorgi_gakharia
+
 create_country_leader = {
-	name = "Noe Zhordania"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = liberalism
+	name = "Eduard Shevardnadze"
+	desc = GEO_eduard_shevardnadze_desc
+	picture = "gfx/leaders/GEO/portrait_geo_eduard_shevardnadze.dds"
+	expire = "2014.7.7"
+	ideology = conservatism 
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
+
 
 #couldnt find anything else, the commies simply forced everyone else into exile

@@ -1,0 +1,137 @@
+characters = {
+	VIN_tran_duc_luong = {
+		name = VIN_tran_duc_luong
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_tran_duc_luong_large
+                                small=GFX_portrait_VIN_tran_duc_luong_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_nguyen_minh_triet = {
+		name = VIN_nguyen_minh_triet
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_nguyen_minh_triet_large
+                                small=GFX_portrait_VIN_nguyen_minh_triet_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_truong_tan_sang = {
+		name = VIN_truong_tan_sang
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_truong_tan_sang_large
+                                small=GFX_portrait_VIN_truong_tan_sang_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_tran_dai_quang = {
+		name = VIN_tran_dai_quang
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_tran_dai_quang_large
+                                small=GFX_portrait_VIN_tran_dai_quang_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2018.9.21.1"
+			id = -1
+		}
+	}
+
+VIN_dang_thi_ngoc_thinh = {
+		name = VIN_dang_thi_ngoc_thinh
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_dang_thi_ngoc_thinh_large
+                                small=GFX_portrait_VIN_dang_thi_ngoc_thinh_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_nguyen_phu_trong = {
+		name = VIN_nguyen_phu_trong
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_nguyen_phu_trong_large
+                                small=GFX_portrait_VIN_nguyen_phu_trong_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_nguyen_xuan_phuc = {
+		name = VIN_nguyen_xuan_phuc
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_nguyen_xuan_phuc_large
+                                small=GFX_portrait_VIN_nguyen_xuan_phuc_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_vo_thi_anh_xuan = {
+		name = VIN_vo_thi_anh_xuan
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_vo_thi_anh_xuan_large
+                                small=GFX_portrait_VIN_vo_thi_anh_xuan_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+VIN_vo_van_thuong = {
+		name = VIN_vo_van_thuong
+		portraits = {
+			civilian = {
+				large=GFX_portrait_VIN_vo_van_thuong_large
+                                small=GFX_portrait_VIN_vo_van_thuong_small
+			}
+		}
+		country_leader = {
+			ideology = marxism 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -47,10 +47,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 53
+	democratic = 64
 	fascism = 10
 	communism = 10
-	neutrality = 27
+	neutrality = 16 
 }
         add_ideas = {
                limited_conscription
