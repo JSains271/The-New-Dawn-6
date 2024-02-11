@@ -116,7 +116,7 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-		"RAJ"={
+		"FRA"={
 			minor = yes
 			ideology = democratic
 			ideas = {
@@ -143,7 +143,7 @@ bookmarks = {
 			}
 		}
 		
-		"SIN"={
+		"RAJ"={
 			minor = yes
 			ideology = democratic
 			ideas = {
@@ -157,7 +157,7 @@ bookmarks = {
 			}
 		}
 
-		"TIM"={
+		"COM"={
 			minor = yes
 			ideology = democratic
 			ideas = {

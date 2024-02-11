@@ -1,6 +1,6 @@
 ﻿capital = 911 #Sukhumi
 
-#oob = "ABK_1936"
+oob = "AND_2000"
 
 set_research_slots = 3
 
@@ -98,7 +98,5 @@ set_popularities = {
 	neutrality = 0
 }
 
-
-recruit_character = ABK_kirilli_bechvaya
 
 
