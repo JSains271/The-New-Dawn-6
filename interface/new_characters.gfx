@@ -3242,3 +3242,107 @@ spriteType = {
 		name = "small=GFX_portrait_AST_anthony_albanese_small"
 		texturefile = "gfx/characters/AST/portrait_ast_anthony_albanese.dds"
 	}
+
+#PNG
+
+spriteType = {
+		name = "large=GFX_portrait_PNG_mekere_morauta_large"
+		texturefile = "gfx/leaders/PNG/portrait_png_mekere_morauta.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PNG_mekere_morauta_small"
+		texturefile = "gfx/characters/PNG/portrait_png_mekere_morauta.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_PNG_michael_somare_large"
+		texturefile = "gfx/leaders/PNG/portrait_png_michael_somare.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PNG_michael_somare_small"
+		texturefile = "gfx/characters/PNG/portrait_png_michael_somare.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_PNG_sam_abal_large"
+		texturefile = "gfx/leaders/PNG/portrait_png_sam_abal.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PNG_sam_abal_small"
+		texturefile = "gfx/characters/PNG/portrait_png_sam_abal.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_PNG_peter_o'neill_large"
+		texturefile = "gfx/leaders/PNG/portrait_png_peter_o'neill.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PNG_peter_o'neill_small"
+		texturefile = "gfx/characters/PNG/portrait_png_peter_o'neill.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_PNG_james_marape_large"
+		texturefile = "gfx/leaders/PNG/portrait_png_james_marape.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_PNG_james_marape_small"
+		texturefile = "gfx/characters/PNG/portrait_png_james_marape.dds"
+	}
+
+#NZL
+
+spriteType = {
+		name = "large=GFX_portrait_NZL_helen_clark_large"
+		texturefile = "gfx/leaders/NZL/portrait_nzl_helen_clark.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NZL_helen_clark_small"
+		texturefile = "gfx/characters/NZL/portrait_nzl_helen_clark.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_NZL_john_key_large"
+		texturefile = "gfx/leaders/NZL/portrait_nzl_john_key.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NZL_john_key_small"
+		texturefile = "gfx/characters/NZL/portrait_nzl_john_key.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_NZL_bill_english_large"
+		texturefile = "gfx/leaders/NZL/portrait_nzl_bill_english.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NZL_bill_english_small"
+		texturefile = "gfx/characters/NZL/portrait_nzl_bill_english.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_NZL_jacinda_ardern_large"
+		texturefile = "gfx/leaders/NZL/portrait_nzl_jacinda_ardern.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NZL_jacinda_ardern_small"
+		texturefile = "gfx/characters/NZL/portrait_nzl_jacinda_ardern.dds"
+	}
+
+
+spriteType = {
+		name = "large=GFX_portrait_NZL_chris_hipkins_large"
+		texturefile = "gfx/leaders/NZL/portrait_nzl_chris_hipkins.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NZL_chris_hipkins_small"
+		texturefile = "gfx/characters/NZL/portrait_nzl_chris_hipkins.dds"
+	}
+
+spriteType = {
+		name = "large=GFX_portrait_NZL_christopher_luxon_large"
+		texturefile = "gfx/leaders/NZL/portrait_nzl_christopher_luxon.dds"
+	}
+spriteType = {
+		name = "small=GFX_portrait_NZL_christopher_luxon_small"
+		texturefile = "gfx/characters/NZL/portrait_nzl_christopher_luxon.dds"
+	}

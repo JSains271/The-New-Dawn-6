@@ -10,7 +10,7 @@ characters = {
                                                                                                                   
 
 	FIN_martti_oiva_kalevi_ahtisaari={
-		name="Martti Oiva Kalevi Ahtisaari"
+		name=FIN_martti_oiva_kalevi_ahtisaari
 		portraits={
 			civilian={
 				large=GFX_portrait_FIN_martti_oiva_kalevi_ahtisaari_large

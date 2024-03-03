@@ -21,19 +21,6 @@ if = {
 	}
 }
 
-set_global_flag = NOR_trotsky_in_norway 
-
-
-	random_list = {
-		1 = { # this campaign has been blessed by Bamse 
-			set_country_flag = NOR_bamse_activated	
-		}
-		1000000 = { # I see what you're doing. Don't cheat. Let Bamse decide if you are blessed or not. You will gain no satisfaction from a message you had to cheat to get.  
-			#Do nothing 
-		}
-	}
-	NOR_character_flag_setup_for_cw = yes 
-}
 
 set_research_slots = 3
 
@@ -52,6 +39,7 @@ set_technology = {
 	tech_recon = 1
 	basic_train = 1
 }
+
 set_convoys = 350		# 4th biggest merchant marine in the world
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -76,29 +64,21 @@ if = {
 	}
 }
 
-
-	store_core_states_on_game_start = yes
-	# Setting Independent Norway Dmod variables 
-	set_variable = { NOR.NOR_independent_norway_dmod_consumer_goods_factor = 0 } 
-	set_variable = { NOR.NOR_independent_norway_dmod_production_speed_industrial_complex_factor = 0 } 
-	set_variable = { NOR.NOR_independent_norway_dmod_production_speed_infrastructure_factor = 0 } 
-	set_variable = { NOR.NOR_independent_norway_dmod_research_speed_factor = 0 } 
-	set_variable = { NOR.NOR_independent_norway_dmod_production_speed_supply_node = 0} 
-
-	# Setting Airforce Dmod variables 
-	set_variable = { NOR.NOR_army_air_force_dmod_license_air_purchase_cost = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_production_speed_air_base_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_production_speed_anti_air_building_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_air_doctrine_cost_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_air_ace_bonuses_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_air_ace_generation_chance_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_air_attack_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_air_defence_factor = 0 }
-	set_variable = { NOR.NOR_army_air_force_dmod_air_nav_efficiency = 0 }
-}
-
-
 2000.1.1 = {
+
+set_politics = {
+		ruling_party = democratic
+		last_election = "1936.10.19"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 84
+		fascism = 2
+		communism = 2
+		neutrality = 12
+	}
+}
 
 add_ideas = {
 	limited_conscription
@@ -117,8 +97,10 @@ create_country_leader = {
 	desc = NOR_kjell_magne_bondevik_desc
 	picture = gfx/leaders/NOR/portrait_nor_kjell_magne_bondevik.dds
 	expire = "2030.1.1"
-	ideology = conservatism
+	ideology = conservatism 
 }
+
+
 	oob = "NOR_2000"
 	if = {
 		limit = { has_dlc = "Man the Guns" }
@@ -185,20 +167,6 @@ create_country_leader = {
 	set_stability = 0.8
 }
 
-2000.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 84
-		fascism = 2
-		communism = 2
-		neutrality = 12
-	}
-}
 
 ### VARIANTS ###
 # 1936 Start #

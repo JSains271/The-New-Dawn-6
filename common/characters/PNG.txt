@@ -1,0 +1,77 @@
+characters = {
+	PNG_mekere_morauta = {
+		name = PNG_mekere_morauta
+		portraits = {
+			civilian = {
+				large=GFX_portrait_PNG_mekere_morauta_large
+                                small=GFX_portrait_PNG_mekere_morauta_small
+			}
+		}
+		country_leader = {
+			ideology = centrist 
+			expire = "2020.12.19.1"
+			id = -1
+		}
+	}
+
+	PNG_michael_somare = {
+		name = PNG_michael_somare
+		portraits = {
+			civilian = {
+				large=GFX_portrait_PNG_michael_somare_large
+                                small=GFX_portrait_PNG_michael_somare_small
+			}
+		}
+		country_leader = {
+			ideology = centrist 
+			expire = "2021.2.26.1"
+			id = -1
+		}
+	}
+
+	PNG_sam_abal = {
+		name = PNG_sam_abal
+		portraits = {
+			civilian = {
+				large=GFX_portrait_PNG_sam_abal_large
+                                small=GFX_portrait_PNG_sam_abal_small
+			}
+		}
+		country_leader = {
+			ideology = centrist 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	PNG_peter_o'neill = {
+		name = PNG_peter_o'neill
+		portraits = {
+			civilian = {
+				large=GFX_portrait_PNG_peter_o'neill_large
+                                small=GFX_portrait_PNG_peter_o'neill_small
+			}
+		}
+		country_leader = {
+			ideology = centrist 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+
+	PNG_james_marape = {
+		name = PNG_james_marape
+		portraits = {
+			civilian = {
+				large=GFX_portrait_PNG_james_marape_large
+                                small=GFX_portrait_PNG_james_marape_small
+			}
+		}
+		country_leader = {
+			ideology = centrist 
+			expire = "2030.1.1.1"
+			id = -1
+		}
+	}
+}
+	

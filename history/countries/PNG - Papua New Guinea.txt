@@ -1,6 +1,6 @@
 ﻿capital = 523
 
-#oob = ""
+oob = "PNG_1936"
 
 # Starting tech
 set_technology = {
@@ -9,38 +9,18 @@ set_technology = {
 
 set_convoys = 5
 
-1939.1.1 = {
+2000.1.1 = {
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
+
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
+
 
 		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
+
 
 		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
 	}
 }
 set_politics = {
@@ -50,19 +30,27 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 49
+	democratic = 52
 	fascism = 10
 	communism = 10
-	neutrality = 31
+	neutrality = 28
 }
 
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
+recruit_character = PNG_mekere_morauta
+recruit_character = PNG_michael_somare
+recruit_character = PNG_sam_abal
+recruit_character = PNG_peter_o'neill
+recruit_character = PNG_james_marape
+
+
+create_country_leader = {
+	
+	name = "Mekere Morauta"
+	desc = PNG_mekere_morauta_desc
+	picture = "gfx/leaders/PNG/portrait_png_mekere_morauta.dds"
+	expire = "2020.12.19"
+	ideology = centrist 
+	traits = {
+		#
+	}
+}

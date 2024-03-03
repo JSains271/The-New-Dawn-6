@@ -1,7 +1,7 @@
 characters={
 	
-LAT_vaira_vike-freiberga={
-		name=LAT_vaira_vike-freiberga
+LAT_vaira_vike_freiberga={
+		name=LAT_vaira_vike_freiberga
 		portraits={
 			civilian={
 				large=GFX_portrait_LAT_vaira_vike_freiberga_large
@@ -9,7 +9,7 @@ LAT_vaira_vike-freiberga={
 			}
 		}
 		country_leader={
-			ideology=indepedent 
+			ideology= indepedent 
 			expire="2030.1.1.1"
 			id=-1
 		}

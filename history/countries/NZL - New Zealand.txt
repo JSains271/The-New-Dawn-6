@@ -7,17 +7,7 @@ set_stability = 0.8
 set_war_support = 0.3
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gwtank = 1
-	gw_artillery = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	trench_warfare = 1
-	fleet_in_being = 1
+
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -46,26 +36,10 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-1939.1.1 = {
+2000.1.1 = {
 
 	add_political_power = 1
 	oob = "NZL_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "NZL_1939_naval_mtg"
-		else = {
-			set_naval_oob = "NZL_1939_naval_legacy"
-		}
-	}
-	
-	if = {
-		limit = { has_dlc = "Together for Victory" }
-
-		
-		else = {
-			#generic focuses
-		}
-	}
 
 	add_ideas = {
 		#laws
@@ -75,46 +49,16 @@ if = {
 
 	
 	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
+
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
+
 
 		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
+
 
 		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+
 	}
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
@@ -144,73 +88,22 @@ set_popularities = {
         
 }
 
+recruit_character = NZL_helen_clark
+recruit_character = NZL_john_key
+recruit_character = NZL_bill_english
+recruit_character = NZL_jacinda_ardern
+recruit_character = NZL_chris_hipkins
+recruit_character = NZL_christopher_luxon
+
 create_country_leader = {
-	name = "Michael Joseph Savage"
-	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
-	picture = "GFX_NZL_michael_joseph_savage"
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Helen Clark"
+	desc = NZL_helen_clark_desc
+	picture = "gfx/leaders/NZL/portrait_nzl_helen_clark.dds"
+	expire = "2030.1.1"
+	ideology = liberalism 
 	traits = {
 		#
 	}
-}
-
-create_country_leader = {
-	name = "Sidney Holland"
-	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
-	picture = "GFX_NZL_sidney_holland"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "John Ormond"
-	desc = "POLITICS_JOHN_ORMOND_DESC"
-	picture = "GFX_NZL_john_ormond"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Elsie Farrelly"
-	desc = "POLITICS_JOHN_ORMOND_DESC"
-	picture = "GFX_NZL_elsie_farrelly"
-	expire = "1965.1.1"
-	ideology = marxism
-	female = yes
-	traits = {
-		#
-	}
-}
-
-set_convoys = 70
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.10.15"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-
-	# Didn't take office until '40, added for flavor
-	create_country_leader = {
-		name = "Peter Fraser"
-		desc = "POLITICS_PETER_FRASER_DESC"
-		picture = "Portrait_NewZealand_Peter_Fraser.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-			#
-		}
-	}
-	set_convoys = 80
 }
 
 create_corps_commander = {
